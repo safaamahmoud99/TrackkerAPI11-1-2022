@@ -1,0 +1,199 @@
+<!-- <p-tabMenu [model]="items" [activeItem]="activeItem"></p-tabMenu> -->
+<p-toast></p-toast>
+<p-toast position="top-left" key="tl"></p-toast>
+<p-toast position="top-center" key="tc"></p-toast>
+<p-toast position="bottom-center" key="bc"></p-toast>
+<div class="card">
+    <!-- Basic Data -->
+    <p-tabView styleClass="tabview-custom">
+
+        <p-tabPanel>
+            <ng-template pTemplate="header">
+                <i class="pi pi-fw pi-home"></i>
+                <span style="margin-left: 10px;">Project</span>
+            </ng-template>
+            <div class="row">
+                <div class="p-field col-md-3">
+                    <label for="Project Name" class="labelMarginRight">Project Name</label><br>
+                    <!--  [(ngModel)]="product.name" -->
+                    <input minlength="3" type="text" [(ngModel)]="projectObj.projectName" pInputText id="name" required
+                        autofocus />
+                    <!-- <br> <small [hidden]="Name.valid || Name.untouched" id="helpId" class="text-muted">Must more than 3
+                        letters</small> -->
+                </div>
+                <div class="p-field col-md-3">
+                    <label for="Project Code" class="labelMarginRight">Project Code</label><br>
+                    <input type="text" [(ngModel)]="projectObj.projectCode" pInputText id="Code" required autofocus />
+                    <!-- <br> <small [hidden]="Name.valid || Name.untouched" id="helpId" class="text-muted">Must more than 3
+                        letters</small> -->
+                </div>
+                <div class="p-field col-md-3">
+                    <label for="Project Type" class="labelMarginRight">Project Type Name</label><br>
+                    <p-dropdown [options]="lstProjectTypes" [(ngModel)]="projectObj.projectTypeId"
+                        placeholder="Select Project Type Name" optionLabel="typeName" optionValue="id">
+                    </p-dropdown>
+                </div>
+                <div class="p-field col-md-3">
+                    <label for="Project Cost" class="labelMarginRight">Project Cost</label><br>
+                    <input type="number" [(ngModel)]="projectObj.cost" pInputText id="Cost" required autofocus />
+                    <!-- <br> <small [hidden]="Name.valid || Name.untouched" id="helpId" class="text-muted">Must more than 3
+                        letters</small> -->
+                </div>
+                <!-- <div class="p-field">
+                <label for="description">Description</label>
+                <textarea id="description" pInputTextarea  required rows="3" cols="20"></textarea>
+            </div>       -->
+            </div><br>
+            <div class="row">
+
+                <div class="p-field col-md-3">
+                    <label for="Project Period" class="labelMarginRight">Project Period</label><br>
+                    <input type="number" [(ngModel)]="projectObj.projectPeriod" pInputText id="Period" required
+                        autofocus />
+                    <!-- <br> <small [hidden]="Name.valid || Name.untouched" id="helpId" class="text-muted">Must more than 3
+                        letters</small> -->
+                </div>
+                <div class="p-field col-md-3">
+                    <label for="Plannded Start Date" class="labelMarginRight">Plannded Start Date</label><br>
+                    <p-calendar [(ngModel)]="projectObj.planndedStartDate" dateFormat="dd.mm.yy"></p-calendar>
+                    <small class="p-invalid"></small>
+                </div>
+                <div class="p-field col-md-3">
+                    <label for="Actual Start Date" class="labelMarginRight">Actual Start Date</label><br>
+                    <p-calendar [(ngModel)]="projectObj.actualStartDate" dateFormat="dd.mm.yy"></p-calendar>
+                    <!-- <br> <small [hidden]="Name.valid || Name.untouched" id="helpId" class="text-muted">Must more than 3
+                        letters</small> -->
+                </div>
+                <div class="p-field col-md-3">
+                    <label for="Plannded End Date" class="labelMarginRight">Plannded End Date</label><br>
+                    <p-calendar [(ngModel)]="projectObj.planndedEndDate" dateFormat="dd.mm.yy"></p-calendar>
+                    <!-- <br> <small [hidden]="Name.valid || Name.untouched" id="helpId" class="text-muted">Must more than 3
+                        letters</small> -->
+                </div>
+            </div> <br>
+            <div class="row">
+                <div class="p-field col-md-3">
+                    <label for="Actual End Date" class="labelMarginRight">Actual End Date</label><br>
+                    <p-calendar [(ngModel)]="projectObj.actualEndDate" dateFormat="dd.mm.yy"></p-calendar>
+                    <!-- <br> <small [hidden]="Name.valid || Name.untouched" id="helpId" class="text-muted">Must more than 3
+                        letters</small> -->
+                </div>
+                <div class="p-field col-md-3">
+                    <label for="organization Name" class="labelMarginRight">Organization Name</label><br>
+                    <p-dropdown [options]="lstOrganizations" [(ngModel)]="projectObj.organizationId"
+                        placeholder="Select Organization Name" optionLabel="organizationName" optionValue="id">
+                    </p-dropdown>
+                </div>
+                <div class="p-field col-md-3">
+                    <label for="Employee Name" class="labelMarginRight">Employee Name</label><br>
+                    <p-dropdown [options]="lstEmployees" [(ngModel)]="projectObj.employeeId"
+                        placeholder="Select Employee Name" optionLabel="name" optionValue="id"></p-dropdown>
+                </div>
+                <div class="p-field col-md-3">
+                    <label for="Client Name" class="labelMarginRight">Client Name</label><br>
+                    <p-dropdown [options]="lstClients" [(ngModel)]="projectObj.clientId"
+                        placeholder="Select Client Name" optionLabel="clientName" optionValue="id"></p-dropdown>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="p-field col-md-6">
+                    <label for="description">Description</label><br>
+                    <textarea id="description" [(ngModel)]="projectObj.description" pInputTextarea required rows="3"
+                        cols="63"></textarea>
+                </div>
+                <div class="col-md-2" style="margin-top: 7%;margin-left: 28%;"> <button pButton type="button"
+                        (click)="AddProject()" icon="pi pi-check" label="Submit" class="p-button-raised "></button>
+                </div>
+            </div>
+        </p-tabPanel>
+
+
+
+
+
+        <p-tabPanel>
+            <ng-template pTemplate="header">
+                <i class="pi pi-user-minus"></i>
+                <span style="margin-left: 10px;">Create Stackholders</span>
+            </ng-template>
+            <div class="p-col-12 p-md-4">
+                <div class="p-inputgroup">
+                    <span class="p-inputgroup-addon"><i class="pi pi-user"></i></span>
+                    <input type="text" pInputText placeholder="Stackeholder Name"
+                        [(ngModel)]="stackholderInLst.stackeholderName">
+                </div>
+            </div>
+            <div class="p-col-12 p-md-6 p-lg-4">
+                <span>Phone</span>
+                <p-inputMask mask="(999) 999-9999" [(ngModel)]="stackholderInLst.mobile" placeholder="(999) 999-9999">
+                </p-inputMask>
+            </div>
+            <div class="p-inputgroup">
+                <span class="p-inputgroup-addon">R</span>
+                <input type="text" pInputText placeholder="Rank" [(ngModel)]="stackholderInLst.rank">
+                <span class="p-inputgroup-addon">.00</span>
+            </div>
+            <div style="margin-top: 20px;">
+                <textarea pInputTextarea placeholder="Description"></textarea>
+            </div>
+            <button class="btn btn-primary" (click)="Savetolist()">Save To List</button>
+
+
+
+            <table>
+                <tr>
+                    <th>ProjectName</th>
+                    <th>mobile</th>
+                    <!-- <th>Projectcost</th> -->
+                </tr>
+                <tr *ngFor="let i of lstOfStackholder">
+                    <td>
+                        {{i.stackeholderName}}
+                    </td>
+                    <td>
+                        {{i.mobile}}
+                    </td>
+                    <!-- <td style="font-weight: bold;">{{pharmacy.pharmacyType}}</td> -->
+                </tr>
+            </table>
+
+<button (click)="SaveToDB()">Add List</button>
+        </p-tabPanel>
+
+
+
+        <p-tabPanel header="Header II">
+            <ng-template pTemplate="header">
+                <i class="pi pi-align-center"></i>
+                <span style="margin-left: 10px;">Create MileStones</span>
+            </ng-template>
+        </p-tabPanel>
+
+
+
+        <p-tabPanel header="Header II">
+            <ng-template pTemplate="header">
+                <i class="pi pi-users"></i>
+                <span style="margin-left: 10px;">Create Teams</span>
+            </ng-template>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                voluptatem sequi nesciunt. Consectetur, adipisci velit, sed quia non numquam eius modi.</p>
+        </p-tabPanel>
+        <p-tabPanel header="Header III">
+            <ng-template pTemplate="header">
+                <i class="pi pi-file"></i>
+                <span style="margin-left: 10px;">Add Document</span>
+                <!-- <i class="pi pi-cog"></i> -->
+            </ng-template>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+                atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.</p>
+        </p-tabPanel>
+    </p-tabView>
+
+</div>
