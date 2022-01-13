@@ -297,51 +297,63 @@ namespace Tracker.Core.Repositories
         {
             List<RequestDTO> requestDTO = new List<RequestDTO>();
             var Ids = model.ProjectTeamIds.Split(",");
-            string[] lstIds = Ids;
-            foreach (var item in lstIds)
-            {
-                int id = int.Parse(item);
-                var request = _context.requests.Where(r => r.ProjectTeamId == id)
-                                            .Include(r => r.ProjectTeam).Include(r => r.RequestPeriority)
-                                            .Include(r => r.RequestStatus).Include(r => r.RequestSubCategory)
-                                            .Include(r => r.RequestMode).Include(r => r.User)
-                                            .Select(req => new RequestDTO
-                                            {
-                                                Id = req.Id,
-                                                IsSolved = req.IsSolved,
-                                                IsAssigned = req.IsAssigned,
-                                                RequestName = req.RequestName,
-                                                RequestCode = req.RequestCode,
-                                                Description = req.Description,
-                                                RequestDate = req.RequestDate,
-                                                RequestTime = (req.RequestTime).ToString(),
-
-                                                RequestModeId = req.RequestModeId,
-                                                RequestMode = req.RequestMode.Mode,
-                                                //AssetId = req.AssetId,
-                                                //AssetCode = req.Asset.AssetCode,
-                                                ClientId = req.ClientId,
-                                                ClientName = req.Client.ClientName,
-                                                RequestSubCategoryId = req.RequestSubCategoryId,
-                                                RequestSubCategoryName = req.RequestSubCategory.SubCategoryName,
-                                                ProjectTeamId = req.ProjectTeamId,
-                                                ProjectName = req.ProjectTeam.Project.ProjectName,
-                                                TeamName = req.ProjectTeam.Team.Name,
-                                                RequestStatusId = req.RequestStatusId,
-                                                RequestStatus = req.RequestStatus.status,
-                                                RequestPeriorityId = req.RequestPeriorityId,
-                                                RequestPeriority = req.RequestPeriority.periorty,
-                                                ProjectSiteAssetId = req.ProjectSiteAssetId,
-                                                CreatedById = req.CreatedById,
-                                                CreatedBy = req.User.UserName
-                                            }).OrderByDescending(p => p.Id).ToList();
-
-                foreach (var item2 in request)
+           
+                string[] lstIds = Ids;
+                
+                foreach (var item in lstIds)
                 {
-                    requestDTO.Add(item2);
+                   // int id = int.Parse(item);
+                    int id;
+                   bool canConvert=int.TryParse(item, out id);
+                if (canConvert)
+                {
+                    var request = _context.requests.Where(r => r.ProjectTeamId == id)
+                                                .Include(r => r.ProjectTeam).Include(r => r.RequestPeriority)
+                                                .Include(r => r.RequestStatus).Include(r => r.RequestSubCategory)
+                                                .Include(r => r.RequestMode).Include(r => r.User)
+                                                .Select(req => new RequestDTO
+                                                {
+                                                    Id = req.Id,
+                                                    IsSolved = req.IsSolved,
+                                                    IsAssigned = req.IsAssigned,
+                                                    RequestName = req.RequestName,
+                                                    RequestCode = req.RequestCode,
+                                                    Description = req.Description,
+                                                    RequestDate = req.RequestDate,
+                                                    RequestTime = (req.RequestTime).ToString(),
+
+                                                    RequestModeId = req.RequestModeId,
+                                                    RequestMode = req.RequestMode.Mode,
+                                                    //AssetId = req.AssetId,
+                                                    //AssetCode = req.Asset.AssetCode,
+                                                    ClientId = req.ClientId,
+                                                    ClientName = req.Client.ClientName,
+                                                    RequestSubCategoryId = req.RequestSubCategoryId,
+                                                    RequestSubCategoryName = req.RequestSubCategory.SubCategoryName,
+                                                    ProjectTeamId = req.ProjectTeamId,
+                                                    ProjectName = req.ProjectTeam.Project.ProjectName,
+                                                    TeamName = req.ProjectTeam.Team.Name,
+                                                    RequestStatusId = req.RequestStatusId,
+                                                    RequestStatus = req.RequestStatus.status,
+                                                    RequestPeriorityId = req.RequestPeriorityId,
+                                                    RequestPeriority = req.RequestPeriority.periorty,
+                                                    ProjectSiteAssetId = req.ProjectSiteAssetId,
+                                                    CreatedById = req.CreatedById,
+                                                    CreatedBy = req.User.UserName
+                                                }).OrderByDescending(p => p.Id).ToList();
+
+                    foreach (var item2 in request)
+                    {
+                        requestDTO.Add(item2);
+                    }
                 }
+                
+                
             }
-            return requestDTO;
+                return requestDTO;
+             
+            
+
         }
 
         public List<RequestDTO> GetAllRequestByRequestStatus(int requestStatusId)

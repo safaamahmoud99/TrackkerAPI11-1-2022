@@ -32,6 +32,6 @@ namespace Tracker.Data.Models
         //public int ClientId { get; set; }
         //[ForeignKey("ClientId")]
         //public virtual Client Client { get; set; }
-        // try git in vs
+        
     }
 }

@@ -19,6 +19,7 @@ using Tracker.Domain.IServices;
 using Tracker.Core.Services;
 using Tracker.Domain;
 using Tracker.Core;
+using Tracker.Data.DTO;
 
 namespace Tracker.API
 {
@@ -36,6 +37,11 @@ namespace Tracker.API
         [System.Obsolete]
         public void ConfigureServices(IServiceCollection services)
         {
+            var emailConfig = Configuration
+            .GetSection("EmailConfiguration")
+           .Get<EmailConfigurationDTO>();
+            services.AddSingleton(emailConfig);
+            services.AddScoped<IEmailSender, EmailSender>();
             services.AddDirectoryBrowser();
             services.AddHttpContextAccessor();
             services.AddCors();
