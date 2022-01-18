@@ -14,6 +14,10 @@ using System.Text;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Authorization;
 using Tracker.Data.ViewModels;
+using Tracker.Data.DTO;
+using Tracker.Core;
+using Tracker.Domain;
+using Microsoft.AspNetCore.WebUtilities;
 
 namespace Tracker.API.Controllers
 {
@@ -25,20 +29,23 @@ namespace Tracker.API.Controllers
         private readonly RoleManager<IdentityRole> roleManager;
         private readonly IConfiguration _configuration;
         private readonly ApplicationDbContext _context;
-        public AuthenticateController(UserManager<ApplicationUser> userManager,
+        private readonly IEmailSender _emailSender;
+        public AuthenticateController(UserManager<ApplicationUser> userManager, IEmailSender emailSender,
             RoleManager<IdentityRole> roleManager, IConfiguration configuration, ApplicationDbContext context)
         {
             this.userManager = userManager;
             this.roleManager = roleManager;
             _configuration = configuration;
             _context = context;
+            _emailSender = emailSender;
+
         }
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login( LoginModel model)
+        public async Task<IActionResult> Login(LoginModel model)
         {
             var user = await userManager.FindByEmailAsync(model.Email);
-          //  var clientId = userManager.FindByEmailAsync(model.Email);
+            //  var clientId = userManager.FindByEmailAsync(model.Email);
             if (user != null && await userManager.CheckPasswordAsync(user, model.Password))
             {
                 var userRoles = await userManager.GetRolesAsync(user);
@@ -73,13 +80,13 @@ namespace Tracker.API.Controllers
                 var userId = User.FindFirstValue(ClaimTypes.Email);
                 //var usrId = user.Id;
                 var x = user.Email;
-                int usrId=0;
+                int usrId = 0;
                 int clientId = 0;
-               var lstEmployees = _context.Employees.Where(a => a.Email == user.Email).ToList();
-                if(lstEmployees.Count > 0)
+                var lstEmployees = _context.Employees.Where(a => a.Email == user.Email).ToList();
+                if (lstEmployees.Count > 0)
                 {
                     Employee employeeObj = lstEmployees[0];
-                     usrId = employeeObj.Id;
+                    usrId = employeeObj.Id;
                 }
                 var lstClients = _context.clients.Where(a => a.Email == user.Email).ToList();
                 if (lstClients.Count > 0)
@@ -97,12 +104,12 @@ namespace Tracker.API.Controllers
                     token = new JwtSecurityTokenHandler().WriteToken(token),
                     email = Useremail,
                     UserName = name,
-                    roles= userRoles,
+                    roles = userRoles,
                     expiration = token.ValidTo,
-                    id= usrId,
-                    LoginedUserId=user.Id,
+                    id = usrId,
+                    LoginedUserId = user.Id,
                     clientId = clientId
-                }) ;
+                });
             }
             return Unauthorized();
         }
@@ -119,7 +126,7 @@ namespace Tracker.API.Controllers
             {
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName=model.UserName
+                UserName = model.UserName
             };
             var result = await userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
@@ -172,6 +179,11 @@ namespace Tracker.API.Controllers
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.ClientManager));
                 await userManager.AddToRoleAsync(user, UserRoles.ClientManager);
             }
+            string url = "http://localhost:4200/login";
+            // string url = "http://10.10.0.15:8080/#/login";
+
+            var message = new MessageDTO(new string[] { $"{model.Email}" }, "Confirmation Email", $"Dear {model.UserName}\r\n Hope this email finds you well \r\n This is Al-Mostakbal Technology. As per your registration , please note that your Email : {model.Email} And Password :{model.Password} follow link to login {url}");
+            _emailSender.SendEmail(message);
             return Ok(new Response { Status = "Success", Message = "User created successfully!" });
         }
         [HttpPost]
@@ -181,6 +193,32 @@ namespace Tracker.API.Controllers
             var mail = await userManager.FindByNameAsync(model.userName);
             //user != null && await userManager.CheckPasswordAsync(user, model.Password)
             await userManager.ChangePasswordAsync(mail, model.Password, model.NewPassword);
+            return Ok();
+        }
+        [HttpPost("ForgotPassword")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDTO forgotPasswordModel)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest();
+
+            var user = await userManager.FindByEmailAsync(forgotPasswordModel.Email);
+            if (user == null)
+                return BadRequest("Invalid Request");
+
+            var token = await userManager.GeneratePasswordResetTokenAsync(user);
+            var param = new Dictionary<string, string>
+             {
+                 {"token", token },
+                 {"email", forgotPasswordModel.Email }
+             };
+
+            var callback = QueryHelpers.AddQueryString(forgotPasswordModel.ClientURI, param);
+            var hash = callback.Split("#");
+            var query = hash[0];
+            string replace = query.Replace("/?", "/#/Resetpassword?");
+            var message = new MessageDTO(new string[] { user.Email }, "Al-Mostakbal Technology.", $"Dear {user.UserName}\r\n Please follow link to reset your password {replace}");
+            // var message = new Message(new string[] { user.Email }, "Al-Mostakbal Technology.", replace);
+            _emailSender.SendEmail(message);
             return Ok();
         }
 
@@ -212,13 +250,37 @@ namespace Tracker.API.Controllers
             return Ok(new Response { Status = "Success", Message = "User created successfully!" });
         }
 
-        // to check homepage interceptor
-        //[Authorize]
-        //[HttpGet]
-        //[Route("checkInterceptor")]
-        //public async Task<IActionResult> CheckInterceptor()
-        //{
-        //    return  Ok();
-        //}
+
+
+        [HttpPost("ResetPassword")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDTO resetPasswordDto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest();
+
+            var user = await userManager.FindByEmailAsync(resetPasswordDto.Email);
+            if (user == null)
+                return BadRequest("Invalid Request");
+
+            var resetPassResult = await userManager.ResetPasswordAsync(user, resetPasswordDto.Token, resetPasswordDto.Password);
+            if (!resetPassResult.Succeeded)
+            {
+                var errors = resetPassResult.Errors.Select(e => e.Description);
+
+                return BadRequest(new { Errors = errors });
+            }
+
+            return Ok();
+
+
+            // to check homepage interceptor
+            //[Authorize]
+            //[HttpGet]
+            //[Route("checkInterceptor")]
+            //public async Task<IActionResult> CheckInterceptor()
+            //{
+            //    return  Ok();
+            //}
+        }
     }
-}
+    }

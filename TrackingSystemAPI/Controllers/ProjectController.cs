@@ -89,7 +89,7 @@ namespace Tracker.API.Controllers
 
 
         //    return projectDTO;
-        //}
+        //}  
         [HttpGet]
         [Route("GetAllProjectsByProjectTypeId/{ProjectTypeId}")]
         public List<ProjectDTO> GetAllProjectsByProjectTypeId(int ProjectTypeId)

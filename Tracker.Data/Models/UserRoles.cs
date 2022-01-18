@@ -11,7 +11,7 @@ namespace Tracker.Data.Models
         public const string Admin = "Admin"; //View Only
         public const string PMO = "PMO"; //Create Project CRUD
         public const string PM = "PM"; //view Project and can manage more than Project, can not create or
-                                       //delete any project
+                                       //delete any project 
         public const string TL = "TL"; //assign tickets to members
         public const string Employee = "Employee";
         public const string Client = "Client";
