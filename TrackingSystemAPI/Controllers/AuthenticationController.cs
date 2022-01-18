@@ -124,49 +124,49 @@ namespace Tracker.API.Controllers
             var result = await userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details and try again." });
-            if (model.Role == "SuperAdmin")
+            if (model.Roles == "SuperAdmin")
             {
                 if (!await roleManager.RoleExistsAsync(UserRoles.SuperAdmin))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.SuperAdmin));
                 await userManager.AddToRoleAsync(user, UserRoles.SuperAdmin);
             }
-            else if (model.Role=="Admin")
+            else if (model.Roles=="Admin")
             {
                 if (!await roleManager.RoleExistsAsync(UserRoles.Admin))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
                 await userManager.AddToRoleAsync(user, UserRoles.Admin);
             }
-            else if(model.Role == "PMO")
+            else if(model.Roles == "PMO")
             {
                 if (!await roleManager.RoleExistsAsync(UserRoles.PMO))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.PMO));
                 await userManager.AddToRoleAsync(user, UserRoles.PMO);
             }
-            else if (model.Role == "PM")
+            else if (model.Roles == "PM")
             {
                 if (!await roleManager.RoleExistsAsync(UserRoles.PM))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.PM));
                 await userManager.AddToRoleAsync(user, UserRoles.PM);
             }
-            else if (model.Role == "TL")
+            else if (model.Roles == "TL")
             {
                 if (!await roleManager.RoleExistsAsync(UserRoles.TL))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.TL));
                 await userManager.AddToRoleAsync(user, UserRoles.TL);
             }
-            else if (model.Role == "Employee")
+            else if (model.Roles == "Employee")
             {
                 if (!await roleManager.RoleExistsAsync(UserRoles.Employee))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.Employee));
                 await userManager.AddToRoleAsync(user, UserRoles.Employee);
             }
-            else if (model.Role == "Client")
+            else if (model.Roles == "Client")
             {
                 if (!await roleManager.RoleExistsAsync(UserRoles.Client))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.Client));
                 await userManager.AddToRoleAsync(user, UserRoles.Client);
             }
-            else if (model.Role == "ClientManager")
+            else if (model.Roles == "ClientManager")
             {
                 if (!await roleManager.RoleExistsAsync(UserRoles.ClientManager))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.ClientManager));
