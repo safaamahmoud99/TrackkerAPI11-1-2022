@@ -91,6 +91,17 @@ namespace Tracker.Core.Repositories
 
         }
 
+        public IEnumerable<RequestSubCategoryDTO> GetRequestSubCategoryDTOByCatId(int id)
+        {
+            return _context.requestSubCategories.Where(r => r.RequestCategoryId == id).Select(sub => new RequestSubCategoryDTO
+            {
+                Id = sub.Id,
+                SubCategoryName = sub.SubCategoryName,
+                RequestCategoryId = sub.RequestCategoryId,
+                RequestCategoryName = sub.RequestCategory.CategoryName
+            }).ToList();
+        }
+
         public void Save()
         {
             _context.SaveChanges();

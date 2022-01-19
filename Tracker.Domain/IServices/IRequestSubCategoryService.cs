@@ -15,5 +15,6 @@ namespace Tracker.Domain.IServices
         void AddRequestSubCategory(RequestSubCategoryDTO requestSubCategoryDTO);
         void UpdateRequestSubCategory(int id,RequestSubCategoryDTO requestSubCategoryDTO);
         void DeleteRequestSubCategory(int id);
+        IEnumerable<RequestSubCategoryDTO> GetRequestSubCategoryDTOByCatId(int id);
     }
 }
