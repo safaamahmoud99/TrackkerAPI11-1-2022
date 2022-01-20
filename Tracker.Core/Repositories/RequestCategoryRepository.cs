@@ -105,10 +105,11 @@ namespace Tracker.Core.Repositories
                 var requestCategory = new RequestCategory();
                 requestCategory.DepartmentId = requestCategoryDTO.DepartmentId;
                 requestCategory.CategoryName = requestCategoryDTO.CategoryName;
-                _context.Entry(requestCategoryDTO).State = EntityState.Modified;
+                requestCategory.Id = requestCategoryDTO.Id;
+                _context.Entry(requestCategory).State = EntityState.Modified;
                 _context.SaveChanges();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 throw new NotCompletedException("Not Completed Exception");
             }
