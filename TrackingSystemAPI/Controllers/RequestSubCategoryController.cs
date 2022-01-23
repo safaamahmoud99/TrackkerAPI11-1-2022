@@ -28,8 +28,12 @@ namespace Tracker.API.Controllers
         public IEnumerable<RequestSubCategoryDTO> GetRequestSubCategoryDTO()
         {
             return _requestSubCategoryService.GetAllRequestSubCategory();
-    }
-
+        }
+        [HttpGet("GetRequestSubCategoryDTOByCatId/{id}")]
+        public IEnumerable<RequestSubCategoryDTO> GetRequestSubCategoryDTOByCatId(int id)
+        {
+            return _requestSubCategoryService.GetRequestSubCategoryDTOByCatId(id);
+        }
         // GET: api/RequestSubCategory/5
         [HttpGet("{id}")]
         public ActionResult<RequestSubCategoryDTO> GetRequestSubCategoryDTO(int id)

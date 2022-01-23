@@ -16,5 +16,6 @@ namespace Tracker.Domain.IRepositories
         void Update(int id,RequestSubCategoryDTO requestSubCategoryDTO);
         void Delete(int id);
         void Save();
+        IEnumerable<RequestSubCategoryDTO> GetRequestSubCategoryDTOByCatId(int id);
     }
 }

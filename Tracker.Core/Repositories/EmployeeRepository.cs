@@ -65,41 +65,80 @@ namespace Tracker.Core.Repositories
         }
         public void Add(EmployeeDTO employeeDTO)
         {
-            try
-            {
-                if (employeeDTO != null)
+             if (employeeDTO != null)
                 {
-                    var emp = new Employee();
-                    emp.EmployeeName = employeeDTO.EmployeeName;
-                    emp.Position = employeeDTO.Position;
-                    emp.DepartmentId = employeeDTO.DepartmentId;
-                    emp.EmployeeCode = employeeDTO.EmployeeCode;
-                    emp.gender = employeeDTO.gender;
-                    emp.Address = employeeDTO.Address;
-                    emp.MaritalStatus = employeeDTO.MaritalStatus;
-                    emp.Phone = employeeDTO.Phone;
-                    emp.Mobile = employeeDTO.Mobile;
-                    emp.Email = employeeDTO.Email;
-                    emp.Photo = employeeDTO.Photo;
-                    _context.Employees.Add(emp);
-                    _context.SaveChanges();
+                    var codeFound = _context.Employees.Where(e => e.EmployeeCode == employeeDTO.EmployeeCode && e.Id != employeeDTO.Id).ToList();
+                    if (codeFound.Count > 0)
+                    {
+                        throw new AlreadyFoundException("code already found");
+                    }
+                    var emailFound = _context.Employees.Where(e => e.Email == employeeDTO.Email && e.Id != employeeDTO.Id).ToList();
+                      if(emailFound.Count >0)
+                        {
+                        throw new AlreadyFoundException("email already found");
+                        }
+                    var phonefound = _context.Employees.Where(e => e.Phone == employeeDTO.Phone && e.Id != employeeDTO.Id).ToList();
+                    if(phonefound.Count>0)
+                     {
+                       throw new AlreadyFoundException("phone already found");
+                     }
+                    
+                    else
+                    {
+                        var emp = new Employee();
+                        emp.EmployeeName = employeeDTO.EmployeeName;
+                        emp.Position = employeeDTO.Position;
+                        emp.DepartmentId = employeeDTO.DepartmentId;
+                        emp.EmployeeCode = employeeDTO.EmployeeCode;
+                        emp.gender = employeeDTO.gender;
+                        emp.Address = employeeDTO.Address;
+                        emp.MaritalStatus = employeeDTO.MaritalStatus;
+                        emp.Phone = employeeDTO.Phone;
+                        emp.Mobile = employeeDTO.Mobile;
+                        emp.Email = employeeDTO.Email;
+                        emp.Photo = employeeDTO.Photo;
+                        _context.Employees.Add(emp);
+                        _context.SaveChanges();
+                    }
+                     
+                    
                 }
                 else
                 {
                     throw new NotCompletedException("Not Completed Exception");
                 }
             }
-            catch (Exception)
-            {
-                throw new NotExistException("Not Exist Exception");
-            }
-        }
+        //catch (Exception)
+        //{
+        //    throw new NotExistException("Not Exist Exception");
+        //}
 
+        /*
+         Client client = _context.clients.Find(id);
+           if (client != null)
+           {
+               _context.clients.Remove(client);
+               _context.SaveChanges();
+           }
+           else
+           {
+               throw new NotExistException("Not Exist Exception");
+           }
+         */
         public void Delete(int id)
         {
             Employee employee = _context.Employees.Find(id);
             if (employee != null)
             {
+                var projectTeam = _context.projectTeams.Where(e => e.EmployeeId == id).ToList();
+                if (projectTeam.Count > 0)
+                {
+                    for (int i = 0; i < projectTeam.Count; i++)
+                    {
+                        _context.projectTeams.Remove(projectTeam[i]);
+                      //  _context.SaveChanges();
+                    }
+                }
                 _context.Employees.Remove(employee);
                 _context.SaveChanges();
             }
@@ -118,7 +157,22 @@ namespace Tracker.Core.Repositories
             {
                 throw new NotExistException("Not Exist Exception");
             }
-            try
+            var codeFound = _context.Employees.Where(e => e.EmployeeCode == employeeDTO.EmployeeCode && e.Id != employeeDTO.Id).ToList();
+            if (codeFound.Count > 0)
+            {
+                throw new AlreadyFoundException("code already found");
+            }
+            var emailFound = _context.Employees.Where(e => e.Email == employeeDTO.Email && e.Id != employeeDTO.Id).ToList();
+            if (emailFound.Count > 0)
+            {
+                throw new AlreadyFoundException("email already found");
+            }
+            var phonefound = _context.Employees.Where(e => e.Phone == employeeDTO.Phone && e.Id != employeeDTO.Id).ToList();
+            if (phonefound.Count > 0)
+            {
+                throw new AlreadyFoundException("phone already found");
+            }
+            else
             {
                 var emp = new Employee();
                 emp.Id = employeeDTO.Id;
@@ -136,10 +190,14 @@ namespace Tracker.Core.Repositories
                 _context.Entry(emp).State = EntityState.Modified;
                 _context.SaveChanges();
             }
-            catch (Exception)
-            {
-                throw new NotCompletedException("Not Completed Exception");
-            }
+            //try
+            //{
+           
+            //}
+            //catch (Exception)
+            //{
+            //    throw new NotCompletedException("Not Completed Exception");
+            //}
         }
 
         public void Save()

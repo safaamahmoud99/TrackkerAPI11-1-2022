@@ -37,6 +37,11 @@ namespace Tracker.Core.Services
             return _unitOfWork.SubCategory.GetById(id);
         }
 
+        public IEnumerable<RequestSubCategoryDTO> GetRequestSubCategoryDTOByCatId(int id)
+        {
+            return _unitOfWork.SubCategory.GetRequestSubCategoryDTOByCatId(id) ;
+        }
+
         public void UpdateRequestSubCategory(int id, RequestSubCategoryDTO requestSubCategoryDTO)
         {
             _unitOfWork.SubCategory.Update(id,requestSubCategoryDTO);
