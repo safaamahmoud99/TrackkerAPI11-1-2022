@@ -12,7 +12,7 @@ using Tracker.Domain.IServices;
 
 namespace Tracker.API.Controllers
 {
-    //[Authorize(AuthenticationSchemes =
+    // // [Authorize(AuthenticationSchemes =
     //JwtBearerDefaults.AuthenticationScheme)]
     [Route("api/[controller]")]
     [ApiController]
