@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using  Tracker.Data.DTO;
 using  Tracker.Data.Models;
+using Tracker.Data.ViewModels;
 using Tracker.Domain.IRepositories;
 using Tracker.Domain.IServices;
 
@@ -40,8 +42,16 @@ namespace Tracker.API.Controllers
         [HttpPost]
         public ActionResult<EmployeeDTO> PostEmployee(EmployeeDTO employeeDTO)
         {
-            _employeeService.AddEmployee(employeeDTO);
-            return CreatedAtAction("GetEmployee", new { id = employeeDTO.Id }, employeeDTO);
+            try
+            {
+                _employeeService.AddEmployee(employeeDTO);
+                return CreatedAtAction("GetEmployee", new { id = employeeDTO.Id }, employeeDTO);
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "code", Message = ex.Message });
+            }
+           
         }
         [HttpPost]
         [Route("api/dashboard/UploadImage")]
@@ -110,8 +120,16 @@ namespace Tracker.API.Controllers
         [HttpPut("{id}")]
         public IActionResult PutEmployee(int id, EmployeeDTO employeeDTO)
         {
-            _employeeService.UpdateEmployee(id, employeeDTO);
-            return CreatedAtAction("GetEmployee", new { id = employeeDTO.Id }, employeeDTO);
+            try
+            {
+                _employeeService.UpdateEmployee(id, employeeDTO);
+                return CreatedAtAction("GetEmployee", new { id = employeeDTO.Id }, employeeDTO);
+            }
+           
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "code", Message = ex.Message });
+            }
 
         }
         [HttpDelete("{id}")]
