@@ -48,12 +48,12 @@ namespace Tracker.API.Controllers
                 {
                     if ( await userManager.IsInRoleAsync(User, role.Name))
                     {
-                        usersWithRolesDTO= new UsersWithRolesDTO()
+                        usersWithRolesDTO = new UsersWithRolesDTO()
                         {
-                            id=User.Id,
+                            id = User.Id,
                             Email = User.Email,
                             Role = role.Name,
-                            UserName = User.UserName
+                            UserName = User.name
                         };
                         usersWithRoles.Add(usersWithRolesDTO);
                     }

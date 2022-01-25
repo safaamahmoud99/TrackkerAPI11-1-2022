@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -68,7 +69,7 @@ namespace Tracker.Core
         public IRequestProblemRepository RequestProblem => _requestProblemRepository = _requestProblemRepository ?? new RequestProblemRepository(_context);
         public IProblemsRepository Problems => _problemsRepository = _problemsRepository ?? new ProblemsRepository(_context);
         public IAssignedRequestsRepository AssignedRequests => _assignedRequests = _assignedRequests ?? new AssignedRequestsRepository(_context);
-        public IRequestDescriptionRepository RequestDescription => _requestDescriptionRepository= _requestDescriptionRepository ?? new RequestDescriptionRepository(_context);
+        public IRequestDescriptionRepository RequestDescription => _requestDescriptionRepository = _requestDescriptionRepository ?? new RequestDescriptionRepository(_context);
         public ITeamRepository Team => _teamRepository = _teamRepository ?? new TeamRepository(_context);
         public IRequestImageRepositories RequestImage => _requestImageRepositories = _requestImageRepositories ?? new RequestImageRepositories(_context);
         public IRequestModeRepository RequestMode => _requestModeRepository = _requestModeRepository ?? new RequestModeRepository(_context);

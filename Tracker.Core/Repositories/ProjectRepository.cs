@@ -11,10 +11,26 @@ namespace Tracker.Core.Repositories
     public class ProjectRepository : IProjectRepository
     {
         private readonly ApplicationDbContext _context;
+        private   ProjectSiteAssetRepository _projectSiteAssetRepository;
+        private   ProjectTeamRepository _projectTeamRepository;
+
+
+
         public ProjectRepository(ApplicationDbContext context)
         {
             _context = context;
+            _projectSiteAssetRepository = new ProjectSiteAssetRepository(_context);
+            _projectTeamRepository = new ProjectTeamRepository(_context); 
+
         }
+
+        //public ProjectRepository(ApplicationDbContext context,ProjectSiteAssetRepository projectSiteAssetRepository,
+        //  ProjectTeamRepository projectTeamRepository)
+        //{
+        //    _context = context;
+        //    _projectSiteAssetRepository = projectSiteAssetRepository;
+        //    _projectTeamRepository = projectTeamRepository;
+        //}
         public int Add(ProjectDTO projectDTO)
         {
             try
@@ -114,7 +130,23 @@ namespace Tracker.Core.Repositories
             }).OrderByDescending(p => p.Id).ToList();
             return proj;
         }
+        public List<ProjectDTO>GetProjectForRequest()
+        {
+            List<ProjectDTO> CanReq = new List<ProjectDTO>();       
+           var listpro =GetAll();  
+            foreach (var item in listpro)
+            {
+                var assetList = _projectSiteAssetRepository.GetAllProjectSiteAssetByProjectId(item.Id).ToList();
+                var proTeamlist = _projectTeamRepository.GetProjectTeamsByProjectId(item.Id).ToList();              
+                var clientList = GetClientByProjectId(item.Id).ToList();
+                if (assetList.Count > 0 && proTeamlist.Count > 0 && clientList.Count > 0 )
+                {
+                    CanReq.Add(item);
+                }
+            }
 
+            return CanReq;
+        }
         public ProjectDTO GetById(int id)
         {
             var project = _context.projects.Include(p => p.Organization).Include(p => p.Employee).Include(p => p.ProjectType).FirstOrDefault(e => e.Id == id);

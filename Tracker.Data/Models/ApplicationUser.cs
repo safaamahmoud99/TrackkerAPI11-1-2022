@@ -9,6 +9,7 @@ namespace Tracker.Data.Models
 {
     public class ApplicationUser:IdentityUser
     {
+        public string name {set; get;}
         
     }
 }

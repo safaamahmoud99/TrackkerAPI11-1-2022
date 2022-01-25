@@ -54,6 +54,11 @@ namespace Tracker.Core.Services
             return _unitOfWork.Project.GetProjectsByClientId(ClientId);
         }
 
+        public List<ProjectDTO> ProjectRequest()
+        {
+            return _unitOfWork.Project.GetProjectForRequest();
+        }
+
         public void SoftDelete(ProjectDTO projectDTO)
         {
             _unitOfWork.Project.SoftDelete(projectDTO);

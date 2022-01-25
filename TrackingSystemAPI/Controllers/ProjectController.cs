@@ -96,5 +96,13 @@ namespace Tracker.API.Controllers
         {
             return _projectService.GetAllProjectsByProjectTypeId(ProjectTypeId);
         }
+
+        [HttpGet]
+        [Route("GetProjectForRequest")]
+        public List<ProjectDTO> GetProjectForRequest()
+        {
+
+            return _projectService.ProjectRequest();
+        }
     }
 }
