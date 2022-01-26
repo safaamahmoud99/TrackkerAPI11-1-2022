@@ -22,6 +22,7 @@ namespace Tracker.Domain.IRepositories
         int Add(ProjectDTO projectDTO);
         void Update(int id,ProjectDTO projectDTO);
         void SoftDelete(ProjectDTO projectDTO);
+        bool clientCanRequest(int ClientId);
         void Save();
 
     }

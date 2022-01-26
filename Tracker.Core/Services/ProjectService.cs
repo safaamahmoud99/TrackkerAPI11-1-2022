@@ -24,6 +24,11 @@ namespace Tracker.Core.Services
             return projectDTO.Id;
         }
 
+        public bool clientCanRequest(int ClientId)
+        {
+            return _unitOfWork.Project.clientCanRequest(ClientId);
+        }
+
         public IEnumerable<ProjectDTO> GetAllProjects()
         {
             return _unitOfWork.Project.GetAll();

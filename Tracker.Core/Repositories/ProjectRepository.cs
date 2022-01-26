@@ -147,6 +147,7 @@ namespace Tracker.Core.Repositories
 
             return CanReq;
         }
+
         public ProjectDTO GetById(int id)
         {
             var project = _context.projects.Include(p => p.Organization).Include(p => p.Employee).Include(p => p.ProjectType).FirstOrDefault(e => e.Id == id);
@@ -313,6 +314,20 @@ namespace Tracker.Core.Repositories
         {
             var project = _context.SiteClients.Where(p => p.ClientId == ClientId).Select(p => p.ProjectSites.Project).FirstOrDefault();
             return project;
+        }
+        public bool clientCanRequest(int ClientId)
+        {
+            var pro =GetProjectsByClientId(ClientId);
+            var assetList = _projectSiteAssetRepository.GetAllProjectSiteAssetByProjectId(pro.Id).ToList();
+            var proTeamlist = _projectTeamRepository.GetProjectTeamsByProjectId(pro.Id).ToList();
+            if(assetList.Count>0 && proTeamlist.Count>0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

@@ -21,5 +21,6 @@ namespace Tracker.Domain.IServices
         void UpdateProject(int id,ProjectDTO projectDTO);
         void SoftDelete(ProjectDTO projectDTO);
         List<ProjectDTO> ProjectRequest();
+        bool clientCanRequest(int ClientId);
     }
 }

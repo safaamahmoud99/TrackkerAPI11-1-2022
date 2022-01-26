@@ -44,6 +44,12 @@ namespace Tracker.API.Controllers
             return _projectService.GetProjectsByClientId(ClientId);
         }
         [HttpGet]
+        [Route("clientCanRequest/{ClientId}")]
+        public bool clientCanRequest(int ClientId)
+        {
+            return _projectService.clientCanRequest(ClientId);
+        }
+        [HttpGet]
         [Route("GetClientByProjectId/{ProjectId}")]
         public IEnumerable<ClientDTO> GetClientByProjectId(int ProjectId)
         {
