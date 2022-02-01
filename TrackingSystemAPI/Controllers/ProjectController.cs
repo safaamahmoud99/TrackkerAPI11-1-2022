@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using  Tracker.Data.DTO;
 using  Tracker.Data.Models;
+using Tracker.Data.ViewModels;
 using Tracker.Domain.IRepositories;
 using Tracker.Domain.IServices;
 
@@ -46,8 +47,8 @@ namespace Tracker.API.Controllers
         [HttpGet]
         [Route("clientCanRequest/{ClientId}")]
         public bool clientCanRequest(int ClientId)
-        {
-            return _projectService.clientCanRequest(ClientId);
+        {           
+                return _projectService.clientCanRequest(ClientId);                                
         }
         [HttpGet]
         [Route("GetClientByProjectId/{ProjectId}")]
@@ -109,6 +110,12 @@ namespace Tracker.API.Controllers
         {
 
             return _projectService.ProjectRequest();
+        }
+        [HttpGet]
+        [Route("canreqbyprojeID/{id}")]
+        public bool canreqbyprojeID(int id)
+        {
+            return _projectService.canreqbyprojeID(id);
         }
     }
 }

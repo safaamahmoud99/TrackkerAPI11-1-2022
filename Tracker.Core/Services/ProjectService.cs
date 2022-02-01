@@ -73,5 +73,9 @@ namespace Tracker.Core.Services
         {
             _unitOfWork.Project.Update(id,projectDTO);
         }
+        public bool canreqbyprojeID(int id)
+        {
+          return  _unitOfWork.Project.canreqbyprojeID(id);
+        }
     }
 }
