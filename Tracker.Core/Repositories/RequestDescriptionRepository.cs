@@ -71,7 +71,7 @@ namespace Tracker.Core.Repositories
                 RequestId = desc.RequestId,
                 RequestName = desc.Request.RequestName,
                 UserId = desc.UserId,
-                UserName = desc.User.UserName
+                UserName = desc.User.name 
             }).ToList();
             return requestDescription;
         }
@@ -93,7 +93,7 @@ namespace Tracker.Core.Repositories
                     RequestId = desc.RequestId,
                     RequestName = desc.Request.RequestName,
                     UserId = desc.UserId,
-                    UserName = desc.User.UserName
+                    UserName = desc.User.name 
                 };
                 return requestDescription;
             }
@@ -121,7 +121,7 @@ namespace Tracker.Core.Repositories
                     DescriptionDate = desc.DescriptionDate,
                     Description = desc.Description,
                     UserId = desc.UserId,
-                    UserName = desc.User.UserName
+                    UserName = desc.User.name 
                 }).OrderByDescending(d => d.Id).ToList();
             //lstRequestDescription.Add(desc);
             //RequestDescriptionDTO requestDescription = new RequestDescriptionDTO();

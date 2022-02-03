@@ -17,5 +17,6 @@ namespace Tracker.Data.Models
         public const string Client = "Client";
         public const string ClientManager = "ClientManager"; //can see all projects related to his organization .
         //public const string User = "User";
+        public const string Receptionist = "Receptionist";
     }
 }

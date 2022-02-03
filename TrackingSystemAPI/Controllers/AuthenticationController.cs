@@ -52,7 +52,7 @@ namespace Tracker.API.Controllers
 
                 var authClaims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(ClaimTypes.Name, user.name),                  
                     new Claim(ClaimTypes.Email, user.Email),
                     new Claim("key","value"),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
@@ -67,7 +67,7 @@ namespace Tracker.API.Controllers
                     await userManager.AddClaimAsync(user, claim);
 
                 }
-                // safaa commit 
+                
                 var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]));
 
                 var token = new JwtSecurityToken(
@@ -96,7 +96,7 @@ namespace Tracker.API.Controllers
                 }
 
 
-                var name = user.UserName;
+                var name = user.name;
                 var Useremail = user.Email;
                 var LoginedUserId = user.Id;
                 return Ok(new
@@ -179,6 +179,12 @@ namespace Tracker.API.Controllers
                 if (!await roleManager.RoleExistsAsync(UserRoles.ClientManager))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.ClientManager));
                 await userManager.AddToRoleAsync(user, UserRoles.ClientManager);
+            }
+            else if(model.Roles == "Receptionist")
+            {
+                if (!await roleManager.RoleExistsAsync(UserRoles.Receptionist))
+                    await roleManager.CreateAsync(new IdentityRole(UserRoles.Receptionist));
+                await userManager.AddToRoleAsync(user, UserRoles.Receptionist); 
             }
             string url = "http://localhost:4200/login";
             // string url =  "";

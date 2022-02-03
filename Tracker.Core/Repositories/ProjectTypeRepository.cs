@@ -20,15 +20,22 @@ namespace Tracker.Core.Repositories
         {
             //try
             //{
-                if (projectType != null && projectType.TypeName!="")
+                if (projectType != null && projectType.TypeName.Length>=3)
                 {
-                    _context.projectTypes.Add(projectType);
-                    _context.SaveChanges();
-
+                var NameType = _context.projectTypes.Where(res => res.TypeName == projectType.TypeName && res.Id !=projectType.Id).ToList();
+                if(NameType.Count>0)
+                {
+                    throw new AlreadyFoundException("Project Name type Aleardy exits");
                 }
                 else
                 {
-                    throw new NotCompletedException("Not Completed Exception");
+                    _context.projectTypes.Add(projectType);
+                    _context.SaveChanges();
+                }
+                }
+                else
+                {
+                    throw new NotCompletedException("data not completed");
                 }
             //}
             //catch (Exception)
@@ -86,10 +93,18 @@ namespace Tracker.Core.Repositories
             {
                 throw new NotExistException("Not Exist Exception");
             }
-            if (projectType != null && projectType.TypeName != "")
+            if (projectType != null && projectType.TypeName.Length>=3)
             {
-                _context.Entry(projectType).State = EntityState.Modified;
-                _context.SaveChanges();
+                var NameType = _context.projectTypes.Where(res => res.TypeName == projectType.TypeName && res.Id != projectType.Id).ToList();
+                if (NameType.Count > 0)
+                {
+                    throw new AlreadyFoundException("Project Name type Aleardy exits");
+                }
+                else
+                {
+                    _context.Entry(projectType).State = EntityState.Modified;
+                    _context.SaveChanges();
+                }                
             }
             else
             {
