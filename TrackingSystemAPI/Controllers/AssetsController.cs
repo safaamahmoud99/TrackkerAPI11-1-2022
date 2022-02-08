@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Tracker.Data.DTO;
 using  Tracker.Data.Models;
+using Tracker.Data.ViewModels;
 using Tracker.Domain.IRepositories;
 using Tracker.Domain.IServices;
 
@@ -44,8 +45,17 @@ namespace Tracker.API.Controllers
         [HttpPut("{id}")]
         public IActionResult PutAsset(int id, AssetDTO assetDTO)
         {
-            _assetService.UpdateAsset(id, assetDTO);
+            try
+            {
+                _assetService.UpdateAsset(id, assetDTO);
             return CreatedAtAction("GetAsset", new { id = assetDTO.Id }, assetDTO);
+        }
+            catch(Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "code", Message = ex.Message });
+
+            }
+      
 
         }
 
@@ -55,8 +65,16 @@ namespace Tracker.API.Controllers
         [HttpPost]
         public ActionResult<Asset> PostAsset(AssetDTO assetDTO)
         {
-            _assetService.AddAsset(assetDTO);
-            return CreatedAtAction("GetAsset", new { id = assetDTO.Id }, assetDTO);
+            try
+            {
+                _assetService.AddAsset(assetDTO);
+                return CreatedAtAction("GetAsset", new { id = assetDTO.Id }, assetDTO);
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "code", Message = ex.Message });
+            }
+           
         }
 
         // DELETE: api/Assets/5

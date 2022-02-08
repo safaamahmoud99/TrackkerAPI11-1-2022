@@ -1,0 +1,997 @@
+﻿EquipmentSystemCode,EquipmentName,region,GovName,CityName,HospitalName,EquipmentCondition,EquipmentStatus,DepartmentName,EquipmentOrgin,ManufacturerName,VendorName,EquipmentPurchaseCost,EquipmentPurchaseDate,EquipmentInstallDate,EquipmentExpectedLifeTime,EquipmentWarrantyExpiresDate
+02313e51-d3a4-4a25-8af4-26a083ea2171,"Oximeters, Pulse",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Charmcare,NA,4400,1/11/2016,1/11/2016,1/11/2021,1/11/2021
+02662e7b-bbc5-44e8-97b9-c8c08409f06b,"Magnetic Units, Therapeutic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,HM.25C.A,NA,24500,4/1/2016,4/1/2016,4/1/2021,4/1/2021
+0383b52c-d200-4f01-893d-b18dc95f9d9b,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,الغسيل الكلوي,NA,Fresenius,NA,90000,6/23/2016,6/23/2016,6/23/2021,6/23/2021
+03c244ee-f395-4cf0-b23b-2ce1a6bf168c,"Analyzers, Point-of-Care, WholeBlood, Coagulation",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,HELENA,NA,25000,8/15/2016,8/15/2016,8/15/2021,8/15/2021
+04d4c535-931d-4486-8f61-2a90decf2c8e,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,CHINA,NA,10138,3/22/2016,3/22/2016,3/22/2021,3/22/2021
+094e8024-e5a3-47e3-8486-1e4a15c5b9a4,"Oximeters, Pulse",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Votem,NA,2200,3/19/2016,3/19/2016,3/19/2021,3/19/2021
+119862b7-5acf-49bf-9f72-345fa4c97717,Hydrocollators,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,Hydrocollator,NA,9180,4/21/2016,4/21/2016,4/21/2021,4/21/2021
+11fcd777-6793-4dfc-8ccf-6df75d179a08,C-Arm Radiographic/Fluoroscopic,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عمليات,NA,GE OEC,NA,630000,6/9/2016,6/9/2016,6/9/2021,6/9/2021
+1a867bbb-2af6-46c2-9a78-f808ebbb99ed,"Oximeters, Pulse",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Charmcare,NA,4400,1/11/2016,1/11/2016,1/11/2021,1/11/2021
+2341d0de-ffe2-437f-8a2c-72a50071739a,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,CHINA,NA,10138,3/15/2016,3/15/2016,3/15/2021,3/15/2021
+2f683330-6018-4b31-b0ab-9e8bfccfe68a,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,Fukuda,NA,10500,3/17/2016,3/17/2016,3/17/2021,3/17/2021
+3340bb0e-8dc8-4e35-be50-6cda7d1f7bff,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,الغسيل الكلوي,NA,Fresenius,NA,90000,6/23/2016,6/23/2016,6/23/2021,6/23/2021
+3a486716-9a08-4835-858b-098145262e00,"Defibrillators, External,Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,استقبال,NA,INSTRAMED,NA,31480,3/28/2016,3/28/2016,3/28/2021,3/28/2021
+40f164a4-c495-47a1-a542-d80969707ae6,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,ER,NA,PHILIPS,NA,66999.9,4/19/2016,4/19/2016,4/19/2021,4/19/2021
+427e7f8e-e275-42df-97f1-a58168385218,Bilirubinometers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,DRAGER,NA,45000,3/14/2016,3/14/2016,3/14/2021,3/14/2021
+432ff364-54b9-4958-b922-54ac48b56cb8,"Analyzers, Hematology, Cell-Counting, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,MEDONIC,NA,49000,3/29/2016,3/29/2016,3/29/2021,3/29/2021
+53c1305c-05d0-45d8-b995-963fcdbe4b57,"Oximeters, Pulse",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Votem,NA,2200,3/18/2016,3/18/2016,3/18/2021,3/18/2021
+56034e0c-90b8-4328-a8b8-763528fb08eb,"Oximeters, Pulse",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Charmcare,NA,4400,1/11/2016,1/11/2016,1/11/2021,1/11/2021
+6714e734-92f0-41aa-9a0e-2cd8ad04d14a,"Oximeters, Pulse",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Votem,NA,2200,4/17/2016,4/17/2016,4/17/2021,4/17/2021
+6c2ebe2f-02c0-4ce6-a53e-fb065e4d517a,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,ER,NA,MORTARA,NA,9980,3/2/2016,3/2/2016,3/2/2021,3/2/2021
+6d340fea-45ad-4a62-a760-99288ff1dc7b,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SK,NA,3200,3/17/2016,3/17/2016,3/17/2021,3/17/2021
+712b22b5-673e-42d0-b827-4cb283717259,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,العناية العامة,NA,MORTARA,NA,9980,3/2/2016,3/2/2016,3/2/2021,3/2/2021
+71d156bd-b8da-4da3-a808-65b0de11d6b4,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Datascope,NA,52250,4/26/2016,4/26/2016,4/26/2021,4/26/2021
+7629c1eb-d9d1-4c7a-aa20-fa4aebab8dcb,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,Fukuda,NA,10500,3/17/2016,3/17/2016,3/17/2021,3/17/2021
+7fc1e196-a80e-42ce-9fc2-bce3aeccb6da,"Sealers, Heat",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,Centron,NA,25000,3/26/2016,3/26/2016,3/26/2021,3/26/2021
+8671f5bf-77b8-4df7-94f9-df62c4826aed,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,الغسيل الكلوي,NA,Fresenius,NA,81900,2/2/2016,2/2/2016,2/2/2021,2/2/2021
+8abc7108-84d4-4aa1-b6ec-94d4b575c176,"Ultrasound Scanning Systems, General-Purpose",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Gynecology Unit,NA,GE,NA,235000,4/4/2016,4/4/2016,4/4/2021,4/4/2021
+8feb384d-a9a9-4f31-96f8-68c516f6472e,Photometers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,"""BoehringerMannheim""",NA,28000,3/27/2016,3/27/2016,3/27/2021,3/27/2021
+9a852548-8aff-46f1-997f-8b50ba1b97a7,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,العناية العامة,NA,NIHON KOHDEN,NA,15000,10/26/2016,10/26/2016,10/26/2021,10/26/2021
+9e19a8e7-dab5-4bd6-983c-5149153a639c,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,CHINA,NA,10138,3/21/2016,3/21/2016,3/21/2021,3/21/2021
+a2ee4ede-cc76-4468-9663-9771ba2a03c3,Infrared Phototherapy Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,MITIGATE,NA,7350,3/30/2016,3/30/2016,3/30/2021,3/30/2021
+a81898fe-ae01-456a-ae77-dde158dc132d,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,الغسيل الكلوي,NA,Fresenius,NA,85000,4/23/2016,4/23/2016,4/23/2021,4/23/2021
+a8583b4c-92eb-4ad9-975b-8b482870d8f4,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,استقبال,NA,Fukuda,NA,13000,4/16/2016,4/16/2016,4/16/2021,4/16/2021
+a944dda2-7e26-4674-a520-1908c8d9b7dc,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,استقبال,NA,HOSPIVAC,NA,7650,1/29/2016,1/29/2016,1/29/2021,1/29/2021
+abb933df-32b1-4632-b2ca-2d317732e98d,"""Microscopes, Light, Laboratory, Brightfield""",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,BOECO,NA,7700,4/23/2016,4/23/2016,4/23/2021,4/23/2021
+ac59d0cb-8c39-4935-82cd-7fa27b3665fe,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,ج حريم,NA,Fukuda,NA,13000,3/3/2016,3/3/2016,3/3/2021,3/3/2021
+b15434ef-27e7-49fe-9ca6-d355f19f5d09,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,CHINA,NA,10138,3/20/2016,3/20/2016,3/20/2021,3/20/2021
+c02c546e-48d6-4f6b-9520-f25927faa6a6,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,NA,NA,2000,4/24/2016,4/24/2016,4/24/2021,4/24/2021
+c17e8324-02d1-42e9-afde-364bcce7e285,"Lights Surgical, General",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Martin,NA,118132,4/24/2016,4/24/2016,4/24/2021,4/24/2021
+c23b0be0-3331-4327-9f08-36bb959f38d4,"Stimulators, Muscle",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,GYMNA,NA,13500,4/2/2016,4/2/2016,4/2/2021,4/2/2021
+c274374a-1e3f-4ea4-85dc-53f392f42602,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عناية مركزه,NA,Fukuda,NA,14750,6/13/2016,6/13/2016,6/13/2021,6/13/2021
+c68240a4-a157-44c9-ae38-94b77f6f8365,"Oximeters, Pulse",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,Charmcare,NA,4400,1/11/2016,1/11/2016,1/11/2021,1/11/2021
+ca73496f-2ba5-4f7f-a936-1e7957ca010d,"Stress Electrocardiography Monitoring Systems, Cardiac",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,رسم قلب بالمجهود,NA,SCHILLER,NA,127150,4/22/2016,4/22/2016,4/22/2021,4/22/2021
+cb1be66f-7ca3-463d-82ec-55afd27b8d96,"Lights Surgical, General",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Martin,NA,0,4/25/2016,4/25/2016,4/25/2021,4/25/2021
+d8842d03-b9bc-40d9-8f9d-2701924b9f37,Photometers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,"""BoehringerMannheim""",NA,30000,3/28/2016,3/28/2016,3/28/2021,3/28/2021
+de557c71-0c39-481f-bdbe-576e7111d5c8,Traction System,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,AKRON PRODUCTS,NA,22000,4/3/2016,4/3/2016,4/3/2021,4/3/2021
+debd6f4f-737a-4bb7-9cdd-e07ee448840a,"Incubators, Laboratory, Aerobic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,HELMER,NA,76000,4/20/2016,4/20/2016,4/20/2021,4/20/2021
+e1646693-8da7-4175-b4f2-e1dea46d5ffd,"Ultrasound Scanning Systems, General-Purpose",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عياده اشعه تلفزيونيه,NA,GE,NA,346000,5/29/2016,5/29/2016,5/29/2021,5/29/2021
+e86da94c-e3c1-48f7-91f7-caccf345cc28,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,الغسيل الكلوي,NA,Fresenius,NA,82000,4/23/2016,4/23/2016,4/23/2021,4/23/2021
+efa1ef57-910b-4356-a260-a9898a8dd96d,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Fresenius,NA,8000,3/23/2016,3/23/2016,3/23/2021,3/23/2021
+f81cdc05-3eb8-462d-972f-b060d9d9f64e,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SK,NA,3200,3/16/2016,3/16/2016,3/16/2021,3/16/2021
+ff13938c-c78e-4f4c-97d9-55918a3ba7b8,"Oximeters, Pulse",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Charmcare,NA,4400,1/11/2016,1/11/2016,1/11/2021,1/11/2021
+26c69cf7-f43c-4bc6-a9f8-81f7da7fb4c1,Infant Monitor,مدن القناة,السويس,الأربعين,49 Hospital,New,Working,Incubation Department,China,Guangdong Biolight,مديرية الشئون الصحية,9000,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+26cd2b56-c718-4008-be96-9f4ca823ba3d,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+2f7ccdf9-04de-4264-865f-d69851c35f4e,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+304ff9fd-3577-43c3-8a8b-67ee29ee1677,ventilator,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,مديرية الشئون الصحية,68000,9/30/2016,9/30/2016,9/30/2026,9/30/2026
+315a51f3-a4ff-415d-b8fd-d887bac1cae5,ميزان,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Egypt,NA,تبرع,444,3/10/2016,3/10/2016,3/10/2026,3/10/2026
+334e41d1-fd61-4f61-9ae5-7e0e99efad3a,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,France,fresinus,تبرع شركة سوميد,80000,9/20/2017,9/20/2017,9/20/2027,9/20/2027
+33a271ce-aff3-47a3-ab41-c0bf8ee8c82d,450 drager air shilds,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,القوات المسلحة,61000,3/26/2017,3/26/2017,3/26/2027,3/26/2027
+34a400d3-5b33-4444-9bc5-663e8b8e86d2,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Japan,Vismo,مديرية الشئون الصحية,40000,2/25/2017,2/25/2017,2/25/2027,2/25/2027
+34eb0004-6925-4179-90e7-760c34e129b5,ventilator,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,مديرية الشئون الصحية,68000,9/30/2016,9/30/2016,9/30/2026,9/30/2026
+41137aa8-e0dd-43b7-8f84-0099822d2df7,INFANT INCUBATOR,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,China,NA,القوات المسلحة,61000,3/26/2017,3/26/2017,3/26/2027,3/26/2027
+44b0f1dd-ba35-48e7-8e73-eaa382779bfc,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,Germany,B.BRAUN,التموين الطبي العباسية,78780,2/15/2018,2/15/2018,2/15/2028,2/15/2028
+482c0db9-2892-4b95-82ab-205f2d774962,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+d6bb6fbb-d613-4ed3-af74-dc132a3ddedb,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,SPACELABS,NA,11832.09,6/18/2016,6/18/2016,6/18/2021,6/18/2021
+e56219de-5381-4e51-ac39-c79190534652,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,SPACELABS,NA,4268.73,6/18/2016,6/18/2016,6/18/2021,6/18/2021
+e62b5c48-1c08-4202-b918-69c98133163e,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الحضانات,NA,Mediex,NA,24940,4/13/2016,4/13/2016,4/13/2021,4/13/2021
+3197cb9d-b2a6-49c9-ae98-89b5412b43c8,"Ultrasound Scanning Systems, General-Purpose",القاهرة الكبرى,الجيزة,اطفيح,70 Hospital,AsBuild,Working,I.C.U Departement,NA,Samsung medison,NA,36000,5/24/2016,5/24/2016,5/24/2021,5/24/2021
+32445fdb-104c-4b55-a15c-b521fe37b2e8,"Tables, Operating",القاهرة الكبرى,الجيزة,اطفيح,70 Hospital,AsBuild,Working,operating room 3,NA,BARRFAB,NA,12800,6/23/2016,6/23/2016,6/23/2021,6/23/2021
+506802a0-98a6-4476-b465-6dc6edbacf47,C-Arm Radiographic/Fluoroscopic,القاهرة الكبرى,الجيزة,اطفيح,70 Hospital,AsBuild,Working,operating room 3,NA,Intermedical CRL,NA,50800,5/24/2016,5/24/2016,5/24/2021,5/24/2021
+51f35e7b-0a58-4a5d-b4d1-4a29af85d999,"Ultrasound Scanning Systems, General-Purpose",القاهرة الكبرى,الجيزة,اطفيح,70 Hospital,AsBuild,Working,عيادة الميسر,NA,Mindray,NA,12406.24,1/18/2016,1/18/2016,1/18/2021,1/18/2021
+b84aeee1-e1a1-41a0-bb37-2a6fba1bc1e7,"Ultrasound Scanning Systems, General-Purpose",القاهرة الكبرى,الجيزة,اطفيح,70 Hospital,AsBuild,Working,GEM Clinic,NA,Samsung medison,NA,10800,9/5/2016,9/5/2016,9/5/2021,9/5/2021
+0c44b114-a898-46a4-a7ff-1ec37e645c52,Beds Electric General,شرق الدلتا,الدقهلية,الجمالية,11 Hospital,AsBuild,Working,General and Psyco Med Care,Egypt,HOSPITAL BED,NA,16500,4/5/2016,4/5/2016,4/5/2026,4/5/2026
+14c170d3-3724-4f29-a7bf-0395e056b09c,Slit Lamps,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,عيادة الرمد,NA,sunkingdom,NA,9850,1/27/2017,1/27/2017,1/27/2022,1/27/2022
+2e19d645-e7ce-4089-827d-3466e2d93a02,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الحضانات,NA,Mediex,NA,25000,4/13/2016,4/13/2016,4/13/2021,4/13/2021
+40880532-5aa9-4912-8482-dfc164a7a294,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,SPACELABS,NA,4268.73,6/18/2016,6/18/2016,6/18/2021,6/18/2021
+42338613-1d43-4a23-9561-c99ca316bf9c,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الحضانات,NA,Mediex,NA,24940,4/13/2016,4/13/2016,4/13/2021,4/13/2021
+62b6fcd7-fd7f-45a2-8f21-da3910b515a3,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الحضانات,NA,Mediex,NA,25000,4/13/2016,4/13/2016,4/13/2021,4/13/2021
+66ff039f-967a-479d-aaa0-ed3a33faa6e5,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,SPACELABS,NA,11832.09,6/18/2016,6/18/2016,6/18/2021,6/18/2021
+7d4f4171-4254-40fd-88da-0d5854c71939,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,Neonates,NA,B| BRAUN,NA,546,3/19/2016,3/19/2016,3/19/2021,3/19/2021
+875f6a36-d710-439d-8994-3d3cdc9c9b4e,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الحضانات,NA,Mediex,NA,25000,4/13/2016,4/13/2016,4/13/2021,4/13/2021
+893111a1-be0d-477f-b2e0-89abd93f3e6e,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,SPACELABS,NA,4268.73,6/18/2016,6/18/2016,6/18/2021,6/18/2021
+8f3ef4a3-101f-45ac-a60d-11c551b1e58f,Heat Sealer,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,بنك الدم,NA,Elcon,NA,13500,11/9/2017,11/9/2017,11/9/2022,11/9/2022
+9af955d9-d3d1-4eb0-993b-d7da645ef949,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Neonates,NA,B| BRAUN,NA,546,3/19/2016,3/19/2016,3/19/2021,3/19/2021
+a1c0eec2-7b63-4c7d-affc-d0f281aa1ba9,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,Abdominal,NA,B| BRAUN,NA,546,3/19/2016,3/19/2016,3/19/2021,3/19/2021
+b6661ffd-1035-4088-b97b-b6bdd2f78970,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Neonates,NA,B| BRAUN,NA,546,3/19/2016,3/19/2016,3/19/2021,3/19/2021
+b93d7c6d-caec-4822-8b40-2294da491071,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal B,NA,Gambro,NA,7140,2/17/2016,2/17/2016,2/17/2021,2/17/2021
+c6804a96-9227-48c1-9863-8a8d2851b211,"Electrocardiographs Multichannel, Noninterpretive",القاهرة الكبرى,القاهرة,البساتين,64 Hospital,AsBuild,Working,Intensive Care Unite,Egypt,Schiller,NA,0,7/2/2016,7/2/2016,7/2/2026,7/2/2026
+d602f60a-749d-47f0-9dc0-86e8bffa5527,"Ophthalmoscopes, Indirect",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,عيادة الرمد,NA,Appasamy,NA,5500,1/27/2017,1/27/2017,1/27/2022,1/27/2022
+0c82d5fa-fc6b-48f6-b69c-f99282cb5314,Beds Electric General,شرق الدلتا,الدقهلية,الجمالية,11 Hospital,AsBuild,Working,General and Psyco Med Care,Egypt,HOSPITAL BED,NA,16500,4/5/2016,4/5/2016,4/5/2026,4/5/2026
+12ad822b-e552-4492-b644-8123a964d078,Beds Electric General,شرق الدلتا,الدقهلية,الجمالية,11 Hospital,AsBuild,Working,,Egypt,,NA,16500,4/5/2016,4/5/2016,4/5/2026,4/5/2026
+17b73b9d-77c0-4561-9998-9a919585176d,"Monitoring Systems, Physiologic",شرق الدلتا,الدقهلية,الجمالية,11 Hospital,AsBuild,Working,Neonatal Department,Egypt,Nihon Kohden,NA,30000,7/21/2016,7/21/2016,7/21/2026,7/21/2026
+239a08b1-ef48-4997-9b2e-4c01138836df,Beds Electric General,شرق الدلتا,الدقهلية,الجمالية,11 Hospital,AsBuild,Working,,Egypt,,NA,16500,4/5/2016,4/5/2016,4/5/2026,4/5/2026
+289c4ced-f9ee-4e1e-9b9e-fb1b1fe90003,"Monitoring Systems, Physiologic",شرق الدلتا,الدقهلية,الجمالية,11 Hospital,AsBuild,Working,Ortho Operation,Egypt,Nihon Kohden,NA,35000,1/2/2016,1/2/2016,1/2/2026,1/2/2026
+2f3081ae-2135-4171-8dcc-559b66499441,"Tables, Operating",شرق الدلتا,الدقهلية,الجمالية,11 Hospital,AsBuild,Working,,Egypt,,NA,375000,3/10/2016,3/10/2016,3/10/2026,3/10/2026
+5025d067-e387-4a73-a9ef-c93a1af5fd9b,"Electrocardiographs Multichannel, Noninterpretive",شرق الدلتا,الدقهلية,الجمالية,11 Hospital,AsBuild,Working,,Egypt,,NA,29000,3/6/2017,3/6/2017,3/6/2027,3/6/2027
+0f222ef4-e08a-4ffc-b344-89338e705a31,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Ukraine,UTAS.Co.,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+13e9eb37-fca0-4f6d-9a86-681bcaa3d879,ventilator,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,مديرية الشئون الصحية,68000,9/30/2016,9/30/2016,9/30/2026,9/30/2026
+14d39f68-2aad-4431-b692-48bd70a3e198,Xray beam limiting device,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Radiology Department,Japan,NA,مديرية الشئون الصحية,678893,9/30/2018,9/30/2018,9/30/2028,9/30/2028
+15149446-5dd0-4aa8-8661-dcfccd0476ee,Anesthesia Units,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hospitality Operation Department,United Kingdom,Penlon,مديرية الشئون الصحية,19000,9/30/2018,9/30/2018,9/30/2028,9/30/2028
+1823d036-7511-4bba-be8d-0d1ca5957d59,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Germany,Dragar infinity kappa,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+1d762e62-52d4-465a-8fa0-93191b68120b,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,Germany,B.BRAUN,التموين الطبي العباسية,78780,2/15/2018,2/15/2018,2/15/2028,2/15/2028
+256272ad-23dd-4600-994a-03763b0a909a,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Germany,Dragar infinity kappa,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+256e1880-354f-465b-87c4-3b9150a5a5f1,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Ukraine,UTAS.Co.,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+25706a11-be46-4900-a44e-fbfac41ab3cc,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Ukraine,UTAS.Co.,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+4c28ad9b-30f4-499f-aeee-2cec50f767f4,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+4c564d96-c02c-4e0f-a017-162449fb672a,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,Germany,B.BRAUN,تبرع,78780,6/19/2017,6/19/2017,6/19/2027,6/19/2027
+4c917067-f06f-4812-aab9-89ca0abc959c,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,South Korea,NA,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+4e641ce1-f823-4dfa-ad70-d3a77998d07b,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,Germany,B.BRAUN,التموين الطبي العباسية,78780,2/15/2018,2/15/2018,2/15/2028,2/15/2028
+52094809-5247-4332-bb76-706cf23b5ff2,ventilator,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,مديرية الشئون الصحية,68000,9/30/2016,9/30/2016,9/30/2026,9/30/2026
+5ee6605c-d528-4a1f-a31c-6a2103499716,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,European Union,NA,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+613a296e-4662-4658-949a-436f7e400f00,Response 920,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Laboratory,Germany,NA,هيومان إيجيبت,7000,4/6/2016,4/6/2016,4/6/2026,4/6/2026
+63534415-9449-4be3-99b9-43fbbdbcda6f,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Ukraine,UTAS.Co.,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+6adc68d3-334d-4885-bb78-301d6bdab3b9,HM1060 Blood cell counter,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Laboratory,Germany,NA,المركز الأقليمي,3000,2/20/2017,2/20/2017,2/20/2027,2/20/2027
+6ae79d0a-242e-49b6-9799-f623d28ceac3,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Ukraine,UTAS.Co.,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+6f37b203-0df1-4a43-b890-b5fae01bfe51,SYSMEX XP-300 Blood counter,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Laboratory,Japan,NA,تبرع,3000,6/19/2016,6/19/2016,6/19/2026,6/19/2026
+71301507-d727-46c4-abf3-b4a079a74d61,INFANT INCUBATOR,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,China,NA,تبرع,61000,4/14/2016,4/14/2016,4/14/2026,4/14/2026
+77a1b42a-1aa9-4e87-a56a-53c2babf2eec,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Germany,Dragar infinity kappa,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+7c418689-70aa-4fab-ae38-484d26df013f,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+7de97e69-0166-4dd8-9705-8ed5d5b91492,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Germany,Dragar infinity kappa,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+836f15e4-cc47-428d-b932-90b821870ec0,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,France,fresinus,تبرع,80000,3/6/2018,3/6/2018,3/6/2028,3/6/2028
+89ebaa00-8d98-49bf-b239-6e8f379858ff,Camera,مدن القناة,السويس,الأربعين,50 Hospital,AsBuild,Working,Radiology Department,Germany,,NA,0,12/12/2016,12/12/2016,12/12/2026,12/12/2026
+8b5f0e82-c4ee-4de7-96bc-a9191780ad58,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,Germany,B.BRAUN,التموين الطبي العباسية,78780,2/15/2018,2/15/2018,2/15/2028,2/15/2028
+9a34ae28-f463-4e7f-b037-3043ff81c83f,Laser imager,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Radiology Department,Japan,NA,مديرية الشئون الصحية,0,1/5/2016,1/5/2016,1/5/2026,1/5/2026
+9b8d2102-7b07-4ab3-9b4f-bb70c6cb0afd,ventilator,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,مديرية الشئون الصحية,68000,9/30/2016,9/30/2016,9/30/2026,9/30/2026
+9c2f5520-cea8-4e5d-b558-598eac0c8e4d,ميزان,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Egypt,NA,تبرع,444,3/10/2016,3/10/2016,3/10/2026,3/10/2026
+9fdf0efb-dca5-454e-a06e-c7ca106728b2,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,Germany,B.BRAUN,التموين الطبي العباسية,78780,2/15/2018,2/15/2018,2/15/2028,2/15/2028
+a1bba84d-8c31-4aa3-bdda-443cdb24e446,200 drager,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,القوات المسلحة,61000,3/26/2017,3/26/2017,3/26/2027,3/26/2027
+a501f268-c34b-4f25-bced-4f84c9a2c007,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+aabea61a-e626-4a86-8b92-84a376ff8a45,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,United States of America,Dragar,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+aca67081-30e1-4494-8baa-3a7a7ba324b9,OR Table,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Mega Operation Department,European Union,NA,مديرية الشئون الصحية,33545,9/30/2018,9/30/2018,9/30/2028,9/30/2028
+b4063179-49e2-4a97-8a6b-5e50ede7003b,ميزان,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Egypt,NA,تبرع,444,3/10/2016,3/10/2016,3/10/2026,3/10/2026
+be5a220a-8409-4c6c-8b9b-92c81d91bc4d,ventilator,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,مديرية الشئون الصحية,68000,9/30/2016,9/30/2016,9/30/2026,9/30/2026
+bf68453d-f2e2-4a3c-8704-0b71b67a4b36,جهاز سكر,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Not Working,Emergency Department,South Korea,Acco Check,التموين الطبي العباسية,200,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+c2e9b688-db2b-446b-8e88-a9cc6876d029,ميزان,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Egypt,NA,تبرع,444,3/10/2016,3/10/2016,3/10/2026,3/10/2026
+c564658d-84db-47a0-98a8-78ec3aa28b63,جهاز قياس نظر بكمبيوتر,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Optholmology Department,Egypt,Nicon corp,تبرع,105500,9/30/2017,9/30/2017,9/30/2027,9/30/2027
+c663e42f-874e-4e96-a007-e1c48cd05bf7,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,European Union,Vismo,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+c750723d-d600-4e65-aa81-3859057481d5,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Ukraine,UTAS.Co.,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+c7fee2dc-522c-4f4e-88e7-5ad68d0dcc26,Exacta,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Laboratory,Germany,NA,مديرية الشئون الصحية,275,3/10/2016,3/10/2016,3/10/2026,3/10/2026
+cde6f837-a4dd-4cc1-ac39-6142aeb0d817,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Germany,Dragar infinity kappa,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+cfb1b2a7-0ec8-4f2e-9121-fcf16ba27013,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,Ukraine,UTAS.Co.,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+d75ddd1e-898f-444e-8b4d-77da797c872f,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+d9f04daa-179d-4de8-88b0-c431fd286811,Electric Shock,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Mega Operation Department,European Union,NA,مديرية الشئون الصحية,50000,6/15/2016,6/15/2016,6/15/2026,6/15/2026
+da213178-4cc0-47ba-b492-215f1f0eb808,200 drager airshilds,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,القوات المسلحة,61000,3/26/2017,3/26/2017,3/26/2027,3/26/2027
+dc39c032-ee72-4d48-8c80-c5440aaa3e3b,ميزان,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Egypt,NA,تبرع,444,3/10/2016,3/10/2016,3/10/2026,3/10/2026
+e007d39b-55b4-40b5-9c66-2e45948cb50e,OR Table,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hospitality Operation Department,European Union,NA,مديرية الشئون الصحية,44000,9/30/2018,9/30/2018,9/30/2028,9/30/2028
+e793f8cb-c9cb-4cd1-9880-d443c104016b,FANEMI,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,China,NA,القوات المسلحة,61000,3/26/2017,3/26/2017,3/26/2027,3/26/2027
+e841888f-6f53-4eb5-821b-a398c93c4bc7,Exacta,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Laboratory,Germany,NA,مديرية الشئون الصحية,275,3/10/2016,3/10/2016,3/10/2026,3/10/2026
+ed73ff29-614f-43f2-9114-ae36802874ac,Monitor,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,ICU,South Korea,Dragar infinity kappa,التموين الطبي العباسية,77000,10/18/2017,10/18/2017,10/18/2027,10/18/2027
+eec7f0b3-ab20-4eeb-baa6-32142d5adff2,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+f4b6069a-4b78-4f3b-bfcc-5541e63c1312,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+f640d2c6-8cda-4e35-a177-1cc2d68f7490,ventilator,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,Germany,NA,مديرية الشئون الصحية,68000,9/30/2016,9/30/2016,9/30/2026,9/30/2026
+f91f455c-5cad-4dfe-825c-de253b564104,Lower Endoscopic,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Not Working,Mega Operation Department,European Union,NA,تبرع,15000,11/30/2016,11/30/2016,11/30/2026,11/30/2026
+fb90c16a-245e-4c8f-a057-c9b08a164a02,Suction,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Emergency Department,Italy,Flowometer,مديرية الشئون الصحية,6500,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+fe812f79-6919-4cea-abe3-f0a9f179f631,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,Germany,B.BRAUN,تبرع,78780,12/22/2016,12/22/2016,12/22/2026,12/22/2026
+fe98a83f-ee15-436f-889e-8d4dadf1290f,Advanced,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Incubation Department,European Union,NA,تبرع,61000,4/14/2016,4/14/2016,4/14/2026,4/14/2026
+ff4aec12-2ae6-45a3-9539-bbe51f6b4804,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,Germany,B.BRAUN,التموين الطبي العباسية,78780,2/15/2018,2/15/2018,2/15/2028,2/15/2028
+c7569851-a012-4d70-9399-58f1041951c2,Mobile X-Ray,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Working,,United States of America,Philips,مديرية الشئون الصحية,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+c9df6184-cdc7-4705-b67d-fdd0ae065850,Atom,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,Incubation Department,United States of America,atom,مديرية الشئون الصحية,0,4/5/2016,4/5/2016,4/5/2026,4/5/2026
+ffd15633-7308-469b-8591-1fd210aafaf2,Hemodialysis Machine,مدن القناة,السويس,الأربعين,68 Hospital,AsBuild,Working,Hemodialysis Department,Germany,B.BRAUN,التموين الطبي العباسية,78780,2/15/2018,2/15/2018,2/15/2028,2/15/2028
+0e6d1395-8b85-4f69-8b1d-dfb8ff31cd50,Camera,مدن القناة,الإسماعيلية,الإسماعيلية,42 Hospital,AsBuild,Working,Radiology Department,United States of America,Care Stream,مديرية الشئون الصحية,0,4/1/2016,4/1/2016,4/1/2026,4/1/2026
+13aa4f6a-83a5-4a64-95fc-a796c12921d2,Automatic Photometer,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Working,,Egypt,Randox,مديرية الشئون الصحية,0,9/4/2016,9/4/2016,9/4/2026,9/4/2026
+1509942a-1787-4201-b589-384caf7d5535,Syring pumb,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,ICU,United States of America,mendray,مديرية الشئون الصحية,0,8/4/2016,8/4/2016,8/4/2026,8/4/2026
+15167da5-af47-404d-88e5-ec67b7bf13c3,ventilator,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,ICU,Switzerland,Temp,مديرية الشئون الصحية,0,4/4/2016,4/4/2016,4/4/2026,4/4/2026
+1c23df34-bbfa-44d3-b85f-5b30ebee6e3e,Dyatheramy,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,Operation Department,China,led,مديرية الشئون الصحية,0,4/12/2017,4/12/2017,4/12/2027,4/12/2027
+24024199-9732-4552-8912-4d10403deae0,Syringe Pumps,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Working,,Poland,Ascor Med,مديرية الشئون الصحية,0,5/1/2016,5/1/2016,5/1/2026,5/1/2026
+3027425d-2b08-4d9a-ab16-c55eb13e7cce,جهاز سيوله,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,Laboratory,NA,Temp,مديرية الشئون الصحية,0,9/26/2017,9/26/2017,9/26/2027,9/26/2027
+319c962e-d540-4b77-8af1-489bddb6e2b3,Syringe Pumps,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Working,,Poland,Ascor Med,مديرية الشئون الصحية,0,5/1/2016,5/1/2016,5/1/2026,5/1/2026
+36c68591-e710-4752-9f6f-32939ae98d6c,Digital X-Ray,مدن القناة,الإسماعيلية,الإسماعيلية,42 Hospital,AsBuild,Working,Radiology Department,NA,Philips,مديرية الشئون الصحية,0,3/1/2016,3/1/2016,3/1/2026,3/1/2026
+3a19ea3d-ac3c-418f-a47e-1d72497c7205,ICU Bed,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,ICU,NA,Temp,مديرية الشئون الصحية,0,4/4/2016,4/4/2016,4/4/2026,4/4/2026
+3ece9a27-248f-4769-b654-08bc3df01c87,Syring pumb,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,ICU,United States of America,mendray,مديرية الشئون الصحية,0,8/4/2016,8/4/2016,8/4/2026,8/4/2026
+40f6bd0f-8014-4278-9757-4048ce083e0c,Hemodialysis Machine,مدن القناة,الإسماعيلية,الإسماعيلية,42 Hospital,AsBuild,Not Working,Hemodialysis Department,France,Fresenius,مديرية الشئون الصحية,0,10/1/2017,10/1/2017,10/1/2027,10/1/2027
+41835c03-5ed7-4581-89c0-8a8b1348f7d9,Syring pumb,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,ICU,China,mendray,مديرية الشئون الصحية,0,8/4/2016,8/4/2016,8/4/2026,8/4/2026
+444f347d-7b05-45b7-885a-35b89e572591,Hemodialysis Machine,مدن القناة,الإسماعيلية,الإسماعيلية,42 Hospital,AsBuild,Not Working,Hemodialysis Department,France,Fresenius,مديرية الشئون الصحية,0,10/1/2017,10/1/2017,10/1/2027,10/1/2027
+45541233-458f-42c7-88a2-dc85c812001e,Suction 5 Liter,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Not Working,,Egypt,Local,مديرية الشئون الصحية,0,6/28/2016,6/28/2016,6/28/2026,6/28/2026
+47e91b48-db27-491a-8c20-2bf216a99677,Printing System Camera,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Not Working,,China,Care Stream,القوات المسلحة,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+48ed74ca-f3f3-4ac1-94cc-b8f3020cc679,Infant Incubator,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,Incubation Department,United States of America,Temp,مديرية الشئون الصحية,0,1/17/2017,1/17/2017,1/17/2027,1/17/2027
+53091a3e-dbb5-4f51-b7b5-5ab0672f239b,Electric Shock,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,ICU,United States of America,phillips,مديرية الشئون الصحية,0,12/26/2016,12/26/2016,12/26/2026,12/26/2026
+56d0d215-cc98-4f37-9a6e-edd082b9fca3,Syringe Pumps,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Working,,Poland,Ascor Med,مديرية الشئون الصحية,0,5/1/2016,5/1/2016,5/1/2026,5/1/2026
+5cd64b28-8bb4-4a89-9d78-edc6e4f841b3,جهاز تنس,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,physical Therapy,China,Jer-electronic,مديرية الشئون الصحية,0,2/3/2018,2/3/2018,2/3/2028,2/3/2028
+6035b080-a1b3-4af9-9e90-276d803bd3cd,ventilator,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,Emergeny Department,Turkey,VARKOLIN,مديرية الشئون الصحية,0,7/15/2018,7/15/2018,7/15/2028,7/15/2028
+63149bea-28f4-4b8b-8fbe-e96c603d7167,Hemodialysis Machine,مدن القناة,الإسماعيلية,الإسماعيلية,42 Hospital,AsBuild,Not Working,Hemodialysis Department,France,Fresenius,مديرية الشئون الصحية,0,5/1/2017,5/1/2017,5/1/2027,5/1/2027
+6df47def-1347-4176-b9b3-fc2b70db4e9b,Hemodialysis Machine,مدن القناة,الإسماعيلية,الإسماعيلية,42 Hospital,AsBuild,Not Working,Hemodialysis Department,France,Fresenius,مديرية الشئون الصحية,0,10/1/2017,10/1/2017,10/1/2027,10/1/2027
+6eb60343-1596-40b6-9f21-27a3a26af9be,Doppler,مدن القناة,الإسماعيلية,الإسماعيلية,42 Hospital,AsBuild,Working,Radiology Department,United States of America,GE,مديرية الشئون الصحية,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+73f7a17f-495d-4298-b925-0ccabc2892ab,Digital X-Ray,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Working,,United States of America,Philips,مديرية الشئون الصحية,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+748143a1-5dbc-4a83-b3ee-b2224bc9a3ef,جهاز تنس,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,physical Therapy,China,Jer-electronic,مديرية الشئون الصحية,0,2/3/2018,2/3/2018,2/3/2028,2/3/2028
+77b0c350-c669-4b45-95b1-cfe7f6f097e0,Monitor,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,Emergeny Department,China,mendray,مديرية الشئون الصحية,0,4/15/2016,4/15/2016,4/15/2026,4/15/2026
+9230a6a9-0f9f-4c67-8eaa-7e108b0db4ff,Fuji laser camera,مدن القناة,الإسماعيلية,الإسماعيلية,46 Hospital,AsBuild,Working,Radiology-Department,Japan,NA,مديرية الشئون الصحية,0,1/6/2017,1/6/2017,1/6/2027,1/6/2027
+9e5f187f-a791-4c13-bc30-2afaaad9ec0b,Infant Incubator,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,Incubation Department,United States of America,Temp,مديرية الشئون الصحية,0,1/17/2017,1/17/2017,1/17/2027,1/17/2027
+9f2668d8-e694-4df2-8cce-efd06f266674,جهاز تعقيم 140 لتر,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,Steralization Department,NA,Temp,مديرية الشئون الصحية,0,4/4/2016,4/4/2016,4/4/2026,4/4/2026
+a9dc742d-ed38-46d9-a92e-6f145ab7598e,Syring pumb,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,ICU,United States of America,mendray,مديرية الشئون الصحية,0,8/4/2016,8/4/2016,8/4/2026,8/4/2026
+ab20d4fe-eb58-4a2d-b3c2-976b1a93882a,x-ray GE6000,مدن القناة,الإسماعيلية,الإسماعيلية,46 Hospital,AsBuild,Working,Radiology-Department,Egypt,GE,مديرية الشئون الصحية,0,2/27/2017,2/27/2017,2/27/2027,2/27/2027
+b08e1c54-0508-4507-b852-b84fe3943cce,Monitor,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,ICU,NA,Temp,مديرية الشئون الصحية,0,1/18/2017,1/18/2017,1/18/2027,1/18/2027
+b50398cf-2094-4dac-99bf-c15cb95de8b3,Electrocariography,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,Emergeny Department,Japan,freedom,مديرية الشئون الصحية,0,4/15/2016,4/15/2016,4/15/2026,4/15/2026
+b7d568b9-345a-49b4-9049-82bd65fd0c88,ventilator,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,Emergeny Department,Italy,VARKOLIN,مديرية الشئون الصحية,0,7/15/2018,7/15/2018,7/15/2028,7/15/2028
+b8ce535b-e473-4d2b-bd86-601589d78d0c,Fuji-cr unit,مدن القناة,الإسماعيلية,الإسماعيلية,46 Hospital,AsBuild,Working,Radiology-Department,Japan,fuji,مديرية الشئون الصحية,0,1/13/2017,1/13/2017,1/13/2027,1/13/2027
+bcfd523d-3e36-4fd9-aa65-612e77077d0a,Atom,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,Incubation Department,United States of America,atom,مديرية الشئون الصحية,0,4/5/2016,4/5/2016,4/5/2026,4/5/2026
+cad15616-730d-4d68-a042-47721ac577a5,ventilator,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,ICU,Switzerland,Temp,مديرية الشئون الصحية,0,4/4/2016,4/4/2016,4/4/2026,4/4/2026
+cff22619-747a-4480-adf0-a154415e5fc4,EG Ultrasound,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,Radiology Department,NA,GE,مديرية الشئون الصحية,0,4/4/2016,4/4/2016,4/4/2026,4/4/2026
+d43f9128-f807-4441-a420-ff37374bc8f3,Electrocariography,مدن القناة,الإسماعيلية,الإسماعيلية,41 Hospital,AsBuild,Working,Emergency Department,China,Temp,مديرية الشئون الصحية,0,1/17/2017,1/17/2017,1/17/2027,1/17/2027
+e5c6bcc5-563a-4eb5-b235-c8a75db0e4d6,Centrifuges,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Working,,Japan,Tentnica centric,مديرية الشئون الصحية,0,9/4/2016,9/4/2016,9/4/2026,9/4/2026
+e60d93dc-989b-4c87-8574-726110b9d317,جهاز غازات الدم,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Working,,United States of America,Gem Premier,مديرية الشئون الصحية,0,5/14/2017,5/14/2017,5/14/2027,5/14/2027
+ee461d75-7eef-474b-8b35-09c032b1f6f6,چنرال اليكتريك,مدن القناة,الإسماعيلية,الإسماعيلية,44 Hospital,AsBuild,Working,Radiology Departmet,United States of America,GE,مديرية الشئون الصحية,0,5/4/2016,5/17/1993,5/17/2003,5/17/2003
+fd799b41-215c-4885-aa6f-3cdb60cd38c4,الجين اكسبرت,مدن القناة,الإسماعيلية,الإسماعيلية,Hospital 9,AsBuild,Working,,United States of America,Labofuge,مديرية الشئون الصحية,0,10/26/2016,10/26/2016,10/26/2026,10/26/2026
+01e8056a-a8c0-4ecb-b5fc-aae67970923e,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,12/5/2016,12/5/2016,12/5/2026,12/5/2026
+03d34f92-ed3c-43e0-917b-e57f0f4d92d7,وحدة فحص قاع عين + منظار انكسار  ضوء,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,External Dark Room,Germany,rister,تبرعات,15000,5/4/2017,5/4/2017,5/4/2027,5/4/2027
+0668e341-95aa-41fb-95a1-2dfdc8b8fb10,"Tables, Examination/Treatment",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Lithotripter Department,Germany,Richard wolf,Suez Canal University,0,7/12/2017,7/12/2017,7/12/2027,7/12/2027
+07db9e6f-2f40-4c1d-ac3f-6d623c691fcb,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+09d05738-477d-4475-8dd0-3b518b91dfe4,جهاز اشعه مقطعية,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Fluorescence and Oct,Egypt,OPTOPOL,الشركة المصرية للتكنولوجيا الطبية,393181,6/28/2016,6/28/2016,6/28/2026,6/28/2026
+2f94cf60-73b6-4979-aadd-8fb398391815,C-Arm Radiographic/Fluoroscopic,مدن القناة,بورسعيد,بورسعيد,4 Hosptial,AsBuild,Working,Operation Department,European Union,NA,NA,0,9/17/2017,9/17/2017,9/17/2027,9/17/2027
+2fdf2133-e01a-4f0f-89d9-a754c10a2429,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,General Internal Department,Italy,ATOM,Donation,21000,5/24/2017,5/24/2017,5/24/2027,5/24/2027
+304c155a-1b92-447b-9196-97eb8c58f2a2,photometer,مدن القناة,بورسعيد,بورسعيد,96 Hospital,AsBuild,Working,Laboratory Department,Egypt,HUMALYZER,Donation,1000,12/21/2016,12/21/2016,12/21/2026,12/21/2026
+30cd682d-70c1-41fd-9e81-57a0180c43c6,"Monitoring Systems, Central Station",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,GE,NA,0,11/18/2016,11/18/2016,11/18/2026,11/18/2026
+f9ec3f09-116f-4464-921c-81cf97997902,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+fe201ecb-42d4-4c7d-b4c4-952329b1554d,Peacmaker,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,12/10/2016,12/10/2016,12/10/2026,12/10/2026
+0039e239-a594-4d75-acd5-c44113197210,Dental Treatment Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,اسنان,NA,Kavo,NA,80000,12/23/2012,12/23/2012,12/23/2017,12/23/2017
+0384e36d-8410-4dac-bb9f-6dfb519b4ce2,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,VOTEM,NA,33500,6/2/2015,6/2/2015,6/2/2020,6/2/2020
+04e38459-da68-4298-af44-ffdf4f5a605b,"Ultrasound Scanning Systems, General-Purpose",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Radiology,NA,Toshiba,NA,239700,1/28/2014,1/28/2014,1/28/2019,1/28/2019
+0531c336-24d9-484a-ad3b-173aaf34e843,Gastroscopes,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Fuji,NA,0,4/2/2013,8/24/2015,8/24/2025,8/24/2025
+0686bcdb-aedb-49cf-9b12-04359363f375,Biological Safety Cabinets,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,PCR,Egypt,Nuaire,NA,72500,3/25/2013,8/8/2008,8/8/2018,8/8/2018
+080d5fa2-ce82-4bf9-8ebe-a962f7fd1520,"Defibrillators, External, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عناية مركزه,NA,PRIMEDIC,NA,42500,6/14/2015,6/14/2015,6/14/2020,6/14/2020
+0a87c43e-73ee-43ea-98ee-a437e21f0768,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عمليات,NA,Hersill,NA,11900,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+0C8E5E00-21D5-4B43-A911-86DAAF5139C7,"Stretchers, Adjustable-Height",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,20000,11/5/2014,11/5/2014,,
+0e261ac5-524f-4ffd-95fe-73ef9ba62ba2,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,BLUE PARD,NA,5000,2/26/2015,2/26/2015,2/26/2020,2/26/2020
+0e277402-c832-4103-aa9a-8388d37a592b,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,MEG,NA,8000,1/14/2013,1/14/2013,1/14/2018,1/14/2018
+49994,Electroencephalographs,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,NIHON KOHDEN,NA,86381.25,11/6/2014,11/6/2014,,
+4bae744a-0e7c-4c7e-ba87-f1d96fca9505,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عمليات,NA,Hersill,NA,11900,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+09eb66a5-732d-4621-889b-890a8a18b679,"Tables, Operating",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart Operation,European Union,IG,NA,0,6/18/2016,6/18/2016,6/18/2026,6/18/2026
+0a361738-3bab-41d7-905e-94b0b7a102c0,ميكروسكوب جراحي,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Mega Operation Department,Japan,Sony,الفاطمية للتجارة,0,8/28/2016,8/28/2016,8/28/2026,8/28/2026
+0f9bda03-ef9a-4425-9506-137e9b0600aa,"Electrocardiographs Multichannel, Noninterpretive",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Surgery Department,China,DINGJING,Port said General Hospital,0,12/1/2017,12/1/2017,12/1/2027,12/1/2027
+122b37f8-95c4-47e3-88d9-b60456c1ddaf,"Infusion Pumps, General-Purpose",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,France,FERSINUS,Suez Canal University,0,12/17/2017,12/17/2017,12/17/2027,12/17/2027
+12b3a2c0-cc0d-4f97-9364-dbbf8dc95172,"Infusion Pumps, General-Purpose",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,France,FERSINUS,Suez Canal University,0,12/17/2017,12/17/2017,12/17/2027,12/17/2027
+12fe4682-7972-4ec5-ba20-3533007b2700,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+142be606-ff43-4e26-8705-547d9746b389,"Tables, Examination/Treatment",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Seconed Operation Department,Germany,MIDIAFA,Wadi El Nile Company,106480,12/20/2016,12/20/2016,12/20/2026,12/20/2026
+14410f2e-aa56-47c7-aabb-5fcd6ae0f252,ارجون ليزر,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Laser Department,Germany,zeiss,إعارة من جامعة بور سعيد,250000,1/14/2017,1/14/2017,1/14/2027,1/14/2027
+176793ac-79ff-421c-8d14-cbe9e543f286,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Endoscopic Department,European Union,NA,NA,0,7/18/2016,7/18/2016,7/18/2026,7/18/2026
+1a45d88f-9736-4978-b984-8d94390213ff,"X-Ray Radiographic Systems, General-Purpose",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Radiology Department,European Union,NA,NA,0,9/13/2017,9/13/2017,9/13/2027,9/13/2027
+1ac92596-c874-45f4-8532-33d38afa9efa,"Sealers, Heat",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Steralization Department,European Union,NA,NA,0,12/26/2017,12/26/2017,12/26/2027,12/26/2027
+1c7cdb9f-b470-429d-bbdd-1c4a9554a57a,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,2/25/2018,2/25/2018,2/25/2028,2/25/2028
+2084b800-67cd-4f6b-b552-2d4b715696b4,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,2/25/2018,2/25/2018,2/25/2028,2/25/2028
+20b2dc82-ff7d-4f3b-aa6b-0565130fad8a,طابعة جهاز اليزا,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Laboratory,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+21b81555-79bf-436a-92cc-98549f636f0a,ياج ليزر,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Laser Department,Germany,Zeiss,إعارة من جامعة بور سعيد,150000,1/14/2017,1/14/2017,1/14/2027,1/14/2027
+22087444-b49c-4531-a583-0de1b4a397de,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+23992e54-3345-4023-8840-f0417762a509,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+25406538-84b5-47bf-9d53-c8d22ab42c08,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,12/6/2016,12/6/2016,12/6/2026,12/6/2026
+2916f767-0603-41f5-b412-e93c14057271,ماكينه تبكيت (سير),مدن القناة,بورسعيد,بورسعيد,4 Hosptial,AsBuild,Working,Steralization Department,Egypt,NA,Delta Sientific,0,5/19/2016,5/19/2016,5/19/2026,5/19/2026
+2aaec8ff-2a3f-4b24-b07b-17aae2040489,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,General Internal Department,Japan,NIHONKOHDEN,Donation,48000,6/22/2016,6/22/2016,6/22/2026,6/22/2026
+2c3c66f8-b25c-484b-8c41-1f9312813cf7,"lithotripsy, Extracoroporeal, Shockwave, ESWL",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Lithotripter Department,Germany,Richard wolf,Suez Canal University,6748000,7/12/2017,7/12/2017,7/12/2027,7/12/2027
+2c79455d-8dc3-4ebc-8749-f27905a99b2c,مجال ابصار,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Vision Field Department,Germany,Zeiss,إعارة من بور سعيد,50000,1/14/2017,1/14/2017,1/14/2027,1/14/2027
+2ca5f825-11ef-4d4f-80e0-109220a6f670,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,2/25/2018,2/25/2018,2/25/2028,2/25/2028
+2d2f7799-c89a-4ae6-8f47-9ee9ca88b769,"Monitoring Systems, Central Station",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,GE,NA,0,11/20/2016,11/20/2016,11/20/2026,11/20/2026
+2daa1c07-889e-49c1-9ab0-6e76e6e84191,"Analyzers, Blood Gas/pH/Electrolyte/Metabolite",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Out-Patient Clinics,European Union,host,NA,0,9/1/2016,9/1/2016,9/1/2026,9/1/2026
+2e7b5967-cdb0-49f4-b218-4bbf28c8810d,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+333b5d76-a9fc-4df7-b684-394f21933af3,ميكروسكوب عمليات + كاميرا,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Mega Operation Department,Japan,Philips,الفاطمية للتجارة,281818,8/28/2016,8/28/2016,8/28/2026,8/28/2026
+338bcf27-897d-465d-905a-3db52eb5e29a,جهاز توتر قاع العين,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,External Dark Room,Germany,Rister,تبرعات,1500,6/18/2016,6/18/2016,6/18/2026,6/18/2026
+33e7b3e0-2dc9-4641-a769-d07ece33c63a,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+3689ce6c-8d6d-4b42-9b8a-37d3bfeeabd0,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,France,FERSINUS,Suez Canal University,12000,12/17/2017,12/17/2017,12/17/2027,12/17/2027
+36d0a714-dc09-4a5f-b64f-cc77c4df8b80,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+3de33538-3ddd-482a-84f1-44c9d6368ad1,"Monitoring Systems, Central Station",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/21/2016,11/21/2016,11/21/2026,11/21/2026
+3e9349b6-820d-40e7-bf44-bd6501d9fa92,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+4030021b-894b-4f1e-97c5-2d03a434395e,"Ventilators, Intensive Care",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/23/2016,11/23/2016,11/23/2026,11/23/2026
+ad44585e-0523-4052-b6e6-2cb4891e2af9,"Electrocardiographs Multichannel, Noninterpretive",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Intensive Care Unit,Japan,FUCUDADENSHI,Donation,7000,7/21/2017,7/21/2017,7/21/2027,7/21/2027
+ad5a1836-6b43-44b8-87fb-71e33b781e09,"Electrocardiographs Multichannel, Interpretive",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/22/2016,11/22/2016,11/22/2026,11/22/2026
+aed29dcc-d1be-448b-8c08-e1939b505cc0,"Infusion Pumps, General-Purpose",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,incubation depratment,European Union,ATOM,NA,0,6/14/2016,6/14/2016,6/14/2026,6/14/2026
+b95e31fa-38a5-44fe-a6da-175417f1b9e7,Semi-auto chemistry analyzer,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Laboratory,Egypt,Phototron,إدارة التموين الطبي بالعباسية,36000,4/1/2018,4/1/2018,4/1/2028,4/1/2028
+b9b53eb2-18f4-41fb-ba48-3397e4835444,جهاز صورة دم كامله cbc,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Laboratory,Serbia,Phoenix,إدارة التموين الطبي بالعباسية,270000,4/1/2018,4/1/2018,4/1/2028,4/1/2028
+baaa2f65-40e3-4a5e-9210-ebf66b238f4b,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,12/3/2016,12/3/2016,12/3/2026,12/3/2026
+be1cfcdf-e0c2-4697-985f-b08699ae4803,"Aspirators, Surgical",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart Operation,European Union,yuwell,NA,0,8/13/2016,8/13/2016,8/13/2026,8/13/2026
+be1cff3c-da25-4059-a56b-1a1e5803bce7,"Ultrasound Scanning Systems, General-Purpose",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Lithotripter Department,Egypt,samsung,Suez Canal University,0,7/12/2017,7/12/2017,7/12/2027,7/12/2027
+40a14871-8ad3-4d91-8bc1-24c85a50ef41,Circulatory Assist Heart-Lung Bypass Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart Operation,European Union,polystan,NA,0,5/10/2016,5/10/2016,5/10/2026,5/10/2026
+423fa41b-f327-4056-b62b-176d3e75a276,كاميراتصوير قاع العين بالصبغة,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Fluorescence and Oct,Japan,TOPCON,الفاطمية,222727,8/6/2016,8/6/2016,8/6/2026,8/6/2026
+43cc1964-f7e0-452d-ae60-c2b27a9d9492,محرقة سنون,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Laboratory,European Union,Elburna,إدارة التموين الطبي بالعباسية,500,6/1/2018,6/1/2018,6/1/2028,6/1/2028
+459ed1db-a017-4e3e-b110-f0876bd27774,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,12/4/2016,12/4/2016,12/4/2026,12/4/2026
+4693400f-eb4e-494f-8e03-5096b15caa86,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+47d539a9-8676-43b4-8c08-f0bd4f8be5e9,MRI,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Radiology Department,European Union,NA,NA,0,1/18/2017,1/18/2017,1/18/2027,1/18/2027
+4a79ffa6-0518-4685-a79a-686e497f3493,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,2/25/2018,2/25/2018,2/25/2028,2/25/2028
+4dea71ee-0f80-4596-ad55-61c1627a284c,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,12/1/2016,12/1/2016,12/1/2026,12/1/2026
+57a79f02-f44d-4d49-8632-acde77dd3ad2,"Analyzers, Blood Gas/pH/Electrolyte/Metabolite",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,12/9/2016,12/9/2016,12/9/2026,12/9/2026
+5abece27-f436-490f-93f3-812a7c5461f7,"X-Ray Radiographic Units, Mobile",مدن القناة,بورسعيد,بورسعيد,4 Hosptial,AsBuild,Working,Operation Department,European Union,NA,Human Medical,0,9/17/2017,9/17/2017,9/17/2027,9/17/2027
+5acfd292-b266-4103-af02-05c2e40f9fec,"Infusion Pumps, General-Purpose",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/26/2016,11/26/2016,11/26/2026,11/26/2026
+5d19dce3-8dbc-43d2-a6c1-404e6489801e,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Lithotripter Department,Switzerland,rego,Suez Canal University,0,7/12/2017,7/12/2017,7/12/2027,7/12/2027
+6800a2f4-5b43-4118-97af-bf25d887499f,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+6bbd194c-a7e3-4867-b6b1-de717c777fc9,"Tables, Examination/Treatment",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Frist Operation Department,Germany,MEDIAFA,Wadi El Nile Company,106480,12/20/2016,12/20/2016,12/20/2026,12/20/2026
+720823f8-175b-4f05-8ad2-5272888e737c,"Defibrillators, External, Automated",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Intensive Care Unit,Germany,PHILIPS,Donation,30000,3/16/2017,3/16/2017,3/16/2027,3/16/2027
+73154246-7fee-463d-8418-dbdb9c043f4e,"Centrifuges Tabletop, Low-Speed, Nonrefrigerated",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Blood Bank,European Union,NA,NA,0,1/31/2017,1/31/2017,1/31/2027,1/31/2027
+76caee1a-877e-4050-b117-743276339350,"Analyzers, Blood Gas/pH/Electrolyte/Metabolite",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,United States of America,UFEHEATH,Donation,9000,6/1/2016,6/1/2016,6/1/2026,6/1/2026
+7affe902-78e3-4307-90b9-97e79d900981,جهاز فحص قاع العين مباشر,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Strabismus Department,Germany,TOPCON,إعارة من جامعة بور سعيد,1500,4/12/2017,4/12/2017,4/12/2027,4/12/2027
+7b061b6a-1002-4901-9013-bb91b5c04198,"Ventilators, Intensive Care",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,11/14/2017,11/14/2017,11/14/2027,11/14/2027
+7c31231d-6df9-47ba-85db-073f5a6d29df,Circulatory Assist Warming/Cooling Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart Operation,European Union,NA,NA,0,5/10/2016,5/10/2016,5/10/2026,5/10/2026
+7f0ce4dd-4e5b-4d5d-b256-6979e88ec898,جهاز قياس قوة عدسات النظارة بالكمبيوتر,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Strabismus Department,Germany,Topcon,إعارة من جامعة بور سعيد,32000,1/14/2017,1/14/2017,1/14/2027,1/14/2027
+87d6a9f6-391d-48e4-bcef-0a828c431966,قياس ضغط العين,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Glaucoma Deparment,Egypt,HS,تبرعات,25000,4/20/2017,4/20/2017,4/20/2027,4/20/2027
+87ea9d09-7fb4-4e10-aa08-83dc392030c0,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,France,FERSINUS,Suez Canal University,12000,12/17/2017,12/17/2017,12/17/2027,12/17/2027
+8b619e43-8d6f-4625-ad00-5fe39bcd6819,"Infusion Pumps, General-Purpose",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,France,FERSINUS,Suez Canal University,0,12/17/2017,12/17/2017,12/17/2027,12/17/2027
+8d3ba49f-1901-4b87-b2c8-3cbd073f15fd,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+8d4d9a4c-0ee3-491b-914d-fe74ba1140bb,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+8e0e5964-9eda-46f4-b176-93a6735366b4,"Aspirators, Surgical",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart Operation,European Union,CA.MI,NA,0,8/13/2016,8/13/2016,8/13/2026,8/13/2026
+8e87457f-b0a0-4906-a0ca-f6832107d820,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+903efd6a-3a82-4f14-b0c2-badad89cc934,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,12/2/2016,12/2/2016,12/2/2026,12/2/2026
+909f15d4-cb2d-47e6-9edc-cfc5c9c91920,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,2/25/2018,2/25/2018,2/25/2028,2/25/2028
+925b7f00-aa6c-4d3d-a555-d1205b3425d2,جهاز تجلط الدم,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Laboratory,European Union,NA,NA,0,9/10/2017,9/10/2017,9/10/2027,9/10/2027
+958bfc2b-37f1-4f80-bf05-c3fa42c870e4,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+9623fd7e-8f75-4ec6-83c6-8aba862bdf5e,"Defibrillators, External, Automated",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/25/2016,11/25/2016,11/25/2026,11/25/2026
+9a3d573f-fba3-478f-8fed-bc974500ea70,"Monitoring Systems, Central Station",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,GE,NA,0,11/17/2016,11/17/2016,11/17/2026,11/17/2026
+9bdd564e-950a-46e8-9264-39a07dc02553,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+a17c9cd0-4e62-43b1-a76b-fc9ef04d12fe,"Aspirators, Surgical",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Defibliration Department,European Union,NA,NA,0,7/2/2018,7/2/2018,7/2/2028,7/2/2028
+a287b01b-3a7d-45f6-badd-c82c93fdc2c6,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+a2a421c2-e655-4d99-8592-57574214515b,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+a4261636-2e78-43d6-9deb-a1049c5996f8,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,96 Hospital,AsBuild,Working,critical care department,Egypt,B BRAUN,Donation,500,12/26/2016,12/26/2016,12/26/2026,12/26/2026
+a66c8a14-7c32-486c-a47e-2209026cd1ea,CR,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Radiology Department,European Union,NA,NA,0,4/2/2016,4/2/2016,4/2/2026,4/2/2026
+aa44fa34-986a-4ea8-b0ba-11c4cfa47e90,Printer,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/30/2016,11/30/2016,11/30/2026,11/30/2026
+aab91aee-c7af-4c63-b090-6335a9b9646b,"Incubators, Infant, Mobile",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,incubation depratment,European Union,ams,NA,0,2/7/2016,2/7/2016,2/7/2026,2/7/2026
+ab0d5e48-2d88-4cdc-86e0-3fc2fec6c49b,Center Station,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/29/2016,11/29/2016,11/29/2026,11/29/2026
+acff22cb-1bea-45b5-ad4b-73e175868812,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+bf9daf21-9eed-4c70-a4fd-9e6066637799,C-Arm Radiographic/Fluoroscopic,مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Lithotripter Department,Germany,Ziehom compact,Suez Canal University,0,7/12/2017,7/12/2017,7/12/2027,7/12/2027
+bff26d11-9c0d-4bf8-b01d-fa2370eb49e1,جهاز علامات النظر,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Strabismus Department,Germany,topcon,إعارة من جامعة بور سعيد,1000,1/14/2017,1/14/2017,1/14/2027,1/14/2027
+c0b141a9-ed8e-42c4-9acb-33266c0d67bf,غسيل اطباق اليزا,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Laboratory,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+c1dd5c1b-4dcc-4681-874e-d9db2118f465,Center Station,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/28/2016,11/28/2016,11/28/2026,11/28/2026
+c387cd17-b190-4561-a27c-08314635d31b,"Ultrasound Scanning Systems, Cardiac",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Ultrasound Clinic,Egypt,SAMSUNG,Donation,160000,8/8/2016,8/8/2016,8/8/2026,8/8/2026
+cc290990-4483-4968-b7b2-cae272dd2f8d,تحليل المخدرات والعقاقير الطبية,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Laboratory,European Union,NA,NA,0,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+cc8127e3-d375-4a31-bab9-fd98efa4d8bf,جهاز غازات الدم,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Laboratory,European Union,NA,NA,0,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+ccd7140b-54b0-4cd3-a690-11531c2bdb93,ماكينه تبكيت (سير),مدن القناة,بورسعيد,بورسعيد,4 Hosptial,AsBuild,Working,Steralization Department,Egypt,NA,Delta Sientific,0,12/12/2016,12/12/2016,12/12/2026,12/12/2026
+d00dbe67-59f1-48dd-a5ec-fd2b19e29398,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,10/13/2018,10/13/2018,10/13/2028,10/13/2028
+d0333468-9cac-49ff-9c82-370ee9f889fb,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,96 Hospital,AsBuild,Working,critical care department,Egypt,B BRAUN,Donation,500,12/26/2016,12/26/2016,12/26/2026,12/26/2026
+d0f66954-b83a-40ba-ab60-94008b639531,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,France,FERSINUS,Suez Canal University,12000,12/17/2017,12/17/2017,12/17/2027,12/17/2027
+d1372bbf-7900-4854-b490-b73d43078125,Intra-Aortic Balloon Pump,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart Operation,European Union,NA,NA,0,7/12/2016,7/12/2016,7/12/2026,7/12/2026
+d231c069-6ef3-4ba4-902a-dafa3dfe4f36,قارئ اطياف اليزا + مشتملاته,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Laboratory,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+d552c5a7-5049-4f91-a828-e9a68594b0f6,"Monitoring Systems, Physiologic",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Intensive Care Unit,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+d5580eae-dc48-487a-8f0f-e2b6924f7f75,جهاز ياج ليزر,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Laser Department,European Union,a.r.c laser,الشركة المصرية للتكنولوجيا الطبية,177272,6/28/2016,6/28/2016,6/28/2026,6/28/2026
+d69e096e-9a81-401b-bbda-6e030ba0f6ae,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+d73fe827-37c1-487d-855e-88b9e46341ba,Hemodialysis Units,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Hemodialysis Department,European Union,NA,NA,0,1/1/2016,1/1/2016,1/1/2026,1/1/2026
+d883e849-376f-4e0e-abc2-3cef06d02ef8,جهاز فيروسات,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Laboratory,European Union,NA,NA,0,10/4/2018,10/4/2018,10/4/2028,10/4/2028
+daf892ee-ed43-4312-b55b-9e52b94f5dcc,Syringe Pumps,مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,France,FERSINUS,Suez Canal University,12000,12/17/2017,12/17/2017,12/17/2027,12/17/2027
+dc07fd51-3228-4761-b5b5-9dececc69865,جهاز اشعه بالفلورسين,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Fluorescence and Oct,Germany,ZEISS,إعارة من جامعة بور سعيد,100000,1/14/2017,1/14/2017,1/14/2027,1/14/2027
+e0505194-8e25-4079-b54a-0a61ae6e79fb,"Defibrillators, External, Automated",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/24/2016,11/24/2016,11/24/2026,11/24/2026
+e8727325-83cc-4994-bd3c-923841d29d2d,قياس كمياء الدم اتوماتيك,مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Laboratory,European Union,NA,NA,0,1/1/2017,1/1/2017,1/1/2027,1/1/2027
+e9088fa4-3c4c-4f1c-8587-df9e62c902a1,"Monitoring Systems, Central Station",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,GE,NA,0,11/19/2016,11/19/2016,11/19/2026,11/19/2026
+ebfc044a-5908-4987-a7a8-2aecc1a07037,شيكر هزاز lab tech,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Laboratory,Egypt,LAB TECH,NA,2000,6/1/2018,6/1/2018,6/1/2028,6/1/2028
+f1dee197-f447-4da1-b83f-211620fb839b,"Ventilators, Intensive Care",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,Germany,MAQUT,Donation,342000,10/13/2018,10/13/2018,10/13/2028,10/13/2028
+f208d126-07aa-4882-ada8-65e38a3912b8,"Electrocardiographs Multichannel, Noninterpretive",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,General Internal Department,China,ASPEL,Donation,2500,6/22/2016,6/22/2016,6/22/2026,6/22/2026
+f6dd1cde-9503-4bde-82e0-5a9ad19a7a58,محرقة سنون,مدن القناة,بورسعيد,بورسعيد,3 Hospital,AsBuild,Working,Laboratory,European Union,Elburna,إدارة التموين الطبي بالعباسية,500,6/1/2018,6/1/2018,6/1/2028,6/1/2028
+f717dae2-a072-45fb-aff2-11f64d4acee9,"Infusion Pumps, General-Purpose",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Open Heart ICU,European Union,NA,NA,0,11/27/2016,11/27/2016,11/27/2026,11/27/2026
+f72594b2-8527-484e-8e67-67754acee37f,"Infusion Pumps, General-Purpose",مدن القناة,بورسعيد,بورسعيد,6 Hospital,AsBuild,Working,Cardic Intensive Care,France,FERSINUS,Suez Canal University,0,12/17/2017,12/17/2017,12/17/2027,12/17/2027
+f887eb54-c33f-4de5-9e28-ad929424eee3,"Infusion Pumps, General-Purpose",مدن القناة,بورسعيد,بورسعيد,98 hospital,AsBuild,Working,Infant ICU,European Union,NA,NA,0,3/14/2018,3/14/2018,3/14/2028,3/14/2028
+0f267010-325d-4510-826b-363412b69e24,Lights Examination Ceiling Mounted,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عمليات,NA,Berchtold,NA,121000,6/19/2013,6/19/2013,6/19/2018,6/19/2018
+0fde0fc4-db38-4965-ab2a-6780c6fdff1d,"Ultrasound Scanning Systems, General-Purpose",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,نساء,NA,Medison,NA,118182,5/5/2015,5/5/2015,5/5/2020,5/5/2020
+100974b6-c3ab-4bd2-a567-500a70715493,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Under Maintenance,مبتسرين,NA,Ohmeda,NA,56000,10/9/2012,10/9/2012,10/9/2017,10/9/2017
+11695bb6-a26d-4872-bbfc-d2f5532c6901,"Ventilators, Intensive Care, Neonatal/Pediatric",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,TECME,NA,64000,4/4/2014,4/4/2014,4/4/2019,4/4/2019
+13757607-75f1-432d-ab15-2fb958407f9e,"Electrosurgical Units, Argon-Enhanced Coagulation",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,WEM,NA,80000,4/2/2013,3/1/2013,3/1/2023,3/1/2023
+14c9b23d-adda-472a-9967-7ef0b7f26e33,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,Local,NA,8000,3/7/2011,3/7/2011,3/7/2016,3/7/2016
+171af7b6-0502-4321-89ef-500e3651effc,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عنايه,NA,Fresenius,NA,8000,12/17/2014,12/17/2014,,
+1783d733-fa91-440f-94ff-3f350888f25f,"Ventilators, Intensive Care, Neonatal/Pediatric",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,TECME,NA,64000,7/9/2012,7/9/2012,7/9/2017,7/9/2017
+1cd0e7e1-581a-4498-bdd2-eddb88eb7421,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,Fresenius,NA,13000,10/18/2015,10/18/2015,10/18/2020,10/18/2020
+1d02a220-22ec-43c1-8a8a-e4378750f816,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,ATOM,NA,90000,3/3/2013,3/3/2013,3/3/2018,3/3/2018
+1da3b8bc-1dd8-4c32-88bb-7eca4a3cf681,"Centrifuges Tabletop, High-Speed",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,PCR,Egypt,Hettich,NA,24375,3/25/2013,11/21/2015,11/21/2025,11/21/2025
+1dad5b2e-2537-4a81-a42f-d4232561d893,"Ventilators, Intensive Care",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عناية مركزه,NA,Mindray,NA,60000,12/25/2015,12/25/2015,12/25/2020,12/25/2020
+1e5a0eb8-2277-4274-b127-e2116a24f322,"X-Ray Radiographic Units, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Radiology,NA,Toshiba,NA,385000,1/27/2014,1/27/2014,1/27/2019,1/27/2019
+1ED668A8-576A-41FA-8B07-6C1FA749DFFC,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+1eef4755-08a5-4d4f-a6f2-401e35b80cce,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,Mindray,NA,11000,4/2/2013,1/1/2000,1/1/2010,1/1/2010
+22169364-ACF3-4556-A913-57517BC8F509,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+23046059-156e-4d6f-a231-268d57e31f1d,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/18/2013,1/18/2013,1/18/2018,1/18/2018
+236019ce-6094-46a6-9160-bd508cf76e32,"Refrigirators, Blood Bank",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,معمل,NA,angelantoni,NA,38500,1/9/2015,1/9/2015,1/9/2020,1/9/2020
+23f232e7-b225-4038-afa0-cfc7730385e4,"Ventilators, Intensive Care",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Chronary Care Unit,NA,DRAGER,NA,180000,2/1/2014,2/1/2014,2/1/2019,2/1/2019
+254e288a-ff5d-4d3f-a6b8-58ab8c4c40b1,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/28/2013,1/28/2013,1/28/2018,1/28/2018
+260834fc-a89a-4215-8379-7a6f8e57e1b3,"Defibrillators, External, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عنايه,NA,Schiller,NA,54600,12/17/2014,12/17/2014,,
+26D6E6E4-4C5E-497D-B83B-675A3C3DE4B6,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+281b5e3d-dccb-4eb5-b420-12408c8eaf99,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/18/2013,1/18/2013,1/18/2018,1/18/2018
+2b3a5ac3-a466-4920-bcb9-853522d2ca25,"Sterilizing Units, Steam, Bulk",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,معمل,NA,Labtech,NA,32500,2/19/2013,2/19/2013,2/19/2018,2/19/2018
+2be4104e-63a2-494b-a222-850ff0365053,"Centrifuges Tabletop, Low-Speed, Nonrefrigerated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Parasitology Laboratory,Egypt,Gemmy,NA,2200,12/26/2012,6/17/2006,6/17/2016,6/17/2016
+2CE5CF25-43CD-4466-8FB8-FA471F1FD4E0,"Stretchers, Fixed-Height",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,15000,11/5/2014,11/5/2014,,
+2d683037-f675-4060-962e-b686b9ebc8b7,"Monitoring Systems, Central Station",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,MINDRAY - Datascope,NA,80000,2/12/2013,2/12/2013,2/12/2018,2/12/2018
+2f062413-4db3-4a2a-af8b-f51fd5e0129e,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عمليات,NA,MINDRAY - Datascope,NA,95000,12/9/2013,12/9/2013,12/9/2018,12/9/2018
+2f08bf64-cad6-4237-bef9-9fb51bdf6d76,"Electrocardiographs Multichannel, Noninterpretive",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عنايه,NA,Schiller,NA,11440,12/17/2014,12/17/2014,,
+31490F3E-1E8C-4974-B42D-0BE36B02F2BA,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+336AF8C8-9060-491F-BF26-99842A6006E9,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+33c15143-bc30-44b0-8eed-a8ea136c0fb5,"""Defibrillators, External,Automated""",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Hemodialysis,NA,NIHON KOHDEN,NA,29000,1/29/2014,1/29/2014,1/29/2019,1/29/2019
+346521db-5c10-4fce-a8da-ed8060c72627,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Ohmeda,NA,56000,10/9/2012,10/9/2012,10/9/2017,10/9/2017
+37902b06-7aa0-4c9b-b2f0-a227ba5d064b,"Washers, Flexible Endoscope",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Endo Technik,NA,140000,4/2/2013,4/6/2015,4/6/2025,4/6/2025
+386B3E3F-F0A1-40CB-B43F-BD9FFC865414,"Stretchers, Fixed-Height",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,15000,11/5/2014,11/5/2014,,
+3c64d24c-a2a1-4eb9-ae0a-c153715cdf22,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,نساء,NA,ATOM,NA,90000,3/3/2013,3/3/2013,3/3/2018,3/3/2018
+3d783af6-961a-45fa-ad50-c6d5c5ce6d79,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,CHINA,NA,10138,8/25/2015,8/25/2015,8/25/2020,8/25/2020
+3f8a74f6-ee14-48ab-a7d7-d4c103f3e500,"Lights Surgical, General",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Martin,NA,0,9/29/2015,9/29/2015,9/29/2020,9/29/2020
+40a547f0-2713-43ce-bf91-dfe981e6d7ec,"Infusion Pumps, General-Purpose",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,B| BRAUN,NA,7273,12/28/2012,1/1/2000,1/1/2010,1/1/2010
+41f46d29-50ef-4050-a7eb-7927da74e328,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Hemodialysis,NA,REFINE,NA,2463,1/30/2014,1/30/2014,1/30/2019,1/30/2019
+420cf2d0-5bb7-4613-82e7-e4d64443e9cc,"Freezers, Laboratory",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,PCR,Egypt,NU Air,NA,57000,3/25/2013,8/13/2008,8/13/2018,8/13/2018
+432c9a47-8477-4e7a-87cf-1e40760a84f8,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عنايه,NA,Fresenius,NA,8000,12/17/2014,12/17/2014,,
+4601D304-2EE4-4D8E-A6D6-FEBA902A4883,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+463c184e-42a7-4e56-a838-740c7ab815b5,"Ventilators, Intensive Care",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عناية مركزه,NA,Puritan Bennett,NA,140000,6/2/2013,6/2/2013,6/2/2018,6/2/2018
+47556Empty,Medical Gases System,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,Teledyne Hanau,NA,3000000,11/6/2014,11/6/2014,,
+47694,"Analyzers, Hematology, Cell-Counting, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Industrias Cobramex SA de CV,NA,48275.45,11/6/2014,11/6/2014,,
+47702,"Analyzers, Hematology, Coagulation, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Behnk Elektronik GmbH & Co KG,NA,7375,11/6/2014,11/6/2014,,
+47746,"Analyzers, Point-of-Care, Whole Blood, Glycated Hemoglobin",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,HemoCue Inc,NA,7500,11/6/2014,11/6/2014,,
+47747,"Analyzers, Point-of-Care, Whole Blood, Glycated Hemoglobin",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Need Repair,Lab,NA,HemoCue Inc,NA,7500,11/6/2014,11/6/2014,,
+47748,"Analyzers, Point-of-Care, Whole Blood, Glycated Hemoglobin",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,EKF diagnostic,NA,7500,11/6/2014,11/6/2014,,
+47858b9a-67b1-4483-bda6-1c62b983263e,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,JULONG SANYO,NA,8000,7/4/2012,7/4/2012,7/4/2017,7/4/2017
+47892,Arthroscopic Shaver Systems,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Stryker UK Ltd Div Stryker Corp,NA,250000,11/6/2014,11/6/2014,,
+48187,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,CA.MI,NA,15000,11/6/2014,11/6/2014,,
+48197,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,ER,NA,GMS,NA,15000,11/6/2014,11/6/2014,,
+48212,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,GIMA SpA,NA,15000,11/6/2014,11/6/2014,,
+48273,Audiometers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,Interacoustics A/S,NA,10187,11/6/2014,11/6/2014,,
+48324,"Baths, Wax",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,VEB MLW,NA,37500,11/6/2014,11/6/2014,,
+48326,"Baths, Wax",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,LOCAL,NA,37500,11/6/2014,11/6/2014,,
+48434,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Gynecology Unit,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48438,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Gynecology Unit,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48439,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Gynecology Unit,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48450,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48451,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Not Working,Catheterization,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48452,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48453,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48454,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48455,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48456,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+48457,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,BMA,NA,28000,11/6/2014,11/6/2014,,
+49282,"Centrifuges Tabletop, Low-Speed, Nonrefrigerated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,ALC,NA,25000,11/6/2014,11/6/2014,,
+49286,"Chairs, Blood Donor",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,LOCAL,NA,1500,11/6/2014,11/6/2014,,
+49287,"Chairs, Blood Donor",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,LOCAL,NA,1500,11/6/2014,11/6/2014,,
+49293,Circulatory Assist Heart-Lung Bypass Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Stoeckert Instrumente GmbH A Sorin Group Co,NA,0,11/6/2014,11/6/2014,,
+61d3cfbf-891f-46c1-8108-97651d270257,"Defibrillators, External, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,Metrax,NA,30500,12/28/2012,7/6/1905,7/6/1915,7/6/1915
+65C84B25-CD6A-41A5-840F-FDA72C2D272B,"Stretchers, Fixed-Height",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,NA,NA,15000,11/5/2014,11/5/2014,,
+65dfd5a2-5ad0-45ab-a503-bee7bf226e77,"Shakers, Incubator, Laboratory",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,OBDIA N.V,NA,11000,3/24/2015,3/24/2015,3/24/2020,3/24/2020
+6a157697-b8f7-450f-a974-8e2a46574d5b,"Electrocardiographs Multichannel, Noninterpretive",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,Schiller,NA,11440,12/17/2014,12/17/2014,,
+91701187-2b64-403c-9735-f9c0b3ac98e7,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عناية مركزه,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+91cbec04-ec93-4ca0-a6fe-2aaa65c49b30,"Centrifuges Tabletop, Low-Speed, Nonrefrigerated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Blood bank,Egypt,diamed,NA,4500,12/28/2012,6/10/2008,6/10/2018,6/10/2018
+9a774e4e-cf66-4aac-8996-303d0fbf01a0,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,NA,NA,2000,11/7/2013,11/7/2013,11/7/2018,11/7/2018
+9c349e4e-8f32-4324-bdb7-35245239335a,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Ohmeda,NA,56000,10/9/2012,10/9/2012,10/9/2017,10/9/2017
+49302,Circulatory Assist Warming/Cooling Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Stoeckert Instrumente GmbH A Sorin Group Co,NA,0,11/6/2014,11/6/2014,,
+49303,Circulatory Assist Warming/Cooling Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Stoeckert Instrumente GmbH A Sorin Group Co,NA,0,11/6/2014,11/6/2014,,
+49493,"Defibrillators, External, Manual",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,ER,NA,Physio-control,NA,28125,11/6/2014,11/6/2014,,
+49494,"Defibrillators, External, Manual",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Physio-control,NA,28125,11/6/2014,11/6/2014,,
+49495,"Defibrillators, External, Manual",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Physio-control,NA,28125,11/6/2014,11/6/2014,,
+49571,Dental Laboratory Motor,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,FARO,NA,2500,11/6/2014,11/6/2014,,
+49572,Dental Laboratory Motor,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,NA,NA,2500,11/6/2014,11/6/2014,,
+49573,Dental Laboratory Motor,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,NA,NA,2500,11/6/2014,11/6/2014,,
+49729,Distilling Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Medexport,NA,17500,11/6/2014,11/6/2014,,
+49981,Electrocautery Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,Elmed Inc,NA,5100,11/6/2014,11/6/2014,,
+4f300d67-3758-4b47-a289-77f9de756ae2,"Ultrasound Scanning Systems, General-Purpose",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,Toshiba,NA,63700,12/17/2014,12/17/2014,,
+50290,"Ergometers, Bicycle",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,Tunturi,NA,25000,11/6/2014,11/6/2014,,
+50365,Circulatory Assist Heart-Lung Bypass Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Stoeckert Instrumente GmbH A Sorin Group Co,NA,612500,11/6/2014,11/6/2014,,
+50366,Circulatory Assist Heart-Lung Bypass Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Stoeckert Instrumente GmbH A Sorin Group Co,NA,548137.5,11/6/2014,11/6/2014,,
+50535,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Hemodialysis,NA,Fresenius SE,NA,68750,11/6/2014,11/6/2014,,
+50537,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Hemodialysis,NA,Fresenius SE,NA,68750,11/6/2014,11/6/2014,,
+50538,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Hemodialysis,NA,Fresenius SE,NA,68750,11/6/2014,11/6/2014,,
+50542,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Hemodialysis,NA,Fresenius SE,NA,68750,11/6/2014,11/6/2014,,
+50544,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Hemodialysis,NA,Fresenius SE,NA,68750,11/6/2014,11/6/2014,,
+50546,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Under Maintenance,Hemodialysis,NA,Fresenius SE,NA,68750,11/6/2014,11/6/2014,,
+50555,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Hemodialysis,NA,Fresenius SE,NA,68750,11/6/2014,11/6/2014,,
+50556,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Hemodialysis,NA,Fresenius SE,NA,68750,11/6/2014,11/6/2014,,
+50569,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Under Maintenance,Hemodialysis,NA,Fresenius SE,NA,68750,11/6/2014,11/6/2014,,
+50775,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Draeger Medical Inc,NA,43750,11/6/2014,11/6/2014,,
+50776,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Draeger Medical Inc,NA,43750,11/6/2014,11/6/2014,,
+50848,"Incubators, Laboratory, Aerobic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Shimadzu Precision Instruments Inc Medical System Div,NA,31250,11/6/2014,11/6/2014,,
+50851,"Incubators, Laboratory, Aerobic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Jouan,NA,31250,11/6/2014,11/6/2014,,
+50947,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,LOCAL,NA,18750,11/6/2014,11/6/2014,,
+50949,Phototherapy Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,LOCAL,NA,18750,11/6/2014,11/6/2014,,
+51358,Light Sources Fiberoptic  Flexible Endoscopic,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,CIRCON,NA,49962.5,11/6/2014,11/6/2014,,
+51521,Lights Examination Ceiling Mounted,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,ALM,NA,6250,11/6/2014,11/6/2014,,
+51522,Lights Examination Ceiling Mounted,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,ALM,NA,6250,11/6/2014,11/6/2014,,
+51591,Lights Examination General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,AMSCO,NA,6250,11/6/2014,11/6/2014,,
+51677,"Lights Surgical, General",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Berchtold Corp,NA,100000,11/6/2014,11/6/2014,,
+51817,"Microscopes, Light, Laboratory, Brightfield",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Olympus Corp,NA,15000,11/6/2014,11/6/2014,,
+51819,"Microscopes, Light, Laboratory, Brightfield",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Bio-med,NA,15000,11/6/2014,11/6/2014,,
+51823,"Microscopes, Light, Laboratory, Brightfield",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Olympus Corp,NA,15000,11/6/2014,11/6/2014,,
+51824,"Microscopes, Light, Laboratory, Brightfield",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Olympus Corp,NA,15000,11/6/2014,11/6/2014,,
+51825,"Microscopes, Light, Laboratory, Brightfield",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Olympus Corp,NA,15000,11/6/2014,11/6/2014,,
+51896,"Microscopes, Light, Operating, Ophthalmology",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,ZEISS,NA,137500,11/6/2014,11/6/2014,,
+52626,"Monitors Respiratory, Bedside, Anesthetic Gas",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Datex-Ohmeda (Monitoring Products),NA,145000,11/6/2014,11/6/2014,,
+52627,"Monitors Respiratory, Bedside, Anesthetic Gas",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Not Working,Operation room,NA,Datex-Ohmeda (Monitoring Products),NA,145000,11/6/2014,11/6/2014,,
+52849,"Ophthalmoscopes, Indirect",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,NEITZ,NA,12500,11/6/2014,11/6/2014,,
+52917,"Ovens, Laboratory",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Jouan,NA,62500,11/6/2014,11/6/2014,,
+52919,"Ovens, Laboratory",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Melag,NA,62500,11/6/2014,11/6/2014,,
+52921,"Ovens, Laboratory",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Jouan,NA,62500,11/6/2014,11/6/2014,,
+53057,"Pacemakers, Cardiac, External",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Intensive Care Unit,NA,BIOTRONIK Inc,NA,62500,11/6/2014,11/6/2014,,
+53146,Photometers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,BIO-DYNAMICS,NA,718.26,11/6/2014,11/6/2014,,
+53149,Photometers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Robert Riele GMBH &COKG,NA,21422.5,11/6/2014,11/6/2014,,
+53321,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,101412.5,11/6/2014,11/6/2014,,
+53322,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Mediprema,NA,101412.5,11/6/2014,11/6/2014,,
+53323,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,101412.5,11/6/2014,11/6/2014,,
+54405,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54406,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54408,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54409,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54410,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54411,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54412,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54413,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+53324,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Mediprema,NA,101412.5,11/6/2014,11/6/2014,,
+53325,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,101412.5,11/6/2014,11/6/2014,,
+53326,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,101412.5,11/6/2014,11/6/2014,,
+53327,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,101412.5,11/6/2014,11/6/2014,,
+53328,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,101412.5,11/6/2014,11/6/2014,,
+53330,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Mediprema,NA,101412.5,11/6/2014,11/6/2014,,
+53331,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,101412.5,11/6/2014,11/6/2014,,
+53332,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,101412.5,11/6/2014,11/6/2014,,
+53333,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Mediprema,NA,101412.5,11/6/2014,11/6/2014,,
+53444,"Refractometers, Ophthalmology",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,Nidek Inc,NA,37500,11/6/2014,11/6/2014,,
+53499,"Incubators, Laboratory, Aerobic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,ALC,NA,100000,11/6/2014,11/6/2014,,
+53504,"Refrigirators, Blood Bank",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Revco,NA,100000,11/6/2014,11/6/2014,,
+53507,"Refrigirators, Blood Bank",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Forma Scientific,NA,100000,11/6/2014,11/6/2014,,
+53599,"Scales, Infant",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Seca,NA,3750,11/6/2014,11/6/2014,,
+53644,"Scales, Patient, Mechanical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,LOCAL,NA,1500,11/6/2014,11/6/2014,,
+53666,"Sealers, Heat",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,CSSD,NA,CHARMCARE CO. (KOICA),NA,13750,11/6/2014,11/6/2014,,
+53668,"Sealers, Heat",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,Hemopharm,NA,13750,11/6/2014,11/6/2014,,
+53739,"Short Wave, Physiotherapy",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,Enraf-Nonius Medical Equipment Co Ltd,NA,3425,11/6/2014,11/6/2014,,
+53740,"Short Wave, Physiotherapy",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,Enraf-Nonius Medical Equipment Co Ltd,NA,3425,11/6/2014,11/6/2014,,
+53770,Slit Lamps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,wooolyn,NA,31250,11/6/2014,11/6/2014,,
+53855,"Sterilizing Units, Steam, Bulk",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,HIRAYAMA,NA,250000,11/6/2014,11/6/2014,,
+53942,"Stimulators, Muscle",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,ITO Co Ltd,NA,13750,11/6/2014,11/6/2014,,
+53943,"Stimulators, Muscle",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,Hot Magner,NA,13750,11/6/2014,11/6/2014,,
+54003,"Stress Electrocardiography Monitoring Systems, Cardiac",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Chronary Care Unit,NA,Nicolet Biomedical Ltd VIASYS Healthcare NeuroCare Group,NA,137500,11/6/2014,11/6/2014,,
+54061,"Stretchers, Adjustable-Height",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,ER,NA,Stryker UK Ltd Div Stryker Corp,NA,31500,11/6/2014,11/6/2014,,
+541a5c83-13b0-4041-9442-080185a666f7,"Ventilators, Intensive Care",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عناية مركزه,NA,Puritan Bennett,NA,140000,6/2/2013,6/2/2013,6/2/2018,6/2/2018
+54388,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54389,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54390,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54391,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54394,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54395,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54397,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54398,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54400,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54402,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54403,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54404,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54414,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54415,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54416,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54417,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Fresenius SE,NA,8000,11/6/2014,11/6/2014,,
+54861,"Tables, Operating",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,ER,NA,Kakinuma,NA,100000,11/6/2014,11/6/2014,,
+54864,"Tables, Operating",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,MATHIEU MARZET,NA,100000,11/6/2014,11/6/2014,,
+931b9b0d-094e-4a78-911f-5f0a93d3df30,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,استقبال,NA,NIHON KOHDEN,NA,12000,6/25/2015,6/25/2015,6/25/2020,6/25/2020
+934c9f28-7864-42d8-8437-f543c333f319,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Fresenius,NA,8000,8/26/2015,8/26/2015,8/26/2020,8/26/2020
+9499dc76-57d3-4d9c-a127-2e64d9e6f0a6,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/18/2013,1/18/2013,1/18/2018,1/18/2018
+94fef6a7-b79b-4a73-9cea-c71de26b9ead,Linear Echoendoscopes,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Olympus,NA,1100000,4/2/2013,1/1/2000,1/1/2010,1/1/2010
+54865,"Tables, Operating",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,MIZUHO,NA,100000,11/6/2014,11/6/2014,,
+54904,Tissue Processors,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,Sakura Finetek Europe bv,NA,321750,11/6/2014,11/6/2014,,
+54990,"Ultrasound Scanning Systems, General-Purpose",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Inpatient,NA,medison,NA,150000,11/6/2014,11/6/2014,,
+55105,Ultrasound Therapy Systems,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Physical Therapy,NA,Enraf-Nonius Medical Equipment Co Ltd,NA,31250,11/6/2014,11/6/2014,,
+55119,Vaporizers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Ohmeda Medical Div GE Healthcare,NA,15000,11/6/2014,11/6/2014,,
+551f2022-cfc9-4d1d-a57e-ad155b00b641,"Ultrasound Scanning Systems, General-Purpose",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Chronary Care Unit,NA,KONTRON,NA,311500,2/3/2014,2/3/2014,2/3/2019,2/3/2019
+55530,"Warming Units Multipurpose, Neonates",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,ER,NA,Mediprema,NA,17500,11/6/2014,11/6/2014,,
+55532,"Warming Units Multipurpose, Neonates",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,Mediprema,NA,17500,11/6/2014,11/6/2014,,
+55533,"Warming Units Multipurpose, Neonates",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,LOCAL,NA,17326.42,11/6/2014,11/6/2014,,
+55534,"Warming Units Multipurpose, Neonates",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,17500,11/6/2014,11/6/2014,,
+55535,"Warming Units Multipurpose, Neonates",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,17500,11/6/2014,11/6/2014,,
+55536,"Warming Units Multipurpose, Neonates",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,SAMCO,NA,17500,11/6/2014,11/6/2014,,
+55836,"Centrifuges Tabletop, Low-Speed, Nonrefrigerated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,ALC,NA,25000,11/6/2014,11/6/2014,,
+55888,Dental Treatment Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,,NA,54363.64,11/6/2014,11/6/2014,,
+55897,Dental Treatment Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,,NA,54363.64,11/6/2014,11/6/2014,,
+55939,"Stretchers, Adjustable-Height",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,,NA,28000,11/6/2014,11/6/2014,,
+55940,"Defibrillators, External, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,,NA,34322.5,11/6/2014,11/6/2014,,
+55957,"Monitors Respiratory, Bedside, Anesthetic Gas",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,50753.75,11/6/2014,11/6/2014,,
+55958,Vaporizers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,15000,11/6/2014,11/6/2014,,
+55959,Vaporizers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,15000,11/6/2014,11/6/2014,,
+55960,"Electrosurgical Units, Monopolar/Bipolar",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,31250,11/6/2014,11/6/2014,,
+55963,Vaporizers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,15000,11/6/2014,11/6/2014,,
+55965,"Monitors Respiratory, Bedside, Anesthetic Gas",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,50753.75,11/6/2014,11/6/2014,,
+55966,Vaporizers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,15000,11/6/2014,11/6/2014,,
+55967,Vaporizers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,15000,11/6/2014,11/6/2014,,
+55970,Vaporizers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,15000,11/6/2014,11/6/2014,,
+55971,Vaporizers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,,NA,15000,11/6/2014,11/6/2014,,
+55982,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,,NA,43750,11/6/2014,11/6/2014,,
+55983,"Incubators, Infant, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,,NA,43750,11/6/2014,11/6/2014,,
+55987,"Scales, Infant",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,,NA,3750,11/6/2014,11/6/2014,,
+55992,"Scales, Infant",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Inpatient,NA,,NA,3750,11/6/2014,11/6/2014,,
+55994,Ophthalmic Diathermy Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Clinics,NA,,NA,37500,11/6/2014,11/6/2014,,
+55995,"Refrigirators, Blood Bank",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,,NA,100000,11/6/2014,11/6/2014,,
+55998,Shaker/Orbiters,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Lab,NA,,NA,10000,11/6/2014,11/6/2014,,
+56007,"Stretchers, Adjustable-Height",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Gynecology Unit,NA,,NA,28000,11/6/2014,11/6/2014,,
+56DE0D8D-1679-47B9-9F44-9CFAE49E76E7,"Ventilators, Intensive Care, Neonatal/Pediatric",الإسكندرية/ الساحل,الإسكندرية,الجمرك,21 Hospital,AsBuild,Need Repair,Neonate Department,NA,,NA,,12/1/2014,12/1/2014,,
+571151ac-a1d1-4504-9869-40c5870908d2,Distilling Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Pre-Sampling Lab,Egypt,thermo scientific,NA,122000,12/26/2012,12/1/2008,12/1/2018,12/1/2018
+5a8bd778-cf0f-48dc-9168-f0ecf0d25f54,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+5aa7028f-eb32-459b-892b-6b5f575f4fbb,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/18/2013,1/18/2013,1/18/2018,1/18/2018
+5c63507a-1125-4a64-a9c5-8e91293dbf66,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,Fresenius,NA,13000,10/18/2015,10/18/2015,10/18/2020,10/18/2020
+5d57ae70-daf3-419c-baf5-c4d1b621047e,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,BLUE PARD,NA,5000,2/26/2015,2/26/2015,2/26/2020,2/26/2020
+609DE12C-28FE-4436-8F12-34714D325345,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+61061236-d87e-49c8-a9de-65307b89b529,"Ventilators, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عنايه,NA,Draeger,NA,70000,12/17/2014,12/17/2014,,
+61cc6a06-79b6-4fe5-8e6d-55de36d2319d,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/28/2013,1/28/2013,1/28/2018,1/28/2018
+6a1b2efa-a9be-4303-8808-bae987b93f79,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عناية مركزه,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+6c4822d6-db32-41cc-9177-7d8bf269039a,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,NA,Egypt,B| BRAUN,NA,5909,4/2/2013,7/6/1905,7/6/1915,7/6/1915
+6d7b7a2e-feb3-4fae-a468-2710f9f457b0,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,Fresenius,NA,13000,10/18/2015,10/18/2015,10/18/2020,10/18/2020
+6dd127a2-f90c-4fe2-8928-e48da2255f5d,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,Fresenius,NA,8000,12/17/2014,12/17/2014,,
+6e403367-a3e6-4cba-9f41-f716505724e4,Anesthesia Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عمليات الطوارى,NA,Datex Ohmeda,NA,130000,12/17/2014,12/17/2014,,
+6e54c54f-dd2d-46f2-a142-cdd46c58db8a,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,B| BRAUN,NA,5909,12/28/2012,1/1/2000,1/1/2010,1/1/2010
+6ee82d06-c5e8-47d8-a847-e8095ea9c2b4,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Fresenius,NA,15000,3/25/2013,8/1/2016,8/1/2026,8/1/2026
+6f154dc3-6fc1-411c-a4d9-7e0b01dc16aa,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/18/2013,1/18/2013,1/18/2018,1/18/2018
+718c608b-c143-4854-88a8-d772e4f057d1,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/28/2013,1/28/2013,1/28/2018,1/28/2018
+719dd5f4-4cba-4036-a72a-3f085b4b5b09,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عناية مركزه,NA,Fukuda,NA,10000,6/2/2015,6/2/2015,6/2/2020,6/2/2020
+7354AC92-4F59-4883-9CBB-971CBEC90373,"Stretchers, Fixed-Height",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,15000,11/5/2014,11/5/2014,,
+741ebe42-1edb-4bca-bb72-6bfd5d1e20c9,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Chronary Care Unit,NA,Fresenius,NA,8000,8/23/2015,8/23/2015,8/23/2020,8/23/2020
+751e1569-54d9-4151-bc22-5e267a5744a0,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عنايه,NA,Fresenius,NA,8000,12/17/2014,12/17/2014,,
+7627d360-8db6-41f3-9de2-ede1cf5930c4,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/28/2013,1/28/2013,1/28/2018,1/28/2018
+76fb73d1-9557-4f2d-8a57-b7c09824aa0d,"Ventilators, Intensive Care",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,newport,NA,146500,12/28/2012,11/11/2014,11/11/2024,11/11/2024
+7791ae79-5358-44c4-9581-6a4bff97e5d3,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,نساء,NA,Bionet,NA,11818,5/5/2015,5/5/2015,5/5/2020,5/5/2020
+7829CF33-B8FE-4177-B617-47A2B6F68AC2,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+7a84b719-2ba2-40ed-8481-7042effc49c2,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/28/2013,1/28/2013,1/28/2018,1/28/2018
+7e028ffd-60f2-4225-b6e9-b682f60c8dc6,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,MINDRAY - Datascope,NA,52250,12/17/2014,12/17/2014,,
+7e44ac46-364c-4dee-bd7c-dd0d3f1d9b5b,"X-Ray Radiographic Units, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عنايه,NA,Toshiba,NA,179000,12/17/2014,12/17/2014,,
+7ecc4c28-ac68-4d21-8e0d-d9f6f83e1a58,Amalgamators,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,اسنان,NA,LINEA TAC,NA,2200,1/26/2014,1/26/2014,1/26/2019,1/26/2019
+7ed724b1-60ae-44a5-9a87-c7177d48bd24,"Defibrillators, External, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,Schiller,NA,54600,12/17/2014,12/17/2014,,
+7f2155ba-c33a-4856-a18e-ca8048d51721,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عناية مركزه,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+7f895c2d-4ac3-48c8-9168-132a8d308ac1,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Ohmeda,NA,56000,10/9/2012,10/9/2012,10/9/2017,10/9/2017
+80cca897-6242-4637-aac8-09f2219d9f7b,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Chronary Care Unit,NA,Fresenius,NA,8000,8/24/2015,8/24/2015,8/24/2020,8/24/2020
+815B4692-572A-4BC7-AC3F-1768D9301994,"Light Cure, Dental",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,MEGADENTA,NA,8000,11/5/2014,11/5/2014,,
+8183a4a2-b4a2-4240-87c6-3f1eac4ce8a1,"Warming Units, Blood/Solution",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عناية مركزه,NA,ASTOFLO PLUS,NA,27000,1/1/2013,1/1/2013,1/1/2018,1/1/2018
+829d2f40-cd23-4a53-bfdb-d944c5953409,"Electrosurgical Units, Monopolar/Bipolar",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,VALLEY LAB,NA,75000,8/23/2014,8/23/2014,8/23/2019,8/23/2019
+82AEB324-8778-4D93-AB08-67950AC61C80,"Pump water,Primary",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,TELEMECANIQUE,NA,0,11/5/2014,11/5/2014,,
+83e32501-8740-479e-9b44-ab05c25699b8,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,JULONG SANYO,NA,8000,7/4/2012,7/4/2012,7/4/2017,7/4/2017
+867de7c0-ed9d-4275-851c-b80b1d5f389b,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Datascope,NA,52250,2/5/2014,2/5/2014,2/5/2019,2/5/2019
+884c8c1f-7087-4451-be28-bd888a4fa1ce,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/18/2013,1/18/2013,1/18/2018,1/18/2018
+884d54f1-e6c4-424c-aa21-85354fc94d5a,"Electrocardiographs Multichannel, Noninterpretive",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عنايه,NA,Schiller,NA,11900,12/17/2014,12/17/2014,,
+89930b49-cbac-48e7-8402-1f62876c8a0b,"Tables, Operating",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عمليات الطوارى,NA,Schmitz,NA,70000,12/17/2014,12/17/2014,,
+89A22065-D3A6-4178-8C91-60A97C4EE5DF,"Pump water, Secondary",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,NA,NA,0,11/5/2014,11/5/2014,,
+8a93c159-6369-4eac-aecb-7328687ce34d,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,استقبال,NA,HOSPIVAC,NA,7650,9/4/2015,9/4/2015,9/4/2020,9/4/2020
+8b2e2601-add0-4517-bfff-6f7610ef8db7,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,BLUE PARD,NA,5000,2/26/2015,2/26/2015,2/26/2020,2/26/2020
+8b632f4d-0585-4df9-b88c-8c1f606ea27b,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+8ea93aed-3d80-4448-802f-dfd36e262652,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,مبتسرين,NA,Ohmeda,NA,56000,10/9/2012,10/9/2012,10/9/2017,10/9/2017
+8f4f8762-3544-4f5d-9c7e-92c5c6ee1449,"Ventilators, Intensive Care",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,newport,NA,146500,12/28/2012,12/7/2014,12/7/2024,12/7/2024
+8fd58276-587b-4ccf-af28-a6ffc32b38cc,"Ventilators, Intensive Care",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,DRAGER,NA,180000,2/2/2014,2/2/2014,2/2/2019,2/2/2019
+90C06EA5-D53D-4DE7-B034-A37BF31C78A2,"Pump water, Secondary",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,NA,NA,0,11/5/2014,11/5/2014,,
+95031eb9-04c8-47ec-9ffc-cb196a2ed7c6,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,NA,Egypt,B| BRAUN,NA,5909,4/2/2013,7/6/1905,7/6/1915,7/6/1915
+96756e2d-fd69-4459-92eb-888a6237d892,"Endoscopes, Video Camera",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Olympus,NA,168000,3/25/2013,1/1/2000,1/1/2010,1/1/2010
+96959537-49a5-486d-85bd-66a0dd8034dd,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/28/2013,1/28/2013,1/28/2018,1/28/2018
+97f7ae7f-12d2-492d-ada7-bedcc76a1a74,"Electrosurgical Units, Argon-Enhanced Coagulation",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,WEM,NA,0,4/2/2013,3/1/2013,3/1/2023,3/1/2023
+987f38a8-5339-4128-8adf-09c3842ba3cd,"Ventilators, Intensive Care",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عناية مركزه,NA,Puritan Bennett,NA,140000,6/2/2013,6/2/2013,6/2/2018,6/2/2018
+988d4bc0-30e3-443f-b91b-7bd3db01c8fb,"Ventilators, Intensive Care",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,newport,NA,146500,4/2/2013,11/11/2014,11/11/2024,11/11/2024
+99d2ec2e-79b6-458a-97ce-27135da29a80,"Lights Surgical, General",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Martin,NA,118132,9/29/2015,9/29/2015,9/29/2020,9/29/2020
+9a16e285-eed2-45f5-8267-9181aa0940b8,"Refrigirators, Blood Bank",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Blood bank,Egypt,FIOCCHETTI,NA,35200,12/28/2012,9/12/2009,9/12/2019,9/12/2019
+f1836112-63f3-4f67-acd3-9f62f0efa836,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Under Maintenance,مبتسرين,NA,Ohmeda,NA,56000,10/9/2012,10/9/2012,10/9/2017,10/9/2017
+f2a0e728-caee-4aad-a29f-6062dc125af2,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عمليات,NA,Hersill,NA,11900,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+f5260159-29a0-4f8f-8f46-3beb9f4367a7,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+f7a4cea6-5f90-4f6e-bd6e-c431e7368665,Duodenoscopes,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Fuji,NA,0,4/2/2013,8/24/2015,8/24/2025,8/24/2025
+F876BC01-8FB7-49E6-8D1A-829801D10551,"Pump water,Primary",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,NA,NA,0,11/5/2014,11/5/2014,,
+fa3350e2-571d-4f71-b79d-ee81d8e3693f,Colonoscopes,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Olympus,NA,163000,4/2/2013,8/20/2013,8/20/2023,8/20/2023
+fcf91a52-fa92-44a9-b00f-3f4065ca97dd,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,Local,NA,8000,3/7/2011,3/7/2011,3/7/2016,3/7/2016
+fd794ad1-e298-4e5e-a711-1d4f79f7f280,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Ohmeda,NA,56000,10/9/2012,10/9/2012,10/9/2017,10/9/2017
+9EAA7A11-1F73-40E2-99BB-BB1E771CD1A2,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+9ef77c14-0387-495d-bd16-46720bb17f9b,"Phototherapy Units, Neonatal",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,NA,NA,17000,11/7/2013,11/7/2013,11/7/2018,11/7/2018
+a183c1bb-4f3e-4dc2-9f06-2c5a0cf412c0,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,EDAN,NA,10000,12/28/2012,1/1/2000,1/1/2010,1/1/2010
+a2d42d52-d3cb-4e5d-9eb5-abe119ef53db,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,EDAN,NA,9000,3/25/2013,8/1/2016,8/1/2026,8/1/2026
+a68b9be5-a9b1-44c7-9cab-334a8492b86f,"Defibrillators, External, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Emergency Department,Egypt,Nihon Kohden,NA,25000,4/2/2013,3/25/2015,3/25/2025,3/25/2025
+a6a6f008-2ccc-460f-96a3-f63118fd599c,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,EDAN,NA,9000,3/25/2013,8/1/2016,8/1/2026,8/1/2026
+a842af6d-dc81-467f-8248-d63474d8bef5,"Electrocardiographs Multichannel, Noninterpretive",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,Fukuda,NA,10500,4/2/2013,1/1/2014,1/1/2024,1/1/2024
+a91d5a28-9203-44de-af9d-f154c13d7e23,"""Microscopes, Light, Laboratory, Brightfield""",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,labomed,NA,3950,1/29/2015,1/29/2015,1/29/2020,1/29/2020
+aa6bbec3-46bc-435b-9aa8-89bd2a31b94d,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,JULONG SANYO,NA,8000,7/4/2012,7/4/2012,7/4/2017,7/4/2017
+ab9e0864-f648-48fe-bed9-5cf1e31f0ca7,"Endoscopes, Video Camera",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Olympus,NA,112500,4/2/2013,1/1/2000,1/1/2010,1/1/2010
+AE02B55E-CB1D-40CC-A2B6-4393F0D7357A,"Stretchers, Fixed-Height",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,NA,NA,15000,11/5/2014,11/5/2014,,
+ae79b365-5d65-4e0f-9d40-1bf714bf032b,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Fresenius,NA,8000,1/1/2014,1/1/2014,1/1/2019,1/1/2019
+AFFC8E7F-94A3-469B-A542-CDAC35073FAA,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+b21d965e-2bac-4a41-a21a-a4f5b90665cb,Bilirubinometers,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Neonates,NA,DRAGER,NA,35000,8/27/2015,8/27/2015,8/27/2020,8/27/2020
+b393bcb6-9bd7-45a4-9219-a5a974c4761b,"Infusion Pumps, General-Purpose",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,SHENKE MEDICAL,NA,7000,2/1/2014,2/1/2014,2/1/2019,2/1/2019
+B3D59BBC-5F37-45AF-BEC0-EA3B08B793E2,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+b55c6528-9cc0-49bd-a823-fcff098f4511,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عنايه,NA,Fresenius,NA,8000,12/17/2014,12/17/2014,,
+b58b4e06-24ec-4228-87c6-2237c8e0682b,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Local,NA,8000,7/12/2015,7/12/2015,7/12/2020,7/12/2020
+b5bce10f-4e13-45c2-8098-9d1bc369329e,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,عيادات,NA,EDAN,NA,7352,12/17/2014,12/17/2014,,
+b604111b-4214-45af-b963-05b9154f51ee,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/18/2013,1/18/2013,1/18/2018,1/18/2018
+b6de34cd-377d-4837-97a3-6953ce0e4da3,"X-Ray Radiographic Units, Mobile",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,مبتسرين,NA,Toshiba,NA,179000,12/17/2014,12/17/2014,,
+b7a47a00-b352-4d67-b541-47bfa3507f56,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,استقبال,NA,NIHON KOHDEN,NA,30000,1/28/2015,1/28/2015,1/28/2020,1/28/2020
+b8af00eb-f5d2-43fd-9d02-95696ce9d57a,"Defibrillators, External, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عنايه,NA,Schiller,NA,54600,12/17/2014,12/17/2014,,
+b987f724-a6de-4796-b676-3393d9e3767b,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/18/2013,1/18/2013,1/18/2018,1/18/2018
+b99e924d-cae9-4b4f-9b9d-70bc3f1ed310,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,ICU 1,Egypt,NBS biotec,NA,6700,12/28/2012,9/13/2011,9/13/2021,9/13/2021
+b9b47307-d0ca-4a17-ace3-37c1b2c2d2d4,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+BC8D7EB2-1D4E-4AC6-8565-ED0C107F8AD7,Amalgamators,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,IVOCLAR VIVADENT,NA,6250,11/5/2014,11/5/2014,,
+BD229E19-FE92-4DC8-BA7A-C84A120125F9,"Sealers, Heat",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,2000,11/5/2014,11/5/2014,,
+befb01db-ccf8-44ff-89cf-9ffcc71e0365,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عمليات,NA,MINDRAY - Datascope,NA,95000,12/9/2013,12/9/2013,12/9/2018,12/9/2018
+c01f9788-ed5b-4013-9257-8ec4a4e7ec45,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Catheterization,NA,Datascope,NA,52250,2/4/2014,2/4/2014,2/4/2019,2/4/2019
+c13252af-5547-4be7-86e4-74ac39433476,"Incubators, Infant, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,مبتسرين,NA,Ohmeda,NA,56000,10/9/2012,10/9/2012,10/9/2017,10/9/2017
+C157C23B-26DB-4E4F-9910-BAAED5DB0BDF,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+C32A27F3-F9CA-49B2-A2B6-EECCE00C692E,Lights Examination Ceiling Mounted,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Berchtold,NA,50000,11/5/2014,11/5/2014,,
+c509485b-323e-4ee0-8c0a-ea88adca1457,C-Arm Radiographic/Fluoroscopic,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عمليات,NA,GE OEC,NA,600000,4/1/2015,4/1/2015,4/1/2020,4/1/2020
+c5c452f1-b33a-4eb9-87c7-ac9f527b904c,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+c64c04d4-ac01-43d8-a45d-c79d53e0d652,"Ventilators, Transport",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,طوارئ,NA,Draeger,NA,70000,12/17/2014,12/17/2014,,
+c6511bf5-53c8-411f-b34b-818d744f7ac0,Biological Safety Cabinets,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,PCR,Egypt,Nuaire,NA,72500,4/2/2013,8/8/2008,8/8/2018,8/8/2018
+C73772E1-DA39-4F1F-BADF-3C346115B7EF,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+c74430fe-9550-4445-9403-505f8e2409d6,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/28/2013,1/28/2013,1/28/2018,1/28/2018
+c8bc757a-d493-4f3b-bfd6-8ecfe687b16f,"Lights Surgical, General",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Martin,NA,0,9/30/2015,9/30/2015,9/30/2020,9/30/2020
+c9b625dd-66a5-4e28-a1df-2d433a2352d9,Gastroscopes,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Olympus,NA,147700,4/2/2013,6/15/2013,6/15/2023,6/15/2023
+cb3ff547-a934-4f10-8091-3f62ae561d24,Gastroscopes,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Olympus,NA,130000,4/2/2013,10/1/2013,10/1/2023,10/1/2023
+CE3E4152-973D-4E77-80F9-45E670045929,"Monitors, Screen",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Elo Touch Systems,NA,0,11/5/2014,11/5/2014,,
+cf7caf7a-2867-4181-b7fa-5f255ea5ed84,Electrocardiographs Single-Channel,الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,العناية الوسطية,NA,NIHON KOHDEN,NA,12000,5/18/2013,5/18/2013,5/18/2018,5/18/2018
+d030353c-7b7d-4122-a773-26cf67eb7e2e,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,EDAN,NA,10000,4/2/2013,1/1/2000,1/1/2010,1/1/2010
+d51c3c95-2684-43ce-82c1-e51e784f761f,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عمليات,NA,Hersill,NA,11900,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+d6665571-8d7c-4d37-b61b-5db5e50bdaef,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,طوارئ,NA,MINDRAY - Datascope,NA,52000,1/28/2013,1/28/2013,1/28/2018,1/28/2018
+d681ed6e-d10a-4256-b965-9851da3299ba,Lights Examination Ceiling Mounted,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عمليات,NA,Berchtold,NA,121000,6/19/2013,6/19/2013,6/19/2018,6/19/2018
+d760d479-06e9-4f66-8135-54dbd42b1041,"Microscopes, Light, Laboratory, Brightfield",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,معمل,NA,lediii,NA,6000,12/9/2015,12/9/2015,12/9/2020,12/9/2020
+d95c7130-44fa-47a2-ba74-80f4fbd4f53a,"Centrifuges Tabletop, High-Speed",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,PCR,Egypt,hermile,NA,17000,3/25/2013,4/2/2008,4/2/2018,4/2/2018
+03D99037-E43E-4B4A-9942-A8E66E62EFBA,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Under Maintenance,Neonate,NA,B.Braun,NA,6693.75,10/23/2014,10/23/2014,,
+03DDABFE-3357-4C7A-9C4D-0858B967798A,"Sterilizing Units, Plasma",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,التعقيم,NA,ASP,NA,150000,10/23/2014,10/23/2014,,
+0F26CE07-448F-4594-B260-8CC42CC73913,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,SPACE LAB,NA,57750,10/23/2014,10/23/2014,,
+0F2DF478-053F-4F2C-A018-C0B01E4D1B8A,"System Controller, 8 Monitors",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Panasonic,NA,0,11/1/2014,11/1/2014,,
+0F4E10A5-F318-49D9-A150-D9D80B3EB791,"Washer, Decontaminators",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Steris,NA,78750,10/23/2014,10/23/2014,,
+0F6F2533-7AB6-4C6D-A690-56333173C37B,"Aspirators, Endoscopic Irrigation",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Olympus,NA,0,11/1/2014,11/1/2014,,
+0fd6dd1a-3324-438b-8c40-fdbd0ad07d67,Tissue Processors,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Laboratoty,NA,Moss instrument,NA,4961.46,3/24/2014,3/24/2014,3/24/2019,3/24/2019
+0ff48ade-1681-40d8-adf8-d7bac6117d81,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,VALLEY LAB,NA,7135.13,1/1/2011,1/1/2011,1/1/2016,1/1/2016
+2550EC92-4B36-42B1-9AEA-41DC00A6CD50,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Hemodialysis Units,NA,Fresenius,NA,83790,11/1/2014,11/1/2014,,
+261A1C23-99A9-4C40-926F-1BA31F6E9C83,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,Nellcor,NA,44625,11/1/2014,11/1/2014,,
+271649AB-A0F9-481F-B471-0D70F5E3F9B9,Water Baths,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,معمل,NA,Bunsen,NA,11250,10/30/2014,10/30/2014,,
+2729E65D-EEA2-4C8F-A9BB-C1A3C01DD717,"Shaker Platlet, Blood Bank",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Blood bank,NA,HELMER,NA,54297.63,10/23/2014,10/23/2014,,
+27a066ff-9e46-4b84-9aa7-38b56bc8eed8,"Tables, Operating",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,Mizuho,NA,22832.71,5/13/2014,5/13/2014,5/13/2019,5/13/2019
+27ADDF0B-7029-46DD-BC4E-CE73CEA5828C,"Ultrasound Scanning Systems, General-Purpose",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الصحة الانجابية,NA,Medison,NA,195000,10/23/2014,10/23/2014,,
+DAE3B441-5670-446E-A47A-BE715372C252,Hemodialysis Units,الإسكندرية/ الساحل,الإسكندرية,الجمرك,21 Hospital,AsBuild,Working,Hemodialysis Units,NA,,NA,,12/1/2014,12/1/2014,,
+dbf3c7af-b914-4a4c-98ce-8516cb1c243b,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Need Repair,افاقه,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+dc418774-9782-45b9-8f38-c5eb2076b3e7,"Washers, Microplate, ELISA",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Blood bank,NA,OBDIA N.V,NA,22000,3/24/2015,3/24/2015,3/24/2020,3/24/2020
+e128b294-33d0-4be6-b302-2d5950f3e79a,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,الافاقة,NA,NIHON KOHDEN,NA,30000,1/28/2015,1/28/2015,1/28/2020,1/28/2020
+E2ABFE64-D1F6-4211-A78B-4961C3710F55,"Defibrillators, External, Automated",الإسكندرية/ الساحل,الإسكندرية,الجمرك,21 Hospital,AsBuild,Working,Emergency Department,NA,,NA,,12/1/2014,12/1/2014,,
+e3d26e46-f692-48c7-87a0-a317f86fa64f,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عناية مركزه,NA,Fresenius,NA,13000,10/18/2015,10/18/2015,10/18/2020,10/18/2020
+e40c9b69-d39a-4ad8-a60b-20b5851aaba1,"Endoscopes, Video Camera",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Fujinon,NA,432000,4/2/2013,8/24/2015,8/24/2025,8/24/2025
+e523bbac-b285-460f-b0f2-d866cceefd2d,Beds Electric General,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,BMA,NA,25000,2/18/2013,2/18/2013,2/18/2018,2/18/2018
+e59eab88-92e3-4f47-8bd3-08ce4c05d28e,"Monitoring Systems, Central Station",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,عناية مركزه,NA,MINDRAY - Datascope,NA,80000,2/12/2013,2/12/2013,2/12/2018,2/12/2018
+e66d2924-063a-4424-a6ea-cf3bbbca7a5a,"Tables, Operating",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عمليات الطوارى,NA,Schmitz,NA,70000,12/17/2014,12/17/2014,,
+e6881d36-008f-4181-90ec-9732e6315aeb,Light Sources Fiberoptic  Flexible Endoscopic,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Endoscopic Department,Egypt,Olympus,NA,83800,4/2/2013,5/15/2013,5/15/2023,5/15/2023
+e6e6113c-4360-459d-8082-59bf1a5cc705,"Light Cure, Dental",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,اسنان,NA,LED CURING LIGHT,NA,850,1/25/2014,1/25/2014,1/25/2019,1/25/2019
+e8a89837-091d-4829-89c8-749c6bf47345,"Lights Surgical, General",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,Martin,NA,118132,9/29/2015,9/29/2015,9/29/2020,9/29/2020
+e941e2ae-fbfb-4d90-9c77-e31d8f590646,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,HOSPIVAC,NA,5000,9/4/2015,9/4/2015,9/4/2020,9/4/2020
+e9cee8b1-e24b-4fe6-809f-52919d9a9de2,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,عناية مركزه,NA,LIFE PUNU,NA,3300,6/14/2015,6/14/2015,6/14/2020,6/14/2020
+eadb084b-5eff-4331-9f72-e67926d3bc54,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,EDAN,NA,10000,4/2/2013,1/1/2000,1/1/2010,1/1/2010
+ED03C468-F3C6-4A14-97EA-E1987FCF5349,"View Boxes, X-Ray",الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Working,Biomedical Department,NA,Local,NA,300,11/5/2014,11/5/2014,,
+ED6B15FC-208D-4765-BDA9-945755B020A1,Cutters,الإسكندرية/ الساحل,الإسكندرية,الجمرك,2 Hospital,AsBuild,Not Working,Biomedical Department,NA,Minas,NA,2000,11/5/2014,11/5/2014,,
+eda4657c-7956-4680-90e5-f2e056a68902,Syringe Pumps,الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,B| BRAUN,NA,5909,12/28/2012,7/6/1905,7/6/1915,7/6/1915
+edf51528-ddf7-4535-b944-e4b3d9682d6b,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,Mindray,NA,11000,12/28/2012,7/6/1905,7/6/1915,7/6/1915
+f098d818-78c4-4da3-bc3b-7d0eb3105916,"Monitoring Systems, Physiologic",الإسكندرية/ الساحل,الإسكندرية,الجمرك,79 Hospital,AsBuild,Working,Liver ICU,Egypt,Mindray,NA,11000,4/2/2013,1/1/2000,1/1/2010,1/1/2010
+f13a3194-2c57-46ab-8564-9a6f3659334e,"Aspirators, Surgical",الإسكندرية/ الساحل,الإسكندرية,الجمرك,23 Hospital,AsBuild,Working,Operation room,NA,HOSPIVAC,NA,5000,9/4/2015,9/4/2015,9/4/2020,9/4/2020
+002A41E2-D54B-4509-9465-B234512303C8,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,المبتسرين,NA,GE,NA,18000,10/30/2014,10/30/2014,,
+00317483-11A6-4F2E-80CB-D237E1CA1BC0,Endoscopy Video Camera,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,Circon,NA,112500,10/23/2014,10/23/2014,,
+00C545B3-970F-4354-BD59-8927F9893482,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Gyn/Ob,NA,BERCHTOLD,NA,89189.13,10/23/2014,10/23/2014,,
+00E23867-1BE3-49C4-8BDD-249D1C2DC823,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Drager,NA,267750,10/23/2014,10/23/2014,,
+010BD1BD-48E0-489B-BD8B-C4F3D3E2660D,"Incubators, Laboratory, Thermocycling",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,معمل الاليزا,NA,TECAN,NA,37500,10/30/2014,10/30/2014,,
+011129BC-530F-4189-B41B-11DF26EAC25B,"Endoscopy Video, Bronchoscopes",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,ENDOSCOPE,NA,Pentax,NA,168000,10/23/2014,10/23/2014,,
+012AA72F-4158-42FB-9D2B-0CCB654DCBDD,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Working,العمليات الكبرى,NA,ERBE,NA,69078,10/30/2014,10/30/2014,,
+01739911-F451-4CE9-9818-C13A782EB6A9,Shaker/Orbiters,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,lab (Bacteriology),NA,BTC,NA,7350,10/23/2014,10/23/2014,,
+018DD6D4-21D8-4179-8AB3-B4379C476F88,"Washer, Decontaminators",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Steris,NA,78750,10/23/2014,10/23/2014,,
+021C41F3-A3FE-423D-82E1-3451A187C593,"Ventilators, Intensive Care",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Free CCU,NA,Drager,NA,140700,10/23/2014,10/23/2014,,
+023D0B28-5AB8-44BC-BD25-9E5C331DF79F,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,العمليات الكبرى - انف واذن,NA,Draeger,NA,350000,10/23/2014,10/23/2014,,
+17B12F49-4EE8-4F74-9F85-1D17E8992EA2,"Pump water,Primary",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Lowara,NA,0,11/1/2014,11/1/2014,,
+17B334AA-C411-441D-8765-04C07B4F875F,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Intensive Care Units,NA,ALARIS,NA,11418.75,11/1/2014,11/1/2014,,
+18CAB16C-FCE7-4257-8AD7-F84BC68DF7DF,"Microscopes, Light, Laboratory, Examination",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,معمل الباثولوجى,NA,LEITZ,NA,15000,10/30/2014,10/30/2014,,
+190F4196-A585-49DE-BF45-98F1FDF729F1,Gypsum Smoother,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Dental unit,NA,Silfradent,NA,4410,10/23/2014,10/23/2014,,
+192A6807-8765-48DB-8C86-F846EC390322,"Washer, Decontaminators",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Steris,NA,78750,10/23/2014,10/23/2014,,
+1A2A7BF8-4A96-47BF-A59B-0B94E055C666,"Centrifuges Tabletop, Low-Speed, Nonrefrigerated",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,المعمل الرئيسى,NA,Gemmy,NA,7500,10/23/2014,10/23/2014,,
+02962be3-4ecf-4b2a-8361-f9703c86d05d,"Beds, Manual",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Hemodialysis Units,NA,HILL ROM,NA,880,8/23/2014,8/23/2014,8/23/2019,8/23/2019
+02BAC11A-C56E-465E-8A3B-87B8B82B2241,Lights Examination Ceiling Mounted,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,عمليات الاقتصادى,NA,Berchtold,NA,100000,10/30/2014,10/30/2014,,
+02D0FC5E-8087-4C65-944B-8B910219737C,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,العمليات الكبرى,NA,Draeger,NA,44000,10/23/2014,10/23/2014,,
+034C3E8D-1AA7-4804-996C-870C628B1C66,Lights Surgical Ceiling Mounted,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,مناظير النساء,NA,Brechtold,NA,0,10/23/2014,10/23/2014,,
+0369B164-8CB6-4814-942F-71A6CBFBC5E4,"Centrifuges Tabletop, Low-Speed",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Under Maintenance,Blood bank,NA,DG Gel,NA,5250,10/23/2014,10/23/2014,,
+038711ec-5962-4d0e-82ad-7b2110e903bc,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,VALLEY LAB,NA,7135.13,1/1/2011,1/1/2011,1/1/2016,1/1/2016
+03ACA745-F84D-487C-BA60-6CA8590B9CC4,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+03bee2a4-def4-4e73-b238-2e7b18d774a3,"Arthroscopic Shaver Systems, console",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,STRYKER,NA,4368,4/21/2013,4/21/2013,4/21/2018,4/21/2018
+03C4F8CD-9986-4BEC-B61E-5515594F38C2,Lights Examination Ceiling Mounted,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,ADMECO,NA,0,10/23/2014,10/23/2014,,
+0446D7C5-DC58-4DDB-82BB-12D3E2CC1F0D,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,المبتسرين,NA,GE,NA,18000,10/30/2014,10/30/2014,,
+0491b15f-b115-4576-b364-f180a8431c4b,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,رعاية القلب,NA,Aitecs,NA,6100,5/21/2013,5/21/2013,5/21/2018,5/21/2018
+049E24D6-8AC4-4CF5-BEE8-55CD9B5FBD26,"Incubators, Infant, Transport",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,الحضانات,NA,Local,NA,30500,10/23/2014,10/23/2014,,
+04B20DC9-25DC-4429-97E6-5063B48E18E8,"Incubators, Infant, Mobile",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,المبتسرين,NA,ATOM,NA,56000,10/30/2014,10/30/2014,,
+050F7EA4-DEDB-487D-878F-EBCFE1B9AA39,"Microscopes, Light, Laboratory, Examination",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,معمل,NA,AIO Egypt,NA,15000,10/30/2014,10/30/2014,,
+06859b5b-cb80-45ba-9f4d-556748a266dd,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,45 hospital,AsBuild,Working,Emergency Operation Department,Egypt,VALLEYLAB,NA,0,1/1/2012,1/1/2012,1/1/2022,1/1/2022
+06F2C102-8F7B-4375-8F6A-8DF4FED29B1B,Infant Warmer,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Neonate,NA,LOCAL,NA,15225,10/23/2014,10/23/2014,,
+0713DF04-9A81-435A-8065-C46886CFF56E,"Stress Electrocardiography Monitoring Systems, Cardiac",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,رعاية القلب,NA,Quinton,NA,80000,10/23/2014,10/23/2014,,
+07478906-AF93-481B-99E9-0407ED2E99C8,"Lights Surgical, General",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Not Working,Biomedical Dempartments,NA,Martin,NA,15750,11/1/2014,11/1/2014,,
+076F3FB6-9648-4856-8101-8E3D6FB44705,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Free CCU,NA,SPACE LAB,NA,57750,10/23/2014,10/23/2014,,
+0776E131-9FF7-40D0-AFD9-12F6CCDD11C0,"TFT Color LCD Monitor, 8 Monitors",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Sony,NA,0,11/1/2014,11/1/2014,,
+079765F2-4919-435E-863E-8C00A7F8052E,"Incubators, Laboratory, Thermocycling",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,المعمل الرئيسى,NA,Jouan,NA,25000,10/23/2014,10/23/2014,,
+08089210-973C-4791-82EC-8A13092F8A9F,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,المبتسرين,NA,Draeger,NA,18750,10/30/2014,10/30/2014,,
+083d3391-8423-4188-81f5-bc8d7c185bef,"Ventilators, Intensive Care",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الحضانات,NA,Newport,NA,149700,5/21/2014,5/21/2014,5/21/2019,5/21/2019
+084eb712-42ba-47eb-98b3-459ce924914a,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,64 Hospital,AsBuild,Working,Gangrene Intensive Care Unite,Egypt,Mindray,NA,0,7/1/2014,7/1/2014,7/1/2024,7/1/2024
+08549179-D9CF-45C8-98AE-90BDA70BB571,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Working,المبتسرين,NA,GE,NA,18000,10/30/2014,10/30/2014,,
+085C7434-D41E-4D0E-9ADF-A4522677B6C1,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Under Maintenance,Emergency OR,NA,Eschmann,NA,89189.13,10/23/2014,10/23/2014,,
+086A5D10-BF7A-45DF-A7B2-A1944DB26AE2,Tissue Processors,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,Sakura,NA,75000,10/23/2014,10/23/2014,,
+08d4db32-6773-4725-9a2f-99fffd0d10f0,Light Sources Fiberoptic  Flexible Endoscopic,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,Storz,NA,14147.28,2/17/2011,2/17/2011,2/17/2016,2/17/2016
+08F2A954-36E9-429E-ABB2-D22804DACE15,"Tables, Operating",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,عمليات الرمد,NA,NA,NA,80000,10/23/2014,10/23/2014,,
+08F3986F-A4A8-4091-A88B-4FB5C9FF43D9,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,المبتسرين,NA,Datascope,NA,50000,10/30/2014,10/30/2014,,
+09043B83-E4FE-4D98-8653-3BB613062F67,Slit Lamps,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Haag-Streit International,NA,124567.8,11/1/2014,11/1/2014,,
+09091274-2750-4A4D-A0BA-A31AE1E807D6,Smoothing Motor Hanged,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Under Maintenance,Dental unit,NA,Vanfram,NA,7350,10/23/2014,10/23/2014,,
+090aea91-8187-4acc-936f-6be42704f172,"Monitors, Screen",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,Storz,NA,0,3/6/2012,3/6/2012,3/6/2017,3/6/2017
+0938F30D-6B49-4D0C-9823-A9813C17B78D,Surgical Scrub Sinks,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,العمليات الكبرى,NA,Local,NA,5000,10/23/2014,10/23/2014,,
+098345E7-2AB2-4E67-BFB4-CF776E8B43E6,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,Unknown,NA,Draeger,NA,350000,10/23/2014,10/23/2014,,
+0A0DCEA9-5394-485B-B900-AE5E3172A383,Beds Electric General,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,HILL ROM,NA,36529.5,11/1/2014,11/1/2014,,
+0a6020fd-a311-476b-bb5b-f25f05d86535,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,عمليات الجراحة,NA,SPACELABS,NA,154944,11/27/2011,11/27/2011,11/27/2016,11/27/2016
+0A74D8DE-AA43-42A9-A6CD-56CD7E9072EB,"Microscopes, Light, Operating, Gynecology",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,تنظيم الاسرة,NA,Leisegang,NA,126000,10/23/2014,10/23/2014,,
+0AC5785A-4602-4F7A-A1DD-1B6D141358DC,"Electrocardiographs Multichannel, Noninterpretive",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,العيادات الخارجيه د.ك,NA,Schiller,NA,15000,10/30/2014,10/30/2014,,
+0AF3CAD7-4DD9-43AF-AD86-C978C15A5ADC,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+0BC6C0F2-2D38-4BD7-AC3D-F45BDD042168,"Light Cure, Dental",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Need Repair,الاسنان,NA,Carlo de Giorgi,NA,3750,10/30/2014,10/30/2014,,
+0c177323-9199-4353-85e6-4a50b7903e54,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,64 Hospital,AsBuild,Working,quarantine,Egypt,Draeger,NA,0,8/28/2014,8/28/2014,8/28/2024,8/28/2024
+0cc5b18d-35d9-4098-aa3e-1ebc4899f882,"Defibrillators, External, Automated",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Intensive Care Units,NA,MedTronic,NA,4000,7/7/2013,7/7/2013,7/7/2018,7/7/2018
+0D443CA3-E8B7-431C-A697-8107A6B6D7DA,CUSA,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,VALLEY LAB,NA,724500,10/23/2014,10/23/2014,,
+0D495568-E71A-41B8-9025-7A8E25D39686,Dental Treatment Units,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Working,الاسنان,NA,ADEC,NA,78750,10/30/2014,10/30/2014,,
+0d56cc34-e977-4771-8a16-9e476cba583e,Light Sources Fiberoptic  Flexible Endoscopic,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,endoscopy,NA,Pentax,NA,1428,1/1/2011,1/1/2011,1/1/2016,1/1/2016
+0D959BD0-2B86-4560-A9BD-4095EF0DA928,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Free CCU,NA,SPACE LAB,NA,57750,10/23/2014,10/23/2014,,
+0DB7A439-1E20-4229-9EEA-AC2CDA768042,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Abdominal,NA,B.Braun,NA,6693.75,10/23/2014,10/23/2014,,
+0E2F281D-18A1-4730-BA83-8DDBEEF9B998,"Incubator,Infant",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Neonate,NA,AIR-Shields,NA,47250,10/23/2014,10/23/2014,,
+0E577CEB-1CD1-4D70-B17E-26B76CCB15B5,"Sterilizing Units, Steam, Tabletop",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Blood bank,NA,Faster,NA,65625,10/23/2014,10/23/2014,,
+0e96c6d8-ba05-4da4-b472-3063b9041a0a,Colonoscopes,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,endoscopy,NA,Pentax,NA,29988,11/6/2015,11/6/2015,11/6/2020,11/6/2020
+0e9d9d31-8f6b-42b8-8a53-e61546cb7e20,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,عمبيات الفندقى,NA,SPACELABS,NA,154944,11/27/2011,11/27/2011,11/27/2016,11/27/2016
+0EB7090B-DC9A-47C9-9A53-1EF338050D50,Lights Examination Ceiling Mounted,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Working,عمليات النسا,NA,Berchtold,NA,100000,10/30/2014,10/30/2014,,
+0EB89009-A8D1-43F2-98FD-F0012391D2F5,"Microscopes Light, Examination, Ophthalmology",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,عمليات الرمد,NA,Carl Ziess,NA,50000,10/23/2014,10/23/2014,,
+0EE7D7B7-238B-45D4-BA64-A1656E746A8E,"Tables, Operating",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,العمليات الكبرى,NA,Mizuho,NA,97090,10/23/2014,10/23/2014,,
+0ef7eb67-7448-4077-bd51-f756ab4ed8c8,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,النسا,NA,BOWA,NA,55000,1/29/2014,1/29/2014,1/29/2019,1/29/2019
+101353E7-4F8E-460A-A1E1-6D9BD0AFB3BF,Dental Smothing Motor,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Dental unit,NA,Navfram,NA,7350,10/23/2014,10/23/2014,,
+10334EFE-6DC2-466C-8C10-253A61685057,Surgical Scrub Sinks,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,عمليات الرمد,NA,Local,NA,5000,10/23/2014,10/23/2014,,
+103E47DE-AA84-4D57-BDA5-54D34E15D0EA,CPAP,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,Tricomed,NA,12000,10/23/2014,10/23/2014,,
+10b2d15e-70d8-43c4-b066-8de39940cc7c,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,64 Hospital,AsBuild,Working,quarantine,Egypt,Draeger,NA,0,8/28/2014,8/28/2014,8/28/2024,8/28/2024
+111FFDC1-69C9-459B-8D08-F4AC582B714C,Lights Surgical Ceiling Mounted,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,العمليات الكبرى - مخ واعصاب,NA,Berchtold,NA,52000,10/23/2014,10/23/2014,,
+114893F0-93DA-4615-A9F2-095D1BE76F3E,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Gyn/Ob,NA,BERCHTOLD,NA,89189.13,10/23/2014,10/23/2014,,
+1184bb8c-4135-4018-8ba8-a91ff2d21ff5,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الحضانات,NA,Nihon Khoden,NA,49000,1/15/2011,1/15/2011,1/15/2016,1/15/2016
+1195e549-2d2d-4005-8241-18e3ea7e69a7,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,45 hospital,AsBuild,Working,Surgery Operation Department,Egypt,Martin,NA,0,1/1/2013,1/1/2013,1/1/2023,1/1/2023
+11A30D91-4387-47B5-B12F-EEA23539BA02,"Infusion Pumps, General-Purpose",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,العمليات الكبرى,NA,Baxter,NA,11250,10/30/2014,10/30/2014,,
+11ADADDE-5A93-49F8-9979-97876EE0BB21,"Stimulators, Muscle",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,العلاج الطبيعى,NA,PAGANI,NA,18750,10/30/2014,10/30/2014,,
+11ECC4DA-442D-4640-80FF-55836531F4D9,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,ALARIS,NA,11418.75,11/1/2014,11/1/2014,,
+12c9c130-cfb5-41b7-ba3e-27bc87f58ffc,Oxygen Concentrators,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Neonates,NA,blender,NA,630,10/15/2012,10/15/2012,10/15/2017,10/15/2017
+12E95CD0-2909-4461-8A36-350085BE82E7,"Refrigirators, Blood Bank",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Blood bank,NA,Mondial Elites r.l.,NA,157500,10/23/2014,10/23/2014,,
+12fcbb9c-4fbc-4003-8d9c-f2520ed97a9a,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,45 hospital,AsBuild,Working,Surgery Operation Department,Egypt,Spacelaps,NA,0,1/1/2012,1/1/2012,1/1/2022,1/1/2022
+1301B502-F8F7-438D-805A-923BBA56E131,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+137DA833-17C0-417C-A7B9-248338D99807,Dental Micro Motor,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Dental unit,NA,Silfradent,NA,7350,10/23/2014,10/23/2014,,
+1390742E-8824-479D-915C-725FF6986CC5,Dental Treatment Units,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,الاسنان,NA,ADEC,NA,78750,10/30/2014,10/30/2014,,
+1413B97F-6C77-4E6D-BF11-81934A4FD0A6,Panoramic Dental Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Dental unit,NA,Panoramic Corporation,NA,525000,10/23/2014,10/23/2014,,
+14D2C70F-5F4D-4C51-9989-976C020EF9ED,"Ultrasound Scanning Systems, General-Purpose",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,Unknown,NA,SonoSite,NA,200000,10/23/2014,10/23/2014,,
+14F8A609-C8D9-4752-A98A-31DDFFE20404,"Ovens, Forced-Air",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Under Maintenance,Dental unit,NA,Vulcan,NA,8431.5,10/23/2014,10/23/2014,,
+151AAF45-27BC-4923-AA6F-20D1BCDC958C,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,CCU,NA,B.Braun,NA,6693.75,10/23/2014,10/23/2014,,
+152DEB09-4B0E-42F3-9155-8071281AB8C0,"Beds, Manual",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,HILL ROM,NA,17640,11/1/2014,11/1/2014,,
+152e9c05-6684-47f7-9d2b-507619550da1,"Ventilators, Transport",القاهرة الكبرى,القاهرة,البساتين,64 Hospital,AsBuild,Working,Intensive Care Unite,Egypt,Newport,NA,0,12/30/2014,12/30/2014,12/30/2024,12/30/2024
+155A1909-1FFC-4EE3-9BA8-603284FC9EDB,Nebulizers,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Incubators Department,NA,CA.MI,NA,204.75,11/1/2014,11/1/2014,,
+1588b453-dd96-4a3b-bccb-f46cbf1c6d45,"Aspirators, Surgical",القاهرة الكبرى,القاهرة,البساتين,64 Hospital,AsBuild,Working,quarantine,Egypt,CA.MI,NA,0,11/10/2015,11/10/2015,11/10/2025,11/10/2025
+15961858-02D9-4593-BD68-177B80BFE023,Endoscopy Light Source,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Storz,NA,25924.5,10/23/2014,10/23/2014,,
+15A77ADC-F7B6-4A68-A251-800B5AE8541F,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,CCU,NA,Mindray,NA,75600,10/23/2014,10/23/2014,,
+15E3B8C3-1C5A-4E36-888E-68D14F48F385,"Infusion Pumps, General-Purpose",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,B.Braun,NA,9450,10/23/2014,10/23/2014,,
+16200B0A-E8FD-41ED-9FCE-83BEFDB03E50,X-Ray Film Printer Duplicators,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Radiology,NA,FUJI X-RAY FILM PROCESSOR,NA,52500,10/23/2014,10/23/2014,,
+166fec1f-9e45-40bc-a20a-8785ece887d1,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,ICU,NA,B| BRAUN,NA,419.16,5/1/2012,5/1/2012,5/1/2017,5/1/2017
+169A8D02-A33D-4697-9CCD-F821928E9BDC,"Tables, Operating",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,Blanco,NA,151300,10/23/2014,10/23/2014,,
+173E962D-CFD2-4C66-842C-051FFAB47CF3,"Monitoring Systems, Central Station",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Liver care unit (OR),NA,SPACE LAB,NA,94500,10/23/2014,10/23/2014,,
+17456971-FF42-4787-935D-576CFCFEE7A4,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Hemodialysis Units,NA,Fresenius,NA,83790,11/1/2014,11/1/2014,,
+17640DEF-D0B2-430D-B74B-3E8989A5FB34,"Ventilators, Neonatal",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Not Working,المبتسرين,NA,PHILIPS,NA,140000,10/30/2014,10/30/2014,,
+1785A36B-EAFF-47CF-A337-7EBE87FDFF02,"Tables, Operating",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,3rd OR,NA,FAMED,NA,189000,10/23/2014,10/23/2014,,
+1A301B52-D9F4-4F0D-86B3-80083C00A0D2,"Beds, Manual",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Need Repair,Biomedical Dempartments,NA,HILL ROM,NA,17640,11/1/2014,11/1/2014,,
+1A5D30FD-FA5A-42E8-A4F9-CE7DFF401056,"Washer, Decontaminators",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Lancer,NA,59062.5,11/1/2014,11/1/2014,,
+1A9ED424-8A0C-4245-9442-DB3E88313BF8,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,VALLEY LAB,NA,89189.13,10/23/2014,10/23/2014,,
+1aaa2bbf-54c5-4e07-85fe-58c53271aec6,Endoscopy Video Camera,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,Storz,NA,19517.23,2/17/2011,2/17/2011,2/17/2016,2/17/2016
+1AD04023-BE44-4DF1-AC0E-079E12BE2E88,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+1AEA3381-AF70-4826-8341-20FA0355693B,Gypsum Smoother,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Dental unit,NA,Mestra,NA,4410,10/23/2014,10/23/2014,,
+1B18EE78-1FB8-41AF-AE94-5B827552E03B,"Refrigirators, Blood Bank",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Angelanloni Industries,NA,47250,11/1/2014,11/1/2014,,
+1B1B1869-88AA-4F31-81C5-8F7BB119E63E,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,عمليات الطوارئ,NA,LED,NA,40000,10/23/2014,10/23/2014,,
+1B7AFB13-DFED-4052-B7AC-4217CA1C099F,"Tables, Operating",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Working,عمليات النسا,NA,PUPLIC CHINA,NA,100000,10/30/2014,10/30/2014,,
+1b7b9fa6-9251-415f-aa6a-e56b5c322abe,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,64 Hospital,AsBuild,Working,quarantine,Egypt,Draeger,NA,0,8/28/2014,8/28/2014,8/28/2024,8/28/2024
+22d47274-3006-4b34-be05-49c028453635,Light Sources Fiberoptic  Flexible Endoscopic,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,Storz,NA,3411.41,3/6/2012,3/6/2012,3/6/2017,3/6/2017
+22FB7BC3-82F4-4B99-BD6A-022FD8D44840,Amalgamators,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,الاسنان,NA,Carlo de Giorgi,NA,8750,10/30/2014,10/30/2014,,
+230088EC-D753-4CF3-87A1-B4F9DD50BF63,Gyna Coach,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,عمليات النساء,NA,NA,NA,55000,10/23/2014,10/23/2014,,
+233AA650-841C-4F56-AF68-6314374EBEA7,"Aspirators, Surgical",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,عمليات النسا,NA,Fazzini,NA,1400,10/30/2014,10/30/2014,,
+2345DFF1-D9CE-49D5-A163-73E6ECA3B1A7,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Under Maintenance,Neonate,NA,Mindray,NA,75600,10/23/2014,10/23/2014,,
+23588496-214B-43BF-AC1E-384DA0E3C9F7,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,Datascope,NA,99225,11/1/2014,11/1/2014,,
+1B8A0FC4-76B6-4C19-8C39-9E604EB98E25,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,SPACE LAB,NA,57750,10/23/2014,10/23/2014,,
+1BFE4660-C977-4FFC-8C99-B8F325FA4DD0,"Incubators, Laboratory, Thermocycling",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,Jouan,NA,25000,10/23/2014,10/23/2014,,
+1C26A7D8-D9CD-4343-92AD-D30D58395505,"Ventilators, Intensive Care",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Liver care unit,NA,Drager,NA,154350,10/23/2014,10/23/2014,,
+1c710987-a036-4b5e-a43c-3429e0b707b1,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,45 hospital,AsBuild,Working,Neonatal Department,Egypt,Smith Medical,NA,0,1/1/2012,1/1/2012,1/1/2022,1/1/2022
+1C98F24C-0E76-4A6A-9A2D-3EC545701EDD,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,ERBE,NA,42630,11/1/2014,11/1/2014,,
+1CFF993D-B20F-4C88-AFD9-467140003D06,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,Unknown,NA,SPACELABS,NA,55900,10/23/2014,10/23/2014,,
+1D2178B1-758B-4122-ACB6-6F9B01F51BB4,Endoscopy Video Camera,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,Asculap,NA,4168.5,10/23/2014,10/23/2014,,
+1D6A6054-6F30-4C40-BA7D-CA8D5A3BD02C,"Centrifuges Tabletop, Low-Speed, Nonrefrigerated",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,بنك الدم,NA,ALC,NA,12500,10/30/2014,10/30/2014,,
+1DF538CC-2290-431D-A710-A422D259692B,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Hemodialysis Units,NA,Fresenius,NA,83790,11/1/2014,11/1/2014,,
+1DFC1DC0-EC0B-49AE-8EA2-64C141EACC3E,"Stretchers, Adjustable-Height, Surgical",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Need Repair,Major Operations Department,NA,Steris,NA,92610,11/1/2014,11/1/2014,,
+1E5D5C80-5C13-4DEC-8F38-517B7DE9D916,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,VALLEY LAB,NA,89189.13,10/23/2014,10/23/2014,,
+1E92A02E-C0A3-4EEB-8D6E-4F6697A04914,C-Arm Radiographic/Fluoroscopic,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,العمليات الكبرى - العظام,NA,Zeihm,NA,475000,12/15/2014,12/15/2014,,
+1EB45BDE-F4A9-414B-A3EE-96D2E3C5E609,"Tables, Operating",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,MEDIFA,NA,189000,10/23/2014,10/23/2014,,
+1EE5637B-9602-4F91-91C3-A7DD67879928,"Sealers, Heat",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Not Working,Biomedical Dempartments,NA,Hawo,NA,14175,11/1/2014,11/1/2014,,
+1F6F60D1-472C-46AF-AD4D-5E2C118F98C4,"Endscopy, Screen",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Sony,NA,3990,10/23/2014,10/23/2014,,
+1F7C93BB-A39C-41B3-8446-01E1CD7CA604,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal B,NA,HP,NA,75600,10/23/2014,10/23/2014,,
+1F85E7C3-D15A-41F4-9AD0-21878CFB5387,Light Sources Fiberoptic  Flexible Endoscopic,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,العمليات الكبرى - الجراحة,NA,STORZ,NA,430000,10/23/2014,10/23/2014,,
+1FA1AAB2-89AE-433B-BDF4-339579EC741F,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,عمليات الطوارئ,NA,Bionics,NA,44000,10/23/2014,10/23/2014,,
+1FA67772-5FBF-4E4F-9951-EF4973B853FF,"Incubators, Infant, Transport",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,الحضانات,NA,Local,NA,30500,10/23/2014,10/23/2014,,
+1FCC543A-4C3C-4D5F-AC1C-10157D3C9945,"Stretchers, Adjustable-Height, Surgical",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,Steris,NA,92610,11/1/2014,11/1/2014,,
+204633EE-0D0E-4BE5-87D8-21BB3853D8DE,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,Drager,NA,267750,10/23/2014,10/23/2014,,
+209DD65D-EAA4-4C4C-AD0E-530D93F7A933,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Not Working,Biomedical Dempartments,NA,Nellcor,NA,44625,11/1/2014,11/1/2014,,
+20b16916-5b20-46ea-b703-ce7720acd292,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,45 hospital,AsBuild,Working,Emergency Operation Department,Egypt,Zondan,NA,0,6/1/2011,6/1/2011,6/1/2021,6/1/2021
+20E2B212-476A-4168-9D6D-3B22516E1730,Lights Examination General,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,العمليات الكبرى,NA,BUTTERCUP,NA,6250,10/30/2014,10/30/2014,,
+20e645aa-05ac-439f-8b75-36baddc8eecd,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,SPACELABS,NA,11832.09,10/19/2011,10/19/2011,10/19/2016,10/19/2016
+20EB6BA0-2253-4953-BCAB-B7F472654C4F,CPAP,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,Hamilton,NA,12000,10/23/2014,10/23/2014,,
+2145DDF9-6128-4071-9FDA-25886035D1A4,"Ultrasound Scanning Systems, General-Purpose",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Cardiology Research,NA,Acuson,NA,315000,10/23/2014,10/23/2014,,
+214e2496-90be-4be4-9d1d-4240d73191d9,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الحضانات,NA,Mediex,NA,24940,6/24/2013,6/24/2013,6/24/2018,6/24/2018
+21758B56-C7F4-4D4D-8EAC-EA642AAE76CE,Slit Lamps,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Sbisa,NA,50531.25,11/1/2014,11/1/2014,,
+225B10F9-7782-4E0B-B72B-8EF8B912A45F,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,SPACELABS,NA,55900,10/23/2014,10/23/2014,,
+227FBAE9-D494-4088-B2CE-608E27DA5C82,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Nellcor,NA,44625,11/1/2014,11/1/2014,,
+243ba8ba-2175-4df6-9803-628ab27e5f08,"Centrifuges Tabletop, High-Speed, Refrigerated",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Laboratoty,NA,MSE,NA,5880,10/11/2012,10/11/2012,10/11/2017,10/11/2017
+24667A64-E709-440F-9ED5-06F6748E8E98,"Beds, Manual",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,HILL ROM,NA,17640,11/1/2014,11/1/2014,,
+2477974A-8DB1-4954-A20F-440EBA5B35B8,"Incubator,Infant",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Neonate,NA,Drager,NA,47250,10/23/2014,10/23/2014,,
+247A19BF-58A5-4676-9C99-2EEE041A4D83,"Lights, Ultaviolet, Germicidal",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,عيادة الجلدية,NA,Wald mann,NA,24000,10/23/2014,10/23/2014,,
+247c1de9-9f5c-4801-a617-77e93bb2002b,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,رعاية القلب,NA,Nihon Khoden,NA,49000,1/15/2011,1/15/2011,1/15/2016,1/15/2016
+24ABE089-F284-49C7-B8CB-1DE677B220F4,Light Source,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Under Maintenance,3rd OR,NA,Storz,NA,25924.5,10/23/2014,10/23/2014,,
+24B36724-7092-41CE-9C3B-6141D06E6182,"Endoscopy Video, Gastroscopes",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,ENDOSCOPE,NA,Pentax,NA,162750,10/23/2014,10/23/2014,,
+24F99BEA-2E18-46A5-BC05-BEB38DF14D6A,"Ventilators, Intensive Care",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,رعاية المخ والاعصاب,NA,Newport,NA,163807,10/23/2014,10/23/2014,,
+2512A43C-DE5A-41F3-AF6B-3428833FAAF2,"Aspirators, Surgical",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Gyn/Ob,NA,Hirtz,NA,11533.25,10/23/2014,10/23/2014,,
+2517ef44-6642-4631-bf1b-12edbe7badd3,"Micromotor, Handpiece, Angled",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,Nouvag,NA,0,7/1/2013,7/1/2013,7/1/2018,7/1/2018
+2864e4c6-145f-44f5-987f-806d55e1c961,Coagulometer,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Labratory,NA,Diagnostica Stago,NA,6080,1/13/2015,1/13/2015,1/13/2020,1/13/2020
+2880614A-A64B-4172-BCDC-99D981587C01,Dental Treatment Units,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الاسنان,NA,DANSEREAU,NA,15000,10/23/2014,10/23/2014,,
+28BE387B-EEBC-433E-8F57-78C03F541594,"Beds, Manual",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,HILL ROM,NA,17640,11/1/2014,11/1/2014,,
+28F23863-B943-4521-BE15-367C9B1CECB3,Gypsum Mix,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Dental unit,NA,Silfradent,NA,7350,10/23/2014,10/23/2014,,
+291103A2-03F3-446C-8A83-46468C9589D7,"Washer, Decontaminators",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Steris,NA,78750,10/23/2014,10/23/2014,,
+2966EF50-A21B-45FD-98D6-BAC0C14E1061,"Ovens, Laboratory",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,معمل الباثولوجى,NA,Binder,NA,62500,10/30/2014,10/30/2014,,
+29978114-2468-44D6-AC02-25803061BFA7,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,رعاية المخ والاعصاب,NA,HP,NA,75600,10/23/2014,10/23/2014,,
+29cad001-d223-464b-90be-e53fe8c023ba,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,45 hospital,AsBuild,Working,Emergency Operation Department,Egypt,Mindray,NA,0,1/1/2012,1/1/2012,1/1/2022,1/1/2022
+2A00689B-E957-4302-AEA6-1AB8EF5A75CF,Scale Digital,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Physiotherapy,NA,CAS,NA,3150,10/23/2014,10/23/2014,,
+2A0676D4-0313-49EA-A5F1-DF8249B13083,"Refrigirators, Blood Bank",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,بنك الدم,NA,Angelantoni,NA,80000,10/23/2014,10/23/2014,,
+2a177c2e-c617-4ee8-b624-79c8a42b4f08,"Lights Surgical, General",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,surigirs,NA,10500,12/1/2014,12/1/2014,12/1/2019,12/1/2019
+2A1C3011-E718-4741-98F8-A2B43DE2FCBA,"Ergometers, Bicycle",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,العلاج الطبيعى,NA,KETTLER,NA,25000,10/30/2014,10/30/2014,,
+2A270A72-0D80-45BE-A0E8-8A46A8417D53,"Sealers, Heat",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Famos,NA,11812.5,11/1/2014,11/1/2014,,
+2A30E2D1-690C-4BB5-9215-C05AA8A1BAC2,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Neonate,NA,Mindray,NA,75600,10/23/2014,10/23/2014,,
+2A36D35C-1AD5-4F58-ABB8-A694F41CECBB,Lights Surgical Ceiling Mounted,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,Berchtold,NA,52000,10/23/2014,10/23/2014,,
+2A88F016-66BA-4A35-8043-51843291128A,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,VALLEY LAB,NA,89189.13,10/23/2014,10/23/2014,,
+2AA1794D-82C4-4533-96BC-78BAD5B4128D,"Beds, Manual",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,HILL ROM,NA,17640,11/1/2014,11/1/2014,,
+2AB16342-AF1C-43B7-ACC9-619C5A236C74,"Ultrasound Scanning Systems, General-Purpose",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,مناظير النساء,NA,GE,NA,198000,12/15/2014,12/15/2014,,
+2AE90BE9-B8C6-4466-B364-62816770C984,"Centrifuges Tabletop, Low-Speed",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,lab(Emergency),NA,Jouan,NA,21000,10/23/2014,10/23/2014,,
+2AEBCAF5-9739-444F-A199-E3B70E8806CA,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,ER,NA,Mindray,NA,75600,10/23/2014,10/23/2014,,
+2B19A20E-4708-4292-9C5F-EA874C549AF9,Suction Sensitive,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,العمليات الكبرى - انف واذن,NA,STORZ,NA,0,10/23/2014,10/23/2014,,
+2B36E038-4B29-43F8-B833-ADBC9D6B0BB2,X-Ray Digital Radiographic Systems,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,الاشعة,NA,Toshiba,NA,367200,10/23/2014,10/23/2014,,
+2B8BCC71-2E5A-4DD3-9A1B-8A4E6110A42D,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Mindray,NA,75600,10/23/2014,10/23/2014,,
+2bf1307c-eff7-4297-8f7b-b4fafa569cb9,"Lights Surgical, General",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,surigirs,NA,0,12/1/2014,12/1/2014,12/1/2019,12/1/2019
+2c5840d6-86af-4c3f-89c9-260ccb1c5f6f,"Sealers, Heat",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Central Sterilization Department,NA,Famos,NA,1440,7/17/2014,7/17/2014,7/17/2019,7/17/2019
+2ceb3d2c-d260-4217-bf3f-43876d2fbac0,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,ICU,NA,B| BRAUN,NA,419.16,5/1/2012,5/1/2012,5/1/2017,5/1/2017
+2CF66FC8-761F-4CC1-B028-7746809B99DC,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+2D88E7FC-5782-418F-94E6-5F07050AC1D6,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,مناظير النساء,NA,Erbe,NA,40000,10/23/2014,10/23/2014,,
+2DA687FA-E2A7-42C6-B559-8BE98CDC1DEF,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+2DBA49CD-894D-4573-8501-5473346199B6,"Tables, Operating",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,FAMED,NA,189000,10/23/2014,10/23/2014,,
+2e05f655-1891-4cc8-9f65-5c61ae39c8d9,Electrocardiographs Single-Channel,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,ER,NA,KENZ,NA,492.49,4/11/2012,4/11/2012,4/11/2017,4/11/2017
+2E337436-0210-43CA-9CEE-5C8FD1CA22D2,Wax Heater,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,Leica,NA,30450,10/23/2014,10/23/2014,,
+2E56A6FE-FB28-4038-BEFB-DC4AA34433D9,"Oximeters, Pulse",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,المبتسرين,NA,Datex Ohmeda,NA,8750,10/30/2014,10/30/2014,,
+2edf981a-8faf-4dfc-9ca4-726fc1823824,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,45 hospital,AsBuild,Working,Surgery Operation Department,Egypt,Zondan,NA,0,1/1/2011,1/1/2011,1/1/2021,1/1/2021
+2F48E84D-99D7-4E56-95C2-E83BBE8E5CA0,"Lights Surgical, General",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,Hanaulux,NA,105000,11/1/2014,11/1/2014,,
+2f62f885-4ffe-4c30-80b5-dfcf340670a7,"Defibrillators, External, Automated",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Inpatient Department 7,NA,MedTronic,NA,4000,7/7/2013,7/7/2013,7/7/2018,7/7/2018
+2FA322BD-2BAD-4F9B-9C9E-A43FEE1D8E38,"Monitoring Systems, Central Station",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,CCU,NA,HP,NA,94500,10/23/2014,10/23/2014,,
+2FCAFD07-86E8-433B-94B8-35C9524D07D7,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,المبتسرين,NA,LOCAL,NA,18750,10/30/2014,10/30/2014,,
+2FE70DC8-B8F4-4352-9155-F0CCE1354E0E,"Refrigirators, Blood Bank",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Lab (Chemistry),NA,Fresco,NA,157500,10/23/2014,10/23/2014,,
+30297817-2440-41D4-BE82-8D986C886B18,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,عمليات الرمد,NA,Draeger,NA,350000,10/23/2014,10/23/2014,,
+30335C37-3C21-488B-B9CD-5D70757F7307,"Ventilators, Neonatal",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Working,المبتسرين,NA,PHILIPS,NA,140000,10/30/2014,10/30/2014,,
+30358163-e1c5-49a3-b33e-76cd63fc9035,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,ICU,NA,B| BRAUN,NA,419.16,2/1/2012,2/1/2012,2/1/2017,2/1/2017
+3060258E-209F-4D29-BE3A-A113199A783D,"Refrigirators, Blood Bank",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Working,بنك الدم,NA,CORECO,NA,100000,10/30/2014,10/30/2014,,
+307A2EB8-CFF6-4700-BF1C-604ABEA0210D,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,3rd OR,NA,Drager,NA,267750,10/23/2014,10/23/2014,,
+308D4B57-B344-4B16-9C3C-D605CF008931,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,ERBE,NA,42630,11/1/2014,11/1/2014,,
+30D14C7C-B23C-4FBC-AEA4-E3FD7C3BEF2B,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+30d75b82-05cc-475f-8da0-a02fb77b57bd,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,رعاية القلب,NA,Aitecs,NA,6100,5/21/2013,5/21/2013,5/21/2018,5/21/2018
+37123DC7-921F-40B8-932E-949C03C3EFCA,"Analyzers, Clinical Chemistry, Automated",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,المعمل الرئيسى,NA,Alfa Wasser Mann,NA,423450,12/15/2014,12/15/2014,,
+3712B161-AC3C-4B04-9EF8-A68D98E68C7E,"Stretchers, Adjustable-Height, Surgical",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,Steris,NA,92610,11/1/2014,11/1/2014,,
+316FB5C7-FE8B-4619-AE82-6CB0E91CBC1B,X-Ray Digital Radiographic Systems,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الاشعة,NA,Toshiba,NA,367200,10/23/2014,10/23/2014,,
+318C52A8-8006-4C11-AC6E-C91263CE0829,"Sterilizing Units, Steam, Bulk",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,CSSD,NA,Steris,NA,777667.75,10/23/2014,10/23/2014,,
+3193DDBF-84F9-4DFE-8B20-670A61EF6519,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,CCU,NA,Mindray,NA,75600,10/23/2014,10/23/2014,,
+38A78880-5AFC-459D-880B-C684AF2636CA,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Hemodialysis Units,NA,Fresenius,NA,83790,11/1/2014,11/1/2014,,
+38e810c7-1219-4e90-95da-d8413f7df8a4,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,NIHON KOHDEN,NA,1848,1/26/2014,1/26/2014,1/26/2019,1/26/2019
+3922A666-F9EE-4B71-8B35-A856A5CB8251,"Electrosurgical Units, Monopolar/Bipolar",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,VALLEY LAB,NA,47980.8,11/1/2014,11/1/2014,,
+393CAC60-6FE3-4DA7-A9A5-E6D33C0AB713,Water Baths,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,معمل الباثولوجى,NA,SELECTA,NA,11250,10/30/2014,10/30/2014,,
+3947B6DB-6606-4FC6-94E3-CFBCA8EF94F1,"Analyzers, Point-of-Care, Whole Blood, Gas/PH",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,معمل الطوارئ,NA,Bayer Healthcare,NA,37500,10/23/2014,10/23/2014,,
+3A35C127-1A65-4EF3-9941-5FF1226DFDA7,"Centrifuges Tabletop, Low-Speed",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Not Working,معمل المزارع,NA,WHISPERFUGE,NA,25000,10/30/2014,10/30/2014,,
+3A3E50BB-A231-45EA-BC5C-3A2CDF3E38BA,Lights Surgical Ceiling Mounted,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,العمليات الكبرى - الجراحة,NA,Berchtold,NA,0,10/23/2014,10/23/2014,,
+3A491C8C-90A4-48F0-B4EB-09EFB2ECBA2B,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Hemodialysis Units,NA,Datascope,NA,99225,11/1/2014,11/1/2014,,
+3a6ae87e-e643-4c86-92d7-94845687792f,"Lights Surgical, General",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,surigirs,NA,0,12/1/2014,12/1/2014,12/1/2019,12/1/2019
+3AAF15BC-0F09-40D1-999B-4AB982655CAE,"Incubators, Laboratory, Thermocycling",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,بنك الدم,NA,Torre picenardi,NA,25000,10/23/2014,10/23/2014,,
+31D04001-3029-482E-A9DD-16875DFD04BB,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Mindray,NA,75600,10/23/2014,10/23/2014,,
+31E8EFC4-B5F7-488F-A789-7E2D82A44D41,Water Treatment Unit,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal A,NA,Universal Aqua Technology,NA,35700,10/23/2014,10/23/2014,,
+31feab10-649b-4a3a-82e9-0057e2abf08d,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الحضانات,NA,Aitecs,NA,6100,5/21/2013,5/21/2013,5/21/2018,5/21/2018
+32207D80-772C-498E-A045-FDBC44173A47,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Under Maintenance,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+32232C8E-A53D-4AA9-A64E-605073573E63,"Beds, Manual",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,HILL ROM,NA,17640,11/1/2014,11/1/2014,,
+32255808-7DB5-4643-8C1E-E962E6609C08,Lights Examination General,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Major Operations Department,NA,Draeger,NA,17325,11/1/2014,11/1/2014,,
+3248B971-448C-4DF7-8461-8262605A55C1,"Ultrasound Scanning Systems, General-Purpose",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,الاشعة,NA,ATL,NA,1095000,10/23/2014,10/23/2014,,
+329AE5D0-7ADD-49E7-B647-F0207DEE9B99,"Microscopes, Light, Operating, Surgical",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,ZEISS,NA,231000,10/23/2014,10/23/2014,,
+329D3829-22C1-4182-A314-A078E34AF387,"Motor ,Artifisial Tooth Cleaner",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Under Maintenance,Dental unit,NA,Mestra,NA,44100,10/23/2014,10/23/2014,,
+32BC0F8C-A156-4CF2-8539-5BA13E17D6BB,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+32F5509A-9BE1-4FDD-85DE-AAB0957C9F41,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+333B81B0-2EBE-4C7E-807E-99CFEF5E065C,Autopsy saw,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,STRYKER,NA,84000,10/23/2014,10/23/2014,,
+335E4181-4233-4980-A481-412F97F2AF1A,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,SPACELABS,NA,55900,10/23/2014,10/23/2014,,
+33758C4F-E0D0-49CC-B478-86BB85CC2D28,Endoscopy Video Camera,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,STRYKER,NA,4168.5,10/23/2014,10/23/2014,,
+339CFDF0-4C5C-4887-9AE6-D90BCF02917F,Phacoemulsification,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,Megatron,NA,304500,11/1/2014,11/1/2014,,
+33B17C98-A543-408D-971A-91967501C58E,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+3445E1D2-DD44-4F48-AB49-AEAE95F0899C,Dental Treatment Units,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,ADEC,NA,66150,11/1/2014,11/1/2014,,
+3448344D-5E27-4B16-8B05-8696BB970DC7,"Ultrasound Scanning Systems, General-Purpose",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,Siemens,NA,252000,10/23/2014,10/23/2014,,
+34C9F4D3-1ACD-4C2B-9C7F-BC45E6FB8F1E,"Aspirators, Surgical",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,العمليات الكبرى,NA,SMAF,NA,6250,10/30/2014,10/30/2014,,
+357af63a-44f2-4fa7-a38b-936bd7eabd3e,"Defibrillators, External, Automated",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Endoscopic Units,NA,MedTronic,NA,4000,7/7/2013,7/7/2013,7/7/2018,7/7/2018
+358886BB-38C0-4937-882E-53DEA1D1C1D0,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,2nd OR,NA,SPACE LAB,NA,57750,10/23/2014,10/23/2014,,
+35B008F1-31E1-495D-8CDA-7CFD5C042D95,Hemodialysis Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Renal B,NA,Gambro,NA,78750,10/23/2014,10/23/2014,,
+35B9EB94-D422-4EC5-8054-32B681DE1B7D,"Tables, Operating",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,3rd OR,NA,Schaerer,NA,189000,10/23/2014,10/23/2014,,
+35DB65F3-0FD5-494A-9D76-AE252D7C5207,Beds Electric General,القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,HILL ROM,NA,36529.5,11/1/2014,11/1/2014,,
+35E5D4FE-1BE4-4226-BE40-C89F5F3341D0,"Motor ,Artifisial Tooth Cleaner",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Dental unit,NA,MLW,NA,44100,10/23/2014,10/23/2014,,
+366E3779-B5DA-46F9-AF73-8DCD9E7179BB,"Vibrator, Detal lab",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Dental unit,NA,Mestra,NA,4200,10/23/2014,10/23/2014,,
+3672C560-4249-42A4-85E8-E826238DD7D7,Microplate Readers,القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Need Repair,معمل الاليزا,NA,TECAN,NA,12500,10/30/2014,10/30/2014,,
+36CBFA11-BCAA-49C8-A465-5C721A205A18,"Saws, Cast, Electric, Oscillating",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Blood bank,NA,J.P.SELECTA,NA,15750,10/23/2014,10/23/2014,,
+3702e9ad-f9d0-4c3b-bdd5-59b3c866fc9d,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,رعاية القلب,NA,Aitecs,NA,6100,5/21/2013,5/21/2013,5/21/2018,5/21/2018
+371b7bd9-dd1c-4835-a61c-d42f84a9732b,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,45 hospital,AsBuild,Working,Burn Operation Department,Egypt,Mindray,NA,0,1/1/2014,1/1/2014,1/1/2024,1/1/2024
+3733B371-D1E1-401E-BEC6-29D6C5385BD9,"Light Cure, Dental",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,B.M.S,NA,3050.25,11/1/2014,11/1/2014,,
+373BD3B2-E426-4C6B-9305-D8636BCE8389,Dental Solidaring,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,Dental unit,NA,Renfert,NA,3150,10/23/2014,10/23/2014,,
+37B56A07-37CA-47A6-987F-F74B8CD1BD28,"Short Wave, Physiotherapy",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,العلاج الطبيعى,NA,RECO,NA,31250,10/30/2014,10/30/2014,,
+37BF05B7-0CB0-430C-9225-1BDCF8C385D3,Microplate Readers,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,المعمل الرئيسى,NA,DYNATECH,NA,50000,10/23/2014,10/23/2014,,
+37CEFBB8-F488-42BA-8209-8B1DA19F539F,"Incubators, Laboratory, Thermocycling",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,lab (Bacteriology),NA,Lab-Line,NA,42000,10/23/2014,10/23/2014,,
+37DF436A-CAE6-440F-89B1-BA969A1C3ED2,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,AsBuild,Working,Unknown,NA,SPACELABS,NA,55900,10/23/2014,10/23/2014,,
+38512801-D7BF-4F74-BE3B-E92123176CCA,"Incubators, Infant, Transport",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Working,المبتسرين,NA,Draeger,NA,43750,10/30/2014,10/30/2014,,
+3864AEBA-22A8-4572-A631-2DC8E3CB7550,"Infusion Pumps, General-Purpose",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,رعاية المخ والاعصاب,NA,B.Braun,NA,9450,10/23/2014,10/23/2014,,
+387EBE8C-70E8-431A-A080-D3361DD8136D,"Monitoring Systems, Physiologic",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,CCU,NA,HP,NA,75600,10/23/2014,10/23/2014,,
+3886D379-B833-4AF9-BF7C-10283DA8BCC1,Lights Surgical Ceiling Mounted,القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,Unknown,NA,Berchtold,NA,0,10/23/2014,10/23/2014,,
+3899139c-dd3d-4885-8fb2-d7d3079bd276,Anesthesia Units,القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,OR,NA,SPACELABS,NA,11832.09,10/19/2011,10/19/2011,10/19/2016,10/19/2016
+3aaf3b7a-32e9-4664-8730-bf71b058a3c1,Syringe Pumps,القاهرة الكبرى,القاهرة,البساتين,64 Hospital,AsBuild,Working,Gangrene Intensive Care Unite,Egypt,SMITH MEDICAL,NA,0,9/11/2013,9/11/2013,9/11/2023,9/11/2023
+3B354D95-9EE5-4BEC-9BC3-9702175CC3C7,"Endoscopy Video, Gastroscopes",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Not Working,ENDOSCOPE,NA,Pentax,NA,162750,10/23/2014,10/23/2014,,
+3B4449AD-C27F-4BA1-B046-B98CA9261A1F,"Lensometers, Automated",القاهرة الكبرى,القاهرة,البساتين,40 Hospital,AsBuild,Working,Biomedical Dempartments,NA,TOPCON,NA,9555,11/1/2014,11/1/2014,,
+3B69B26E-37E0-4788-AF6B-259A8A68F912,"Analyzers, Hematology, Cell-Counting, Automated",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,المعمل الرئيسى,NA,Sysmex,NA,85000,10/23/2014,10/23/2014,,
+3B8D2C93-E78D-4A2C-B3E5-E53288C07DBE,"Incubators, Infant, Transport",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,New,Working,المبتسرين,NA,ENGIMED,NA,43750,10/30/2014,10/30/2014,,
+3BBE504D-38FF-450F-B545-3C9ED130090E,"Incubators, Laboratory, Thermocycling",القاهرة الكبرى,القاهرة,البساتين,22 Hospital,AsBuild,Working,lab(Chemistry),NA,Heraeus,NA,42000,10/23/2014,10/23/2014,,
+3C07993B-949A-4A49-B033-43244181CA43,"Phototherapy Units, Neonatal",القاهرة الكبرى,القاهرة,البساتين,24 Hospital,AsBuild,Working,العلاج الطبيعى,NA,LOCAL,NA,3750,10/30/2014,10/30/2014,,
+3C273ABA-D330-4B38-8E50-49DCD1DD8877,"Defibrillators, External, Automated",القاهرة الكبرى,القاهرة,البساتين,Mataraya Teaching Hospital,New,Working,رعاية القلب,NA,cardio-aid,NA,50000,10/23/2014,10/23/2014,,

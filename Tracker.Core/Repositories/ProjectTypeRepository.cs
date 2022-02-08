@@ -35,7 +35,7 @@ namespace Tracker.Core.Repositories
                 }
                 else
                 {
-                    throw new NotCompletedException("data not completed");
+                    throw new NotCompletedException("PLZ complete data");
                 }
             //}
             //catch (Exception)
@@ -108,7 +108,7 @@ namespace Tracker.Core.Repositories
             }
             else
             {
-                throw new NotCompletedException("Data Not Completed");
+                throw new NotCompletedException("PLZ Complete data");
             }
         }
     }

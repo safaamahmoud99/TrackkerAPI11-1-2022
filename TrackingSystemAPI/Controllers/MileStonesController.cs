@@ -46,7 +46,8 @@ namespace Tracker.API.Controllers
         // PUT: api/MileStones/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
+        [HttpPut]
+        [Route("updateMileStoneById/{id}") ]
         public  IActionResult PutMileStoneDTO(int id, MileStoneDTO mileStoneDTO)
         {
 

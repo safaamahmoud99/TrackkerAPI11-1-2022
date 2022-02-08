@@ -45,7 +45,8 @@ namespace Tracker.API.Controllers
         // PUT: api/Stackeholders/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
+        [HttpPut]
+        [Route("updatestakehodersbyID/{id}")]
         public IActionResult PutStackeholdersDTO(int id, StackeholdersDTO stackeholdersDTO)
         {
             _stackeholdersService.UpdateStackeholders(id,stackeholdersDTO);

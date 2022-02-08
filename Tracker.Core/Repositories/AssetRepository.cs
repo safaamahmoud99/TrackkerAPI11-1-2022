@@ -18,9 +18,16 @@ namespace Tracker.Core.Repositories
         }
         public void Add(AssetDTO assetDTO)
         {
-            try
-            {
+            //try
+            //{
                 if (assetDTO != null)
+                {
+                var counName = _context.assets.Where(e => e.AssetName == assetDTO.AssetName && e.Id != assetDTO.Id).ToList();
+                if (counName.Count > 0)
+                {
+                    throw new AlreadyFoundException("Name already found ,plz write another");
+                }
+                else
                 {
                     string Ass = "Ass";
                     string AssCode = "";
@@ -43,15 +50,17 @@ namespace Tracker.Core.Repositories
                     _context.assets.Add(asset);
                     _context.SaveChanges();
                 }
+                   
+                }
                 else
                 {
                     throw new NotCompletedException("Not Completed Exception");
                 }
-            }
-            catch (Exception)
-            {
-                throw new NotExistException("Not Exist Exception");
-            }
+            //}
+            //catch (Exception)
+            //{
+            //    throw new NotExistException("Not Exist Exception");
+            //}
         }
 
         public void Delete(int id)
@@ -123,23 +132,35 @@ namespace Tracker.Core.Repositories
             {
                 throw new NotExistException("Not Exist Exception");
             }
-            
-            try
-            {
-                Asset asset = new Asset();
-                asset.Id = assetDTO.Id;
-                asset.AssetName = assetDTO.AssetName;
-                asset.AssetCode = assetDTO.AssetCode;
-                asset.AssetModel = assetDTO.AssetModel;
-                asset.BrandId = assetDTO.BrandId;
-                asset.OriginId = assetDTO.OriginId;
-                _context.Entry(asset).State = EntityState.Modified;
-                _context.SaveChanges();
-            }
-            catch (Exception)
-            {
-                throw new NotCompletedException("Not Completed Exception");
-            }
+
+            //try
+            //{
+                if (assetDTO!=null)
+              {
+                var counName = _context.assets.Where(e => e.AssetName == assetDTO.AssetName && e.Id != assetDTO.Id).ToList();
+                    if(counName.Count >0)
+                  {
+                    throw new AlreadyFoundException("Name already exits Plz write anothor");
+                  }
+                    else
+                {
+                    Asset asset = new Asset();
+                    asset.Id = assetDTO.Id;
+                    asset.AssetName = assetDTO.AssetName;
+                    asset.AssetCode = assetDTO.AssetCode;
+                    asset.AssetModel = assetDTO.AssetModel;
+                    asset.BrandId = assetDTO.BrandId;
+                    asset.OriginId = assetDTO.OriginId;
+                    _context.Entry(asset).State = EntityState.Modified;
+                    _context.SaveChanges();
+                }
+              }
+                
+            //}
+            //catch (Exception)
+            //{
+            //    throw new NotCompletedException("Not Completed Exception");
+            //}
         }
 
     }
