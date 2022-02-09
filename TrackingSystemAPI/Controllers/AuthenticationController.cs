@@ -127,7 +127,7 @@ namespace Tracker.API.Controllers
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
                 UserName = model.Email,
-                name = model.UserName
+                name = model.name 
             };
             var result = await userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
@@ -187,10 +187,10 @@ namespace Tracker.API.Controllers
                 await userManager.AddToRoleAsync(user, UserRoles.Receptionist); 
             }
             string url = "http://localhost:4200/#/login";
-            // string url = "http://10.10.0.129:7070/#/login";
+           //  string url = "http://10.10.0.129:7070/#/login";
             // string url =  "";
 
-            var message = new MessageDTO(new string[] { $"{model.Email}" }, "Confirmation Email", $"Dear {model.UserName}\r\n Hope this email finds you well \r\n This is Al-Mostakbal Technology. As per your registration , please note that your Email : {model.Email} And Password :{model.Password} follow link to login {url}");
+            var message = new MessageDTO(new string[] { $"{model.Email}" }, "Confirmation Email", $"Dear {model.name}\r\n Hope this email finds you well \r\n This is Al-Mostakbal Technology. As per your registration , please note that your Email : {model.Email} And Password :{model.Password} follow link to login {url}");
             _emailSender.SendEmail(message);
             return Ok(new Response { Status = "Success", Message = "User created successfully!" });
         }
@@ -224,7 +224,7 @@ namespace Tracker.API.Controllers
             var hash = callback.Split("#");
             var query = hash[0];
             string replace = query.Replace("/?", "/#/Resetpassword?");
-            var message = new MessageDTO(new string[] { user.Email }, "Al-Mostakbal Technology.", $"Dear {user.UserName}\r\n Please follow link to reset your password {replace}");
+            var message = new MessageDTO(new string[] { user.Email }, "Al-Mostakbal Technology.", $"Dear {user.name}\r\n Please follow link to reset your password {replace}");
             // var message = new Message(new string[] { user.Email }, "Al-Mostakbal Technology.", replace);
             _emailSender.SendEmail(message);
             return Ok();
