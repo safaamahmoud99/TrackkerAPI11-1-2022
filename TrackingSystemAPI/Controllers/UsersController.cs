@@ -52,7 +52,7 @@ namespace Tracker.API.Controllers
                         {
                             id = User.Id,
                             Email = User.Email,
-                            Role = role.Name,
+                            Roles = role.Name,
                             UserName = User.name
                         };
                         usersWithRoles.Add(usersWithRolesDTO);
@@ -62,7 +62,6 @@ namespace Tracker.API.Controllers
             //return View(model);
             return usersWithRoles;
         }
-
         [HttpGet]
         [Route("GetUnregisteredUsers")]
         public IEnumerable<Employee> GetUnregisteredUsers()
@@ -81,7 +80,34 @@ namespace Tracker.API.Controllers
             }
             return emps;
         }
-
+   //     [HttpGet]
+   //public async Task<IEnumerable<UsersWithRolesDTO>> GetAllUsersAsyncwithPosID(int id)
+   //   {
+   //       List<UsersWithRolesDTO> usersWithRoles = new List<UsersWithRolesDTO>();
+   //       UsersWithRolesDTO usersWithRolesDTO;
+   //       var users = userManager.Users.ToList();
+   //       var roles = roleManager.Roles.ToList();
+   //       foreach (var User in users)
+   //       {
+   //           foreach (var role in roles)
+   //           {
+   //               if ( await userManager.IsInRoleAsync(User, role.Name))
+   //               {
+   //                   usersWithRolesDTO = new UsersWithRolesDTO()
+   //                   {
+   //                       id = User.Id,
+   //                       Email = User.Email,
+   //                       Role = role.Name,
+   //                       UserName = User.name
+   //                   };
+   //                   usersWithRoles.Add(usersWithRolesDTO);
+   //               }
+   //           }
+   //       }
+   //       //return View(model);
+   //       return usersWithRoles;
+   //   }
+         
         [HttpGet]
         [Route("GetUnregisteredUsersClient")]
         public IEnumerable<Client> GetUnregisteredUsersClient()
