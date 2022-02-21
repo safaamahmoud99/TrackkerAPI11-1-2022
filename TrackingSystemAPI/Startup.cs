@@ -76,6 +76,8 @@ namespace Tracker.API
             services.AddScoped<IAssetService, AssetService>();
             services.AddScoped<IRequestModeService, RequestModeService>();
             services.AddScoped<IRequestImageService, RequestImageService>();
+            services.AddScoped<IGovernorateService, GovernorateService>();
+            services.AddScoped<ICityService, CityService>();
             services.AddScoped<ITeamService, TeamService>();
             services.AddScoped<IRequestDescriptionService, RequestDescriptionService>();
             services.AddScoped<IRequestDescriptionRepository, RequestDescriptionRepository>();

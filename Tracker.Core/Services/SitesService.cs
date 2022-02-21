@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tracker.Data.DTO;
 using Tracker.Data.Models;
 using Tracker.Domain;
 using Tracker.Domain.IServices;
@@ -17,7 +18,7 @@ namespace Tracker.Core.Services
         {
             _unitOfWork = unitOfWork;
         }
-        public void AddSite(Sites Site)
+        public void AddSite(siteDto Site)
         {
             _unitOfWork.Sites.Add(Site);
         }
@@ -27,17 +28,17 @@ namespace Tracker.Core.Services
             _unitOfWork.Sites.Delete(SiteId);
         }
 
-        public IEnumerable<Sites> GetAllSites()
+        public IEnumerable<siteDto> GetAllSites()
         {
             return _unitOfWork.Sites.GetAll();
         }
 
-        public Sites GetSite(int id)
+        public siteDto GetSite(int id)
         {
             return _unitOfWork.Sites.Get(id);
         }
 
-        public void UpdateSite(int SiteId, Sites Site)
+        public void UpdateSite(int SiteId, siteDto Site)
         {
             _unitOfWork.Sites.Update(SiteId, Site);
         }

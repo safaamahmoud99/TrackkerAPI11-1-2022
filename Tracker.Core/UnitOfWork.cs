@@ -45,6 +45,8 @@ namespace Tracker.Core
         private RequestStatusRepository _requestStatusRepository;
         private ProjectTypeRepository _projectType;
         private SitesRepository _sites;
+        private GovernorateRepository _governorates;
+        private CityRepository _city; 
         private OriginsRepository _origin;
         private DueDateCategoryRepository _dueDateCategory;
         private SupplierRepository _suppliers;
@@ -88,6 +90,10 @@ namespace Tracker.Core
         public ISiteClientsRepository SiteClients => _siteClients = _siteClients ?? new SiteClientsRepository(_context);
         public IProjectSiteAssetRepository ProjectSiteAsset => _projectSiteAsset = _projectSiteAsset ?? new ProjectSiteAssetRepository(_context);
         public IOrganizationClientsRepository OrganizationClients => _organizationClientsRepository = _organizationClientsRepository ?? new OrganizationClientsRepository(_context);
+
+        public IGovernorateRepository Governorate => _governorates = _governorates ?? new GovernorateRepository(_context);
+
+        public ICityRepository City => _city = _city ?? new CityRepository(_context);  
 
         protected virtual void Dispose(bool disposing)
         {

@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tracker.Data.Models;
+using Tracker.Data.DTO;
 
 namespace Tracker.Domain.IRepositories
 {
     public interface ISitesRepository
     {
-        Sites Get(int id);
-        IEnumerable<Sites> GetAll();
-        void Add(Sites Site);
+        siteDto Get(int id);
+        IEnumerable<siteDto> GetAll();
+        void Add(siteDto Site);
         void Delete(int SiteId);
-        void Update(int SiteId, Sites Site);
+        void Update(int SiteId, siteDto Site);
     }
 }

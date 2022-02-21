@@ -30,7 +30,7 @@ namespace Tracker.Domain
         IRequestStatusRepository RequestStatus { get; }
         IRequestSubCategoryRepository SubCategory { get; }
         IRequestTypeRepository RequestType { get; }
-        IStackeholdersRepository Stackeholders  { get; }
+        IStackeholdersRepository Stackeholders { get; }
         IAssetRepository Asset { get; }
         IRequestModeRepository RequestMode { get; }
         IRequestImageRepositories RequestImage { get; }
@@ -38,7 +38,7 @@ namespace Tracker.Domain
         IRequestDescriptionRepository RequestDescription { get; }
         IAssignedRequestsRepository AssignedRequests { get; }
         IProblemsRepository Problems { get; }
-        IRequestProblemRepository RequestProblem{ get; }
+        IRequestProblemRepository RequestProblem { get; }
         IProjectTypeRepository ProjectType { get; }
         ISitesRepository Sites { get; }
         IOriginsRepository Origins { get; }
@@ -47,7 +47,10 @@ namespace Tracker.Domain
         IBrandRepository Brand { get; }
         IProjectSitesRepository ProjectSites { get; }
         ISiteClientsRepository SiteClients { get; }
-        IProjectSiteAssetRepository ProjectSiteAsset  { get; }
+        IProjectSiteAssetRepository ProjectSiteAsset { get; }
         IOrganizationClientsRepository OrganizationClients { get; }
+        IGovernorateRepository Governorate { get;}
+         
+        ICityRepository City { get; }
     }
 }

@@ -21,6 +21,11 @@ namespace Tracker.Data.Models
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            foreach (var relationship in builder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+            }
+            
             base.OnModelCreating(builder);
         }
 
@@ -58,6 +63,8 @@ namespace Tracker.Data.Models
         public DbSet<SiteClients> SiteClients { get; set; }
         public DbSet<Sites> Sites { get; set; }
        public DbSet<OrganizationClients> OrganizationClients { get; set; }
+       public DbSet<Governorate> Governorates { get; set; }
+       public DbSet<City> Cities { get;set;}
 
 
 

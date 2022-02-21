@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Tracker.Data.DTO;
 using Tracker.Data.Models;
 using Tracker.Domain.IServices;
 
@@ -23,21 +24,21 @@ namespace Tracker.API.Controllers
         }
         // GET: api/<SitesController>
         [HttpGet]
-        public IEnumerable<Sites> Get()
+        public IEnumerable<siteDto> Get()
         {
             return _sitesService.GetAllSites();
         }
 
         // GET api/<SitesController>/5
         [HttpGet("{id}")]
-        public ActionResult<Sites> Get(int id)
+        public ActionResult<siteDto> Get(int id)
         {
             return _sitesService.GetSite(id);
         }
 
         // POST api/<SitesController>
         [HttpPost]
-        public ActionResult<Sites> Post(Sites Sites)
+        public ActionResult<siteDto> Post(siteDto Sites)
         {
             _sitesService.AddSite(Sites);
             return CreatedAtAction("Get", new { id = Sites.Id }, Sites);
@@ -46,10 +47,10 @@ namespace Tracker.API.Controllers
 
         // PUT api/<SitesController>/5
         [HttpPut("{id}")]
-        public ActionResult<Sites> Put(int id, Sites Sites)
+        public void Put(int id, siteDto Sites)
         {
             _sitesService.UpdateSite(id, Sites);
-            return CreatedAtAction("Get", new { id = Sites.Id }, Sites);
+          //  return CreatedAtAction("Get", new { id = Sites.Id }, Sites);
 
         }
 
