@@ -1,0 +1,108 @@
+<div class="container card" style="margin-left: 15px;"> 
+    <form [formGroup] ="RegisterationClient">
+     <br>
+    <h1 [translate]="'Tracker.Add Client'" style="margin-bottom: 20px; font-size: 2em;color: #2674a8;"></h1>
+    <br>
+    <div class="row">
+
+        <div class="col-4">
+            <label for="name"> {{ 'Tracker.ClientName' | translate }}</label>
+            <input type="text"  [class.is-invalid] ="clientName.invalid && clientName.touched"
+                name="clientNames" id="clientName" class="form-control" [placeholder]="'Tracker.name' | translate"
+                aria-describedby="helpId" formControl="clientName" >
+            <!-- <small [hidden]="clientName.valid || clientName.untouched" id="helpId" class="text-muted"
+                [translate]="'Tracker.messege'"></small> -->
+                <div *ngIf ="clientName.invalid && clientName.untouched">
+                    <small *ngIf ="clientName.errors?.required" class="text-danger" [class.d-none] ="clientName.valid || clientName.untouched">
+                        Client Name is required
+                      </small>
+                      <small *ngIf ="clientName.errors?.minlength" class="text-danger" [class.d-none] ="clientName.valid || clientName.untouched">
+                        Client Name  musy be at least 3 characters
+                      </small>
+                </div>
+               
+        </div>
+        <!-- <div class="col-4">
+        <span class="p-float-label">
+            <input type="text" id="inputtext" pInputText [(ngModel)]="client.clientCode">
+            <label for="inputtext">Client Code</label>
+        </span>
+    </div> -->
+        <div class="col-4">
+            <label for="Code"> {{ 'Tracker.Code' | translate }}</label>
+            <input type="text" #clientCode="ngModel" [class.is-invalid]="clientCode.invalid && clientCode.touched"
+                [class.is-valid]="clientCode.valid" [(ngModel)]="client.clientCode" required minlength="3"
+                name="clientCode" id="code" class="form-control" [placeholder]="'Tracker.Code' | translate"
+                aria-describedby="helpId"  >
+            <small [hidden]="clientCode.valid || clientCode.untouched" id="helpId" class="text-muted"
+                [translate]="'Tracker.messege'"></small>
+
+        </div>
+        <div class="col-4">
+            <label for="address"> {{ 'Tracker.Address' | translate }}</label>
+            <input type="text" #address="ngModel" [class.is-invalid]="address.invalid && address.touched"
+                [class.is-valid]="address.valid" [(ngModel)]="client.address" required minlength="3" name="clsaddress"
+                id="address" class="form-control" [placeholder]="'Tracker.Address' | translate"
+                aria-describedby="helpId"  >
+            <small [hidden]="address.valid || address.untouched" id="helpId" class="text-muted"
+                [translate]="'Tracker.messege'"></small>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <label for="Phone">{{ 'Tracker.Phone' | translate }}</label>
+            <input type="text" #Phone="ngModel" [class.is-invalid]="Phone.invalid && Phone.touched"
+                [class.is-valid]="Phone.valid" [(ngModel)]="client.phone" required minlength="3" name="ClientPhone"
+                id="Phone" class="form-control" [placeholder]="'Tracker.Phone' | translate" aria-describedby="helpId"  >
+            <small [hidden]="clientCode.Phone || Phone.untouched" id="helpId" class="text-muted"
+                [translate]="'Tracker.messege'"></small>
+
+        </div>
+        <!-- <div class="col-4">
+        <span class="p-float-label">
+            <input type="text" id="inputtext" pInputText [(ngModel)]="client.email">
+            <label for="inputtext">Client Email</label>
+        </span>
+    </div> -->
+        <div class="col-4">
+            <label for="name"> {{ 'Tracker.Email' | translate }}</label>
+            <input type="email" #Email="ngModel" [class.is-invalid]="Email.invalid && Email.touched"
+                [class.is-valid]="Email.valid" [(ngModel)]="client.email" required minlength="3" name="clientEmail"
+                id="Email" class="form-control" [placeholder]="'Tracker.Email' | translate" aria-describedby="helpId"  >
+            <small [hidden]="Email.valid || Email.untouched" id="helpId" class="text-muted"
+                [translate]="'Tracker.messege'"></small>
+
+        </div>
+        <!-- <div class="p-field col-md-4">
+            <label for="name"> {{ 'Tracker.Organization Name' | translate }}</label>
+            <br>
+            <p-dropdown [options]="organizations" [(ngModel)]="client.organizationId" [style]="{'width':'100%'}"
+                [placeholder]="'Tracker.OrganizationName' | translate" optionLabel="organizationName" optionValue="id">
+            </p-dropdown>
+        </div><br> --> <br>
+        <div class="col" style="margin-top: 15px;">
+            <span class="p-field-radiobutton">
+                <p-radioButton name="Male" value="Male" [(ngModel)]="client.gender" inputId="Male"></p-radioButton>
+                <label for="Male"> {{ 'Tracker.Male' | translate }}</label>
+            </span>&nbsp;&nbsp;
+            <span class="p-field-radiobutton">
+                <p-radioButton name="Female" value="Female" [(ngModel)]="client.gender" inputId="Female">
+                </p-radioButton>
+                <label for="Female">{{ 'Tracker.Female' | translate }}</label>
+            </span>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <button class="btn btn-success" style="width:40%;margin-left: -35%;" (click)="saveClientToDB()"> {{
+                'Tracker.Save' | translate }}</button>
+        </div>
+    
+        <div class="col-md-8"></div>
+    </div>
+    <br>
+</form>
+</div>

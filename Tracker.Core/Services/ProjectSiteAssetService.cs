@@ -31,7 +31,10 @@ namespace Tracker.Core.Services
         {
             return _unitOfWork.ProjectSiteAsset.GetAllAssetsSerialsByAssetId(AssetId);
         }
-
+     public IEnumerable<ProjectSiteAssetDTO> GetAllAssetsSerialsbyAssetIdAndprojectIdandSiteId(int projectId, int siteId, int AssetId)
+        {
+            return _unitOfWork.ProjectSiteAsset.GetAllAssetsSerialsbyAssetIdAndprojectIdandSiteId(projectId, siteId, AssetId); 
+        }
         public IEnumerable<ProjectSiteAssetDTO> GetAllProjectSiteAssetByProjectId(int ProjectId)
         {
             return _unitOfWork.ProjectSiteAsset.GetAllProjectSiteAssetByProjectId(ProjectId);

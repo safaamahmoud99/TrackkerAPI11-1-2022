@@ -43,11 +43,15 @@ namespace Tracker.Core.Services
             throw new NotImplementedException();
         }
 
+        public IEnumerable<Sites> GetAllSitesAssigendbyClient(int clientId)
+        {
+            return _unitOfWork.SiteClients.GetAllSitesAssigendbyClient(clientId);
+        }
+
         public IEnumerable<Client> GetAllUnassignedClients(int SiteId, int ProjectId)
         {
             return _unitOfWork.SiteClients.GetAllUnassignedClients(SiteId, ProjectId);
         }
-
         public IEnumerable<Client> GetAllUnassignedClientsforAnotherProjectAndAssignedByThisProjectId(int SiteId, int ProjectId)
         {
             return _unitOfWork.SiteClients.GetAllUnassignedClientsforAnotherProjectAndAssignedByThisProjectId(SiteId, ProjectId);

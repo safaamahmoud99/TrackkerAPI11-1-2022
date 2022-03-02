@@ -71,6 +71,33 @@ namespace Tracker.Core.Repositories
             return assignClients;
 
         }
+        public IEnumerable<Sites> GetAllSitesAssigendbyClient(int clientId)
+        {
+            List<Sites> lstSites = new List<Sites>();
+            if (clientId == 0)
+            {
+                throw new NotExistException("Not Exist Exception");
+            }
+            else
+            {
+                var clientSites = _context.SiteClients.Where(c=>c.ClientId==clientId).Select(clientsites => new SiteClientsDTO 
+                {
+                    Id =clientsites.Id,
+                    ProjectId =clientsites.ProjectSites.ProjectId ,
+                    ProjectName = clientsites.ProjectSites.Project.ProjectName,
+                    SiteId = clientsites.ProjectSites.SiteId,
+                    SiteName =clientsites.ProjectSites.Sites.Sitename 
+                }).ToList();
+                foreach (var item in clientSites)
+                {
+                    Sites sites = new Sites();
+                    sites.Id = item.SiteId;
+                    sites.Sitename = item.SiteName;
+                    lstSites.Add(sites);
+                }
+                return lstSites;
+            }
+        } 
         public IEnumerable<ClientDTO> GetAllAssignedClientsByProjectId(int ProjectId)
         {
             var assignClients = _context.SiteClients.Where(sc => sc.ProjectSites.ProjectId == ProjectId).Select(sClient => new ClientDTO

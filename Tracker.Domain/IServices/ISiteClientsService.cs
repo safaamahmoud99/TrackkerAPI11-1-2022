@@ -17,6 +17,7 @@ namespace Tracker.Domain.IServices
         IEnumerable<ClientDTO> GetAllAssignedClientsByProjectId(int ProjectId);
         IEnumerable<Client> GetAllUnassignedClientsforAnotherProjectAndAssignedByThisProjectId(int SiteId, int ProjectId);
         SiteClientsDTO GetSiteClientsDTOById(int id);
+        IEnumerable<Sites> GetAllSitesAssigendbyClient(int clientId);
         Task<IEnumerable<SiteClients>> UpdateByprojectSiteId(int projectSiteId, List<Client> clients);
         void AddSiteClientsDTO(SiteClientsDTO SiteClientsDTO);
         void UpdateSiteClientsDTO(int Id, SiteClientsDTO SiteClientsDTO);

@@ -95,6 +95,20 @@ namespace Tracker.Core.Repositories
                  }).ToList();
             return LstProjectSiteAsset;
         }
+
+        public IEnumerable<ProjectSiteAssetDTO>GetAllAssetsSerialsbyAssetIdAndprojectIdandSiteId(int projectId,int siteId,int AssetId)
+        {
+            var LstProjectSiteAsset = _context.ProjectSiteAsset.Where(ps => ps.AssetId == AssetId && ps.ProjectSites.ProjectId == projectId &&ps.ProjectSites.SiteId==siteId)
+               .Select(projectSiteAsset => new ProjectSiteAssetDTO
+              {
+                     Id = projectSiteAsset.Id,
+                     Days = projectSiteAsset.Days,
+                     SerialNumber = projectSiteAsset.SerialNumber,
+                     WarrantyPeriod = projectSiteAsset.WarrantyPeriod,
+                     WarrantyStartDate = projectSiteAsset.WarrantyStartDate,
+           }).ToList();
+            return LstProjectSiteAsset;
+        }
         public void Delete(int id)
         {
             ProjectSiteAsset projectSiteAsset = _context.ProjectSiteAsset.Where(p => p.Id == id).FirstOrDefault();

@@ -41,6 +41,12 @@ namespace Tracker.API.Controllers
         {
             return _projectSiteAssetService.GetAllAssetsSerialsByAssetId(AssetId);
         }
+        [Route("GetAllAssetsSerialsbyProject/{projectId}/{siteId}/{AssetId}")]
+        public IEnumerable<ProjectSiteAssetDTO>GetAllAssetsSerialsbyAssetIdAndprojectIdandSiteId(int projectId,int siteId,int AssetId)
+        {
+            return _projectSiteAssetService.GetAllAssetsSerialsbyAssetIdAndprojectIdandSiteId(projectId, siteId, AssetId);
+        }
+
         [Route("GetProjectSiteAssetBySerialNumber/{SerialNumber}")]
         public ProjectSiteAssetDTO GetProjectSiteAssetBySerialNumber(string SerialNumber)
         {

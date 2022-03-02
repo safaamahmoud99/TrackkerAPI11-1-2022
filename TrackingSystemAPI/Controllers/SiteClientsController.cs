@@ -54,6 +54,12 @@ namespace Tracker.API.Controllers
         {
            return _siteClientsService.GetAllUnassignedClientsforAnotherProjectAndAssignedByThisProjectId(SiteId,ProjectId);
         }
+        [Route("GetAllAssignesitesbyclient/{clientId}")]
+        public IEnumerable<Sites> GetAllSitesAssigendbyClient(int clientId)
+        {
+            return _siteClientsService.GetAllSitesAssigendbyClient(clientId);
+        }
+
         // POST api/<SiteClientsController>
         [HttpPost]
         public void Post(SiteClientsDTO siteClientsDTO)
