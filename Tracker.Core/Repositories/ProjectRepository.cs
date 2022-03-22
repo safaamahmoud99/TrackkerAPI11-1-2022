@@ -318,10 +318,10 @@ namespace Tracker.Core.Repositories
         }
         public bool clientCanRequest(int ClientId)
         {
-            var pro =GetProjectsByClientId(ClientId);
+            var pro = GetProjectsByClientId(ClientId);
             var assetList = _projectSiteAssetRepository.GetAllProjectSiteAssetByProjectId(pro.Id).ToList();
             var proTeamlist = _projectTeamRepository.GetProjectTeamsByProjectId(pro.Id).ToList();
-            if(assetList.Count>0 && proTeamlist.Count>0)
+            if (assetList.Count > 0 && proTeamlist.Count > 0)
             {
                 return true;
             }

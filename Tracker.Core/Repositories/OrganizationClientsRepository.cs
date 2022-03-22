@@ -67,7 +67,7 @@ namespace Tracker.Core.Repositories
                     ProjectTypeId = e.ProjectTypeId,
                     ProjectTypeName = e.ProjectType.TypeName,
                     ProjectPeriod = e.ProjectPeriod,
-                //    PlanndedStartDate = e.PlanndedStartDate,
+                   PlanndedStartDate = e.PlanndedStartDate,
                     PlanndedEndDate = e.PlanndedEndDate,
                     ActualStartDate = e.ActualStartDate,
                     ActualEndDate = e.ActualEndDate,

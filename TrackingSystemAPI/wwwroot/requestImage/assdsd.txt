@@ -1,0 +1,355 @@
+<!-- Show all   Requests that belongs to specific client -->
+<div class="container card">
+    <p-toast></p-toast>
+    <p-toast position="top-right" key="tr" [baseZIndex]="9999"></p-toast>
+    <p-toast position="top-left" key="tl"></p-toast>
+    <p-toast position="top-center" key="tc"></p-toast>
+    <p-toast position="bottom-center" key="bc"></p-toast>
+<p-table [value]="lstRequests" styleClass="p-datatable-responsive-demo">
+    <ng-template pTemplate="caption">
+        <div class="row">
+        <div class="p-d-flex p-ai-center p-jc-between col-md-10">
+            <h1 [translate]="'Tracker.Clients Requests'" style="margin-bottom: 20px;margin-left:20px; font-size: 2em;color: #2674a8;"></h1>
+
+           <!--routerLink="/home/AllClientsReq" <span class="h3Header">  {{ 'Tracker.Clients Requests' | translate }}</span> -->
+        </div>
+        <div class="col-md-2" >
+            <button id="addEmpBtn" [disabled]="disableAddbth"   (click)="OpendialogAddRequest()"  class="btn btn-outline-primary btn-md btn-block">
+                <span class="pi pi-plus"> {{ 'Tracker.Add' | translate }}</span> </button>
+        </div>
+    </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <!-- <th>Image</th> -->
+            <th> {{'Tracker.Request Name'|translate}}
+                <p-columnFilter type="text" field="requestName" display="menu"></p-columnFilter>
+            </th>
+            <th>{{'Tracker.Code'|translate}}
+                <p-columnFilter type="text" field="requestCode" display="menu"></p-columnFilter>
+            </th>
+            <th>{{'Tracker.Project Name'|translate}}
+                <p-columnFilter type="text" field="projectName" display="menu"></p-columnFilter>
+            </th>
+            <th>{{'Tracker.Date'|translate}}
+                <p-columnFilter type="text" field="requestDate" display="menu"></p-columnFilter>
+            </th>
+            <th> {{'Tracker.Status'|translate}}
+                <p-columnFilter type="text" field="requestStatus" display="menu"></p-columnFilter>
+            </th>
+            <th>{{'Tracker.Problem'|translate}}
+                <p-columnFilter type="text" field="problemName" display="menu"></p-columnFilter>
+            </th>
+            <th>{{'Tracker.Operation'|translate}} </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-request>
+        <tr>
+            <td>
+                {{request.requestName}}
+            </td>
+            <td>
+                {{request.requestCode}}
+            </td>
+            <td>
+                {{request.projectName}}
+            </td>
+            <td>
+                 <!-- {{request.requestTime | slice:0:5}} -->
+                {{request.requestDate | date:'dd/MM/yyyy h:mm:ss a'}}
+            </td>
+            <td style="font-weight: bolder;color: #b3c20e;" *ngIf="request.requestStatus=='Open'">
+                {{request.requestStatus}}
+            </td>
+            <td style="font-weight: bolder;color: #5c6305;" *ngIf="request.requestStatus=='InProgress'">
+                {{request.requestStatus}}
+            </td>
+            <td style="font-weight: bolder;color: #1e5c13;" *ngIf="request.requestStatus=='Solved'">
+                {{request.requestStatus}}
+            </td>
+            <td style="font-weight: bolder;color: #5a6359;" *ngIf="request.requestStatus=='Closed'">
+                {{request.requestStatus}}
+            </td>
+            <td>
+                {{request.requestSubCategoryName}}
+            </td>
+            <td>
+                <span class="pi pi-file-o" (click)="ViewImages(request.id)" pTooltip="Show Documents"
+                style="cursor: pointer;margin-left: 15px;" aria-hidden="true"></span>
+            <span (click)="ViewMoreDesc(request.id)" class="pi pi-list" pTooltip="Descriptions"
+                style="cursor: pointer;margin-left: 15px;" aria-hidden="true"></span>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="summary">
+        <div class="p-d-flex p-ai-center p-jc-between">
+            {{ 'Tracker.In total there are ' | translate }} {{lstRequests ? lstRequests.length : 0 }}  {{ 'Tracker.Requests'  | translate }}
+            <!-- In total there are {{lstRequests ? lstRequests.length : 0 }} Requests. -->
+        </div>
+    </ng-template>
+    
+</p-table>
+<p-dialog [(visible)]="NewdecDialogbool" [style]="{width: '50vw'}" [baseZIndex]="10000">
+    <div class="row">
+        <h1 [translate]="'Tracker.Descriptions'" style="margin-bottom: 20px; font-size: 2em;color: #2674a8;"></h1>
+        <p-table [value]="lstRequestDesc">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th style="color: #2674a8; font-size: 20px; font: bold; text-align: center;">{{'Tracker.Descriptions'| translate}} </th>
+                    <th style="color: #2674a8; font-size: 20px; font: bold; text-align: center;">{{'Tracker.UserName'|
+                        translate}}</th>
+                    <th style="color: #2674a8; font-size: 20px; font: bold; text-align: center;">{{'Tracker.Date'|
+                        translate}}</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-i>
+                <tr>
+                    <td style="font-size: large;text-align: center;">
+                        {{i.description}}
+
+                    </td>
+                    <td style="font-size: large;text-align: center;">
+                        {{i.userName}}
+
+                    </td>
+                    <td style="font-size: large;text-align: center;">
+                        {{i.descriptionDate | date :'dd/MM/yyyy h:mm a'}}
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+    <!-- <ng-template pTemplate="footer">
+        <p-button icon="pi pi-times" (click)="NewdecDialogbool=false" label="No"></p-button>
+    </ng-template> -->
+
+</p-dialog>
+<p-dialog class="data" [(visible)]="dialogAddRequest" 
+[breakpoints]="{'960px': '75vw', '640px': '100vw'}"
+[draggable]="false" [style]="{width: '60vw'}"  [resizable]="true">
+<!-- <p-toast position="top-right" key="tr" [baseZIndex]="5000"></p-toast> -->
+ <!-- <button mat-raised-button (click)="isLinear = !isLinear" id="toggle-linear">
+   {{!isLinear ? 'Enable linear mode' : 'Disable linear mode'}}
+ </button>  -->
+ <mat-horizontal-stepper [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+          <ng-template matStepLabel>{{'Tracker.Add request'| translate}}</ng-template>
+          <div class="container card">
+            <h3 style="text-align: inherit;margin-top: 15px;margin-bottom: 15px;"><span for="Project Name" class="labelMarginRight"> {{'Tracker.Project'|translate}} : </span>
+              <span> {{projectName}}</span></h3>
+          <div class="row">
+              <!-- <div class="p-field col-md-4">
+                  <label for="Project Name" class="labelMarginRight"> {{'Tracker.Project Name'|translate}}</label><br>
+                  <input id="projectname" disabled name="projectname" class="form-control"  minlength="4"
+                  [placeholder]=" 'Tracker.Enter Request Name'|translate" [(ngModel)]="projectName" [ngModelOptions]="{standalone: true}"
+                  #name="ngModel" pInputText>
+              </div> -->
+              <div class="p-field col-md-4">
+                  <label for="Request Name" name="name" class="labelMarginRight">{{'Tracker.Request Name'|translate}}
+                  </label><br>
+                  <input id="name"   name="name" class="form-control" required minlength="4"
+                  [placeholder]=" 'Tracker.Enter Request Name'|translate" [(ngModel)]="reqObj.requestName" [ngModelOptions]="{standalone: true}"
+                  #name="ngModel" pInputText [class.is-invalid]="name.invalid && name.touched"
+                  [class.is-valid]="name.valid">
+                  <!-- <small [hidden]="name.valid || name.untouched" id="helpId" class="text-danger" [translate]="'Tracker.messegerequest'"></small> -->
+              <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert alert-danger">
+
+                  <div *ngIf="name.errors.required" [translate]="'Tracker.required'" >
+                      
+                  </div>
+                  <div *ngIf="name.errors.minlength" [translate]="'Tracker.messegerequest'">
+                      
+                  </div>
+              </div>
+              </div>
+            
+           <div class="p-field col-md-4">
+            <label for="Sites" class="labelMarginRight">{{'Tracker.Hospital Name'|translate}} </label><br>
+
+            <p-dropdown   [options]="lstSites" [(ngModel)]="reqObj.sitename" [ngModelOptions]="{standalone: true}"
+                [placeholder]="'Tracker.Hospital Name'|translate" optionLabel="sitename"
+                optionValue="id" (onChange)="onchangeSite($event)">
+            </p-dropdown>
+        </div>
+        <div class="p-field col-md-4">
+            <label for="requestType" class="labelMarginRight">{{'Tracker.Request Type'|translate}} </label><br>
+
+            <p-dropdown [options]="lstProjectTeams" [(ngModel)]="reqObj.teamId" [ngModelOptions]="{standalone: true}"
+                [placeholder]="'Tracker.Select Request Type'|translate" optionLabel="teamName"
+                optionValue="teamId" (onChange)="GetProjectTeamId($event)">
+            </p-dropdown>
+        </div>
+          </div>
+          <div class="row">
+             
+
+                  <div class="p-field col-md-4">
+                      <label for="asset Type" class="labelMarginRight">{{'Tracker.Request Asset'|translate}}
+                      </label><br>
+                      <p-dropdown [options]="lstAssetsByProject" [(ngModel)]="reqObj.assetId" (onChange)="onChangeAsset($event)"
+                          [placeholder]="'Tracker.Select Request Asset'|translate" optionLabel="assetName" [ngModelOptions]="{standalone: true}"
+                          optionValue="assetId">
+                      </p-dropdown>
+                  </div>
+                   <div class="p-field col-md-4">
+                      <label for="Asset Serial" class="labelMarginRight">{{'Tracker.Asset Serial'|translate}}
+                      </label><br>
+                      <p-dropdown [options]="lstAssetsSerialsByAsset"  (onChange)="onChangeSerial($event)"
+                          [placeholder]="'Tracker.Select Request Asset'|translate" optionLabel="serialNumber" [ngModelOptions]="{standalone: true}"
+                          optionValue="id">
+                      </p-dropdown>
+                  </div>
+                  <div class="p-field col-md-4">
+                    <label for="Project Type" class="labelMarginRight">{{'Tracker.Request Sub Category'|translate}}
+                    </label><br>
+                    <p-dropdown [options]="lstReqSubCategories" [(ngModel)]="reqObj.requestSubCategoryId" [ngModelOptions]="{standalone: true}"
+                        [placeholder]="'Tracker.Select Sub Category'|translate" optionLabel="subCategoryName"
+                        optionValue="id">
+                    </p-dropdown>
+                </div>
+               </div>
+               <div class="row">
+                <div class="p-field col-md-4">
+                    <label for="Project Type" class="labelMarginRight">{{'Tracker.Request Periority'|translate}}
+                    </label><br>
+                    <p-dropdown [options]="lstReqPeriorities" [(ngModel)]="reqObj.requestPeriorityId" [ngModelOptions]="{standalone: true}"
+                        [placeholder]="'Tracker.Select Request Periority'|translate" optionLabel="periorty"
+                        optionValue="id">
+                    </p-dropdown>
+                </div>
+               </div>   
+          <div class="row">
+              <div class="col-md-3" hidden>
+                  <label for="Request Date" class="labelMarginRight">Request Date</label><br>
+                  <p-calendar [(ngModel)]="reqObj.requestDate" [ngModelOptions]="{standalone: true}" dateFormat="dd/mm/yy"></p-calendar>
+                  <small class="p-invalid"></small>
+              </div>
+              <div class="col-md-3" hidden>
+                  <label for="Request Date" class="labelMarginRight">Request Time</label><br>
+                  <p-calendar [(ngModel)]="reqObj.requestTime" [timeOnly]="true" inputId="timeonly" [ngModelOptions]="{standalone: true}"></p-calendar>
+              </div>
+              <div class="row">
+                  <div class="p-field col-md-9" style="margin-left: 13px;">
+                      <label for="description">{{ 'Tracker.Description' | translate }}</label><br>
+                      <textarea id="description" [(ngModel)]="reqObj.description" pInputTextarea required rows="3" [ngModelOptions]="{standalone: true}"
+                          cols="63"></textarea>
+                  </div>
+              </div>
+          </div><br>              
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-7"></div>
+            <div class="col-md-3">
+              <button mat-stroked-button   [disabled]="IsSaveProject"  (click)="AddRequest()" color="primary" mat-button >{{'Tracker.Submit'|translate}}</button>
+              <button mat-stroked-button [disabled]="disabledButton==false" color="primary" mat-button matStepperNext>{{'Tracker.NEXT'|translate}}</button>
+            </div>
+         </div>   
+        <br>
+         </div>
+
+      </mat-step>
+
+      <mat-step [stepControl]="secondFormGroup">    
+        <ng-template matStepLabel>{{'Tracker.Add Document'| translate}}</ng-template>  
+
+        <div class="container card">
+            <br>                       
+               <div class="p-field col-md-9 mt-3">
+                   <input type="file" #file placeholder="Choose file" (change)="uploadFile(file.files)"
+                       style="display:none;">
+                   <button type="button" class="btn btn-success" 
+                       (click)="file.click()">{{'Tracker.Upload Request Images'|translate}}</button>
+    
+               </div>
+               <br />
+               <br />
+               <div class="p-field col-md-9">
+                   <div class="col">
+                       <table class="table">
+                           <thead>
+                               <tr>
+                                   <th> {{'Tracker.Request Image Name'|translate}}</th>
+                               </tr>
+                           </thead>
+                           <tbody>
+    
+                               <tr *ngFor="let i of lstRequestImages">
+    
+                                   <td>{{i.imageName}}</td>
+    
+                               </tr>
+                               <tr>
+    
+                               </tr>
+                               <tr *ngIf="lstRequestImages.length == 0">
+                                   <td colspan="4" style="color: rgb(102, 97, 23);">{{'Tracker.No images found'|translate}}
+                                   </td>
+                               </tr>
+                           </tbody>
+    
+                       </table>
+    
+                       <button class="btn btn-warning mb-3" style="margin-left: -30px;" [disabled]="lstRequestImages.length == 0"
+                           (click)="SaveimageToDB()">
+                           {{'Tracker.Add List'|translate}}</button>
+                   </div>
+               </div>
+             <div class="row">
+                 <div class="col-md-3">
+                   <button mat-stroked-button color="primary" mat-button matStepperPrevious> {{'Tracker.Back'|translate}}</button>
+                 </div>
+                 <div class="col-md-7"></div>
+                 <div class="col-md-2">
+                   <button mat-stroked-button color="primary" mat-button matStepperNext>{{'Tracker.NEXT'|translate}}</button>
+                 </div>
+             </div>
+             <br>
+           </div> 
+         
+      </mat-step>
+      <mat-step>
+        <ng-template matStepLabel>{{'Tracker.FINISH'|translate}}</ng-template>
+        <p>{{'Tracker.You are now done.'|translate}}</p>
+        <div class="row">
+            <div class="col-md-2">
+                <button mat-stroked-button color="primary" mat-button matStepperPrevious>{{'Tracker.Back'|translate}}</button>
+            </div>
+            <div class="col-md-8"></div>
+            <div class="col-md-2">
+                <button mat-stroked-button (click)="stepper.reset()" (click)="CloseStipper()" color="primary" mat-button>{{'Tracker.FINISH'|translate}}</button>
+            </div>
+        </div>
+      </mat-step>
+</mat-horizontal-stepper>
+</p-dialog>
+<p-dialog [(visible)]="NewclientDialogbool" [style]="{width: '50vw'}" [baseZIndex]="10000">
+    <div class="row">
+        <h1 [translate]="'Tracker.Documents'"
+            style="margin-bottom: 20px;margin-left:20px; font-size: 2em;color: #2674a8;"></h1>
+        <p-table [value]="reqImages">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th style="color: #2674a8; font-size: 20px; font: bold; ">{{'Tracker.Document Name'|translate}}
+                    </th>
+                        <th></th>
+                </tr>
+
+            </ng-template>
+            <ng-template pTemplate="body" let-i>
+                <tr>
+                    <td style="color: rgb(187, 12, 12);font-size: large;">{{i.imageName}}
+                    </td>
+                    <td>
+                        <button
+                            class="btn btn-info" style="text-align:right;"
+                            (click)="viewSingleDoc(i)">{{'Tracker.View'|translate}} </button></td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+    <!-- <ng-template pTemplate="footer">
+        <p-button icon="pi pi-times" (click)="NewclientDialogbool=false" label="No"></p-button>
+    </ng-template> -->
+
+</p-dialog>
+</div>

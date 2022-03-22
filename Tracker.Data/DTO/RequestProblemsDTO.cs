@@ -28,6 +28,9 @@ namespace Tracker.Data.DTO
         public int RequestModeId { get; set; }
         public string RequestMode { get; set; }
         public int AssetId { get; set; }
+        public string AssetName { get; set; }
+        public string SerialNumber { get; set; }
+        public string Sitename { get; set; }
         public string AssetCode { get; set; }
         public int RequestStatusId { get; set; }
         public string RequestStatus { get; set; }

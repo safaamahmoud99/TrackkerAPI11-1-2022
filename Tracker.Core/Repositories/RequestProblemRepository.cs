@@ -137,6 +137,9 @@ namespace Tracker.Core.Repositories
                                                  RequestMode = reqProblem.Request.RequestMode.Mode,
                                                  //AssetId = reqProblem.Request.AssetId,
                                                  //AssetCode = reqProblem.Request.Asset.AssetCode,
+                                                 AssetName = reqProblem.Request.ProjectSiteAsset.Asset.AssetName,
+                                                 SerialNumber = reqProblem.Request.ProjectSiteAsset.SerialNumber,
+                                                 Sitename = reqProblem.Request.ProjectSiteAsset.ProjectSites.Sites.Sitename,
                                                  ClientId = reqProblem.Request.ClientId,
                                                  ClientName = reqProblem.Request.Client.ClientName,
                                                  RequestSubCategoryId = reqProblem.Request.RequestSubCategoryId,
@@ -163,7 +166,8 @@ namespace Tracker.Core.Repositories
                 }).FirstOrDefault();
             if (problemName == null)
             {
-                throw new NotExistException("Not Exist Exception");
+                // throw new NotExistException("Not Exist Exception");
+                return null;
             }
             else
             {
