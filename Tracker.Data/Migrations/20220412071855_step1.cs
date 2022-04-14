@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Tracker.Data.Migrations
 {
-    public partial class AddDB : Migration
+    public partial class step1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -26,6 +26,7 @@ namespace Tracker.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -79,6 +80,19 @@ namespace Tracker.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "DaysforAutomticApproveStatus",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Days = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DaysforAutomticApproveStatus", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "departments",
                 columns: table => new
                 {
@@ -105,6 +119,19 @@ namespace Tracker.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Governorates",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    governorateName = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Governorates", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "organizations",
                 columns: table => new
                 {
@@ -112,10 +139,7 @@ namespace Tracker.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     OrganizationName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     OrganizationCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Mobile = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ResponsiblePerson = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Location = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     lat = table.Column<float>(type: "real", nullable: true),
                     lng = table.Column<float>(type: "real", nullable: true),
@@ -215,19 +239,6 @@ namespace Tracker.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_requestStatuses", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Sites",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Sitename = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Sites", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -388,7 +399,7 @@ namespace Tracker.Data.Migrations
                         column: x => x.DepartmentId,
                         principalTable: "departments",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -408,11 +419,57 @@ namespace Tracker.Data.Migrations
                         column: x => x.DepartmentId,
                         principalTable: "departments",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Asset",
+                name: "Cities",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    cityName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    GovernorateId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Cities", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Cities_Governorates_GovernorateId",
+                        column: x => x.GovernorateId,
+                        principalTable: "Governorates",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "OrganizationClients",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    OrganizationId = table.Column<int>(type: "int", nullable: false),
+                    ClientId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_OrganizationClients", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_OrganizationClients_clients_ClientId",
+                        column: x => x.ClientId,
+                        principalTable: "clients",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_OrganizationClients_organizations_OrganizationId",
+                        column: x => x.OrganizationId,
+                        principalTable: "organizations",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "assets",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -425,45 +482,19 @@ namespace Tracker.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Asset", x => x.Id);
+                    table.PrimaryKey("PK_assets", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Asset_Brand_BrandId",
+                        name: "FK_assets_Brand_BrandId",
                         column: x => x.BrandId,
                         principalTable: "Brand",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Asset_Origins_OriginId",
+                        name: "FK_assets_Origins_OriginId",
                         column: x => x.OriginId,
                         principalTable: "Origins",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "SiteClients",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    SiteId = table.Column<int>(type: "int", nullable: false),
-                    ClientId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_SiteClients", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_SiteClients_clients_ClientId",
-                        column: x => x.ClientId,
-                        principalTable: "clients",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_SiteClients_Sites_SiteId",
-                        column: x => x.SiteId,
-                        principalTable: "Sites",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -494,13 +525,13 @@ namespace Tracker.Data.Migrations
                         column: x => x.EmployeeId,
                         principalTable: "Employees",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_projects_organizations_OrganizationId",
                         column: x => x.OrganizationId,
                         principalTable: "organizations",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_projects_projectTypes_ProjectTypeId",
                         column: x => x.ProjectTypeId,
@@ -526,7 +557,36 @@ namespace Tracker.Data.Migrations
                         column: x => x.RequestCategoryId,
                         principalTable: "requestCategories",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Sites",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Sitename = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    GovernorateId = table.Column<int>(type: "int", nullable: false),
+                    CityId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Sites", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Sites_Cities_CityId",
+                        column: x => x.CityId,
+                        principalTable: "Cities",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Sites_Governorates_GovernorateId",
+                        column: x => x.GovernorateId,
+                        principalTable: "Governorates",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -549,7 +609,7 @@ namespace Tracker.Data.Migrations
                         column: x => x.ProjectId,
                         principalTable: "projects",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -571,33 +631,7 @@ namespace Tracker.Data.Migrations
                         column: x => x.ProjectId,
                         principalTable: "projects",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "ProjectSites",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ProjectId = table.Column<int>(type: "int", nullable: false),
-                    SiteId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ProjectSites", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_ProjectSites_projects_ProjectId",
-                        column: x => x.ProjectId,
-                        principalTable: "projects",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_ProjectSites_Sites_SiteId",
-                        column: x => x.SiteId,
-                        principalTable: "Sites",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -620,31 +654,31 @@ namespace Tracker.Data.Migrations
                         column: x => x.DepartmentId,
                         principalTable: "departments",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_projectTeams_Employees_EmployeeId",
                         column: x => x.EmployeeId,
                         principalTable: "Employees",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_projectTeams_projectPositions_ProjectPositionId",
                         column: x => x.ProjectPositionId,
                         principalTable: "projectPositions",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_projectTeams_projects_ProjectId",
                         column: x => x.ProjectId,
                         principalTable: "projects",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_projectTeams_Teams_TeamId",
                         column: x => x.TeamId,
                         principalTable: "Teams",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -667,7 +701,96 @@ namespace Tracker.Data.Migrations
                         column: x => x.ProjectId,
                         principalTable: "projects",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ProjectSites",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ProjectId = table.Column<int>(type: "int", nullable: false),
+                    SiteId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ProjectSites", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_ProjectSites_projects_ProjectId",
+                        column: x => x.ProjectId,
+                        principalTable: "projects",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_ProjectSites_Sites_SiteId",
+                        column: x => x.SiteId,
+                        principalTable: "Sites",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ProjectSiteAsset",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    WarrantyPeriod = table.Column<int>(type: "int", nullable: false),
+                    WarrantyStartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    SerialNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    SupplierId = table.Column<int>(type: "int", nullable: false),
+                    Days = table.Column<int>(type: "int", nullable: false),
+                    AssetId = table.Column<int>(type: "int", nullable: false),
+                    ProjectSiteId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ProjectSiteAsset", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_ProjectSiteAsset_assets_AssetId",
+                        column: x => x.AssetId,
+                        principalTable: "assets",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_ProjectSiteAsset_ProjectSites_ProjectSiteId",
+                        column: x => x.ProjectSiteId,
+                        principalTable: "ProjectSites",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_ProjectSiteAsset_Suppliers_SupplierId",
+                        column: x => x.SupplierId,
+                        principalTable: "Suppliers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "SiteClients",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ProjectSiteId = table.Column<int>(type: "int", nullable: false),
+                    ClientId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SiteClients", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_SiteClients_clients_ClientId",
+                        column: x => x.ClientId,
+                        principalTable: "clients",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_SiteClients_ProjectSites_ProjectSiteId",
+                        column: x => x.ProjectSiteId,
+                        principalTable: "ProjectSites",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -683,10 +806,11 @@ namespace Tracker.Data.Migrations
                     RequestTime = table.Column<TimeSpan>(type: "time", nullable: true),
                     IsAssigned = table.Column<bool>(type: "bit", nullable: true),
                     IsSolved = table.Column<bool>(type: "bit", nullable: true),
-                    AssetId = table.Column<int>(type: "int", nullable: false),
                     RequestModeId = table.Column<int>(type: "int", nullable: false),
                     RequestSubCategoryId = table.Column<int>(type: "int", nullable: false),
+                    ProjectSiteAssetId = table.Column<int>(type: "int", nullable: false),
                     ClientId = table.Column<int>(type: "int", nullable: false),
+                    CreatedById = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     RequestStatusId = table.Column<int>(type: "int", nullable: false),
                     RequestPeriorityId = table.Column<int>(type: "int", nullable: false),
                     ProjectTeamId = table.Column<int>(type: "int", nullable: false)
@@ -695,47 +819,53 @@ namespace Tracker.Data.Migrations
                 {
                     table.PrimaryKey("PK_requests", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_requests_Asset_AssetId",
-                        column: x => x.AssetId,
-                        principalTable: "Asset",
+                        name: "FK_requests_AspNetUsers_CreatedById",
+                        column: x => x.CreatedById,
+                        principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_requests_clients_ClientId",
                         column: x => x.ClientId,
                         principalTable: "clients",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_requests_ProjectSiteAsset_ProjectSiteAssetId",
+                        column: x => x.ProjectSiteAssetId,
+                        principalTable: "ProjectSiteAsset",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_requests_projectTeams_ProjectTeamId",
                         column: x => x.ProjectTeamId,
                         principalTable: "projectTeams",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_requests_requestModes_RequestModeId",
                         column: x => x.RequestModeId,
                         principalTable: "requestModes",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_requests_requestPeriorities_RequestPeriorityId",
                         column: x => x.RequestPeriorityId,
                         principalTable: "requestPeriorities",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_requests_requestStatuses_RequestStatusId",
                         column: x => x.RequestStatusId,
                         principalTable: "requestStatuses",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_requests_requestSubCategories_RequestSubCategoryId",
                         column: x => x.RequestSubCategoryId,
                         principalTable: "requestSubCategories",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -757,25 +887,25 @@ namespace Tracker.Data.Migrations
                         column: x => x.EmployeeId,
                         principalTable: "Employees",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_AssignedRequests_projectPositions_ProjectPositionId",
                         column: x => x.ProjectPositionId,
                         principalTable: "projectPositions",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_AssignedRequests_requests_RequestId",
                         column: x => x.RequestId,
                         principalTable: "requests",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_AssignedRequests_Teams_TeamId",
                         column: x => x.TeamId,
                         principalTable: "Teams",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -803,7 +933,7 @@ namespace Tracker.Data.Migrations
                         column: x => x.RequestId,
                         principalTable: "requests",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -823,7 +953,7 @@ namespace Tracker.Data.Migrations
                         column: x => x.requestId,
                         principalTable: "requests",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -844,19 +974,19 @@ namespace Tracker.Data.Migrations
                         column: x => x.EmployeeId,
                         principalTable: "Employees",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_RequestProblems_Problems_ProblemId",
                         column: x => x.ProblemId,
                         principalTable: "Problems",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_RequestProblems_requests_RequestId",
                         column: x => x.RequestId,
                         principalTable: "requests",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
@@ -899,13 +1029,13 @@ namespace Tracker.Data.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Asset_BrandId",
-                table: "Asset",
+                name: "IX_assets_BrandId",
+                table: "assets",
                 column: "BrandId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Asset_OriginId",
-                table: "Asset",
+                name: "IX_assets_OriginId",
+                table: "assets",
                 column: "OriginId");
 
             migrationBuilder.CreateIndex(
@@ -929,6 +1059,11 @@ namespace Tracker.Data.Migrations
                 column: "TeamId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Cities_GovernorateId",
+                table: "Cities",
+                column: "GovernorateId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Employees_DepartmentId",
                 table: "Employees",
                 column: "DepartmentId");
@@ -937,6 +1072,16 @@ namespace Tracker.Data.Migrations
                 name: "IX_mileStones_ProjectId",
                 table: "mileStones",
                 column: "ProjectId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_OrganizationClients_ClientId",
+                table: "OrganizationClients",
+                column: "ClientId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_OrganizationClients_OrganizationId",
+                table: "OrganizationClients",
+                column: "OrganizationId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_projectDocuments_ProjectId",
@@ -957,6 +1102,21 @@ namespace Tracker.Data.Migrations
                 name: "IX_projects_ProjectTypeId",
                 table: "projects",
                 column: "ProjectTypeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ProjectSiteAsset_AssetId",
+                table: "ProjectSiteAsset",
+                column: "AssetId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ProjectSiteAsset_ProjectSiteId",
+                table: "ProjectSiteAsset",
+                column: "ProjectSiteId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ProjectSiteAsset_SupplierId",
+                table: "ProjectSiteAsset",
+                column: "SupplierId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ProjectSites_ProjectId",
@@ -1029,14 +1189,19 @@ namespace Tracker.Data.Migrations
                 column: "RequestId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_requests_AssetId",
-                table: "requests",
-                column: "AssetId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_requests_ClientId",
                 table: "requests",
                 column: "ClientId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_requests_CreatedById",
+                table: "requests",
+                column: "CreatedById");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_requests_ProjectSiteAssetId",
+                table: "requests",
+                column: "ProjectSiteAssetId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_requests_ProjectTeamId",
@@ -1074,9 +1239,19 @@ namespace Tracker.Data.Migrations
                 column: "ClientId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_SiteClients_SiteId",
+                name: "IX_SiteClients_ProjectSiteId",
                 table: "SiteClients",
-                column: "SiteId");
+                column: "ProjectSiteId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Sites_CityId",
+                table: "Sites",
+                column: "CityId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Sites_GovernorateId",
+                table: "Sites",
+                column: "GovernorateId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_stackeholders_ProjectId",
@@ -1105,16 +1280,19 @@ namespace Tracker.Data.Migrations
                 name: "AssignedRequests");
 
             migrationBuilder.DropTable(
+                name: "DaysforAutomticApproveStatus");
+
+            migrationBuilder.DropTable(
                 name: "DueDateCategory");
 
             migrationBuilder.DropTable(
                 name: "mileStones");
 
             migrationBuilder.DropTable(
-                name: "projectDocuments");
+                name: "OrganizationClients");
 
             migrationBuilder.DropTable(
-                name: "ProjectSites");
+                name: "projectDocuments");
 
             migrationBuilder.DropTable(
                 name: "RequestDescriptions");
@@ -1132,13 +1310,7 @@ namespace Tracker.Data.Migrations
                 name: "stackeholders");
 
             migrationBuilder.DropTable(
-                name: "Suppliers");
-
-            migrationBuilder.DropTable(
                 name: "AspNetRoles");
-
-            migrationBuilder.DropTable(
-                name: "AspNetUsers");
 
             migrationBuilder.DropTable(
                 name: "Problems");
@@ -1147,13 +1319,13 @@ namespace Tracker.Data.Migrations
                 name: "requests");
 
             migrationBuilder.DropTable(
-                name: "Sites");
-
-            migrationBuilder.DropTable(
-                name: "Asset");
+                name: "AspNetUsers");
 
             migrationBuilder.DropTable(
                 name: "clients");
+
+            migrationBuilder.DropTable(
+                name: "ProjectSiteAsset");
 
             migrationBuilder.DropTable(
                 name: "projectTeams");
@@ -1171,22 +1343,34 @@ namespace Tracker.Data.Migrations
                 name: "requestSubCategories");
 
             migrationBuilder.DropTable(
-                name: "Brand");
+                name: "assets");
 
             migrationBuilder.DropTable(
-                name: "Origins");
+                name: "ProjectSites");
+
+            migrationBuilder.DropTable(
+                name: "Suppliers");
 
             migrationBuilder.DropTable(
                 name: "projectPositions");
-
-            migrationBuilder.DropTable(
-                name: "projects");
 
             migrationBuilder.DropTable(
                 name: "Teams");
 
             migrationBuilder.DropTable(
                 name: "requestCategories");
+
+            migrationBuilder.DropTable(
+                name: "Brand");
+
+            migrationBuilder.DropTable(
+                name: "Origins");
+
+            migrationBuilder.DropTable(
+                name: "projects");
+
+            migrationBuilder.DropTable(
+                name: "Sites");
 
             migrationBuilder.DropTable(
                 name: "Employees");
@@ -1198,7 +1382,13 @@ namespace Tracker.Data.Migrations
                 name: "projectTypes");
 
             migrationBuilder.DropTable(
+                name: "Cities");
+
+            migrationBuilder.DropTable(
                 name: "departments");
+
+            migrationBuilder.DropTable(
+                name: "Governorates");
         }
     }
 }

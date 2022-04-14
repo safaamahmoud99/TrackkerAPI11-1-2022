@@ -93,7 +93,7 @@ namespace Tracker.API
             services.AddScoped<ISiteClientsService, SiteClientsService>();
             services.AddScoped<IProjectSiteAssetService, ProjectSiteAssetService>();
             services.AddScoped<IOrganizationClientsService, OrganizationClientsService>();
-
+            services.AddScoped<IDaysForAutomaticApprovedStatusService,DaysForAutomaticApprovedStatusService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             // Adding Authentication  

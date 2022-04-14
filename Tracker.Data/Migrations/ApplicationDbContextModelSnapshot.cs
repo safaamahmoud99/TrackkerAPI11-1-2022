@@ -349,6 +349,21 @@ namespace Tracker.Data.Migrations
                     b.ToTable("clients");
                 });
 
+            modelBuilder.Entity("Tracker.Data.Models.DaysforAutomticApproveStatus", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Days")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DaysforAutomticApproveStatus");
+                });
+
             modelBuilder.Entity("Tracker.Data.Models.Department", b =>
                 {
                     b.Property<int>("Id")

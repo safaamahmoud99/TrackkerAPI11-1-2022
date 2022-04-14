@@ -103,7 +103,8 @@ namespace Tracker.API.Controllers
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
                     email = Useremail,
-                    UserName = name,
+                    UserName =Useremail,
+                    Name=name,
                     roles = userRoles,
                     expiration = token.ValidTo,
                     id = usrId,

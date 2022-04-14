@@ -64,7 +64,8 @@ namespace Tracker.Data.Models
         public DbSet<Sites> Sites { get; set; }
        public DbSet<OrganizationClients> OrganizationClients { get; set; }
        public DbSet<Governorate> Governorates { get; set; }
-       public DbSet<City> Cities { get;set;}
+        public DbSet<City> Cities { get;set;}
+        public DbSet<DaysforAutomticApproveStatus> DaysforAutomticApproveStatus {set; get;}
 
 
 

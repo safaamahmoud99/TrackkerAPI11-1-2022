@@ -50,7 +50,7 @@ namespace Tracker.Domain
         IProjectSiteAssetRepository ProjectSiteAsset { get; }
         IOrganizationClientsRepository OrganizationClients { get; }
         IGovernorateRepository Governorate { get;}
-         
+        IDaysForAutomaticApprovedStatusRepository  DaysForAutomaticApprovedStatus { get; } 
         ICityRepository City { get; }
     }
 }
